@@ -19,6 +19,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AsthmaActivity"
+            android:label="@string/title_activity_asthma2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CarbonMonoxideActivity"
+            android:label="@string/title_activity_carbon_monoxide"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CopdActivity"
+            android:label="@string/title_activity_copd"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DifficultAirwayActivity"
+            android:label="@string/title_activity_difficult_airway"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

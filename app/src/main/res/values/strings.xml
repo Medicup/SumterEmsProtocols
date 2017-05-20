@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SCFEMS2</string>
+    <string name="app_name">Sumter EMS Protocols</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -43,93 +43,150 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_asthma2">AsthmaActivity2</string>
+
+
+    <!-- Carbon Monoxide -->
+    <string name="title_activity_carbon_monoxide">Carbon Monoxide</string>
+    <string name="title_activity_carbonmono"><b>Carbon Monoxide</b></string>
+    <string name="tv_carbonmono_bc1">•	Remove patient from source to a safe environment.</string>
+    <string name="tv_carbonmono_bc2"><b>•	Initial medical care:</b> Permit no activity. Place patient in high-fowler\'s
+        position or in patient\'s position of comfort.</string>
+    <string name="tv_carbonmono_bc3"><b>•	Oxygen</b> 15 LPM via NRB with tight fitting mask</string>
+    <string name="tv_carbonmono_bc4"><b>i</b> Document exact time oxygen therapy was initiated and relay to receiving
+        facility. Be aware, pulse oximetry may indicate a false positive.</string>
+    <string name="tv_carbonmono_bc5"><b>•	BVMR:</b> Patients with inadequate ventilations less than 10 or greater than 30
+        times a minute will be ventilated with <b>Oxygen</b> @ 15 LPM until advanced care is established.</string>
+    <string name="tv_carbonmono_ac1"><b>•	Capnography:</b> Apply nasal cannula Filter Line.</string>
+    <string name="tv_carbonmono_ac2"><b>RAD-57 Monitor: Initial <u>Reading</u></b></string>
+    <string name="tv_carbonmono_ac3"><b>i.</b> 0 to 12: treat underlying symptoms</string>
+    <string name="tv_carbonmono_ac4"><b>ii.</b> 13 to 25: transport to local hospital</string>
+    <string name="tv_carbonmono_ac5"><b>iii.</b> 26 and greater: transport to hyperbaric chamber</string>
+    <string name="tv_carbonmono_ac6"><b>•	Intubation:</b> If the patient is physiologically difficult to intubate
+        (severe anxiety, etc.) refer to <i>Difficult Airway-Facilitated Intubation Guideline.</i></string>
+    <string name="tv_carbonmono_ac7"><b>•	Early coordination with receiving facility with Hyperbaric Chamber is
+        essential</b></string>
+    <string name="tv_carbonmono_ac8">•	Transportation arrangements will be made in conjunction with Dispatch.
+        The following destinations have access to <i>Hyperbaric Chambers: </i></string>
+    <string name="tv_carbonmono_ac9"><b>i.</b> Florida Hospital Orlando, Orlando </string>
+    <string name="tv_carbonmono_ac10"><b>ii.</b> Shands (UF Health) Hospital, Gainesville </string>
+
+
+    <string name="title_activity_copd">COPD</string>
+    <string name="copd_header"><b><u>Chronic Obstructive Pulmonary Disease</u></b></string>
+    <string name="tv_copd_bc"><b>I. BASIC CARE</b></string>
+    <string name="tv_copd_bc1"><b>• Initial Medical Care:</b> Permit no activity. Place
+        patient in high-fowler\'s position or in patient\'s position of comfort.</string>
+    <string name="tv_copd_bc2"><b>•	BVMR:</b> Patients with inadequate ventilations less than 10 or greater
+        than 30 times a minute will be ventilated with <b>Oxygen</b> @ 15 LPM until advanced care is established.</string>
+    <string name="tv_copd_bc3"><b>•	Prescription Inhaler:</b> metered dose every 10 minutes (maximum 3 total doses). Indications:
+        utilize patient\'s prescribed inhaler for complaint of dyspnea, and HR &lt;120.</string>
+    <string name="tv_copd_ac"><b>ADVANCED CARE</b></string>
+    <string name="tv_copd_ac1"><b>•	Capnography:</b> Apply nasal cannula Filter Line, preferably before
+        medications are administered if circumstances permit. </string>
+    <string name="tv_copd_ac2"><b>•	Albuterol:</b> 2.5 mg via updraft, repeat one time if effective. </string>
+    <string name="tv_copd_ac3"><b>i.</b>	Do not administer Albuterol/Atrovent if heart rate > 150 or significant ventricular
+        ectopy. If ventricular ectopy develops, is unresolved or becomes worse, discontinue the updraft immediately. </string>
+    <string name="tv_copd_ac4"><b>•	If the patient has already administered a home treatment of Albuterol 30 minutes or less
+        prior to EMS arrival,   Go directly to Combined Updraft as listed below. </b></string>
+    <string name="tv_copd_ac5"><b>•	Albuterol</b> 2.5 mg and <b>Atrovent</b> 0.5 mg <b>combined</b> via updraft.
+        Consider in-line Albuterol/Atrovent with CPAP if patient\'s condition warrants. </string>
+    <string name="tv_copd_ac6"><b>•	CPAP:</b> Use 8 cm H2O PEEP setting. </string>
+    <string name="tv_copd_ac7"><b>•	Solu-Medrol:</b> 2 mg/kg IVP (maximum total dose 125 mg). </string>
+    <string name="tv_copd_ac8"><b>•	Intubation:</b> If the patient is physiologically difficult to intubate
+        (severe anxiety, etc.) <i>refer to Difficult Airway-Facilitated Intubation Guideline.</i></string>
+
+    <!--Difficult Airway -->
+    <string name="title_activity_difficult_airway">DIFFICULT AIRWAY</string>
+    <string name="parameter_diffairway">
+        <b><u>DIFFICULT AIRWAY / FACILITATED INTUBATION</u></b> \n\n
+        <b>I.	Indications </b>\n\n
+	    Indicated for adult and pediatric patients (8 years of age or older) where ventilatory
+        support and facilitated intubation and are required, to include both medical and trauma
+        conditions. For pediatric patients under the age of 8, a Physician\'s Orders is required
+        to administer Etomidate. This procedure guideline should be used as a replacement for those
+        situations where Midazolam (Versed) was indicated for airway management. These situations
+        include, but are not limited to: \n\n
+        •	Asthma With Dyspnea \n
+        •	COPD \n
+        •	Carbon Monoxide Inhalation \n
+        •	Foreign Body Airway Obstruction \n
+        •	Pulmonary Edema \n
+        •	Burns \n
+        •	Head Injuries \n\n
+        <b>II.	 General Procedure</b> \n\n
+        •	This is not a one-person procedure. Assistance should be utilized to facilitate the
+        best possible patient care. For trauma patients, use a second crewmember to maintain in-line
+        C-spine at all times \n\n
+        •	Basic Life Support procedures should always occur concurrently with the initial assessment
+        of any patient with the potential of hypoxia. These should include oxygen (NRB or BVM), manual
+        jaw thrust, use of nasal and oral airways, adequate suctioning, etc. For those patients requiring
+        BVM ventilation, an adequate seal, along with Sellick\'s Maneuver, is imperative to provide adequate
+        ventilation and reduce the occurrence of gastric distention. \n\n
+        •	Always pre-oxygenate for a minimum of 1 full minute with 100%% oxygen, being careful not to
+        hyperventilate at an excessive rate or force. \n\n
+        •	If the patient is NOT spontaneously breathing or is breathing ineffectively, provide
+        ventilatory support using a BVM with 100%% oxygen at a rate of 10-12 breaths per minute. \n\n
+        •	If the patient is spontaneously breathing and breathing effectively, provide blow-by 100%%
+        oxygen via NRB without overriding patient\'s ventilations, thereby reducing the risk of gastric
+        distention.\n\n
+        •	Gather and test all necessary equipment prior to the initial attempt. Prepare the
+        cardiac monitor for capnography by attaching the EtCO2 Filter Line (see <i>Capnography
+        Procedure Guideline</i>). \n\n
+        •	Intubation attempts should not be initiated without cardiac and SpO2 monitoring in place,
+        unless circumstances exist that preclude monitoring (very rare). A second crewmember should
+        read and announce out loud the patient\'s heart rate and SPO2 continuously during intubation
+        attempts. \n\n
+        •	Attempt to open the mouth by scissors (thumb and forefinger) technique. Proceed with intubation
+        as outlined in the INTUBATION- OROTRACHEAL PROCEDURE GUIDELINE. \n\n
+        •	If sedation is necessary to facilitate intubation (intact gag reflex, unable to open the
+        mouth due to trauma, if the jaw is clenched, etc.) return to BLS procedures and: \n\n
+            1.	Ensure best oxygenation and ventilation. \n\n
+            2.	Ensure a patent IV line exists. \n\n
+            3.	If BP > or = 100 mmHg systolic, administer 4 mg Midazolam IV Push over 30-60 seconds
+        for sedation. If BP &lt; 100 mmHg systolic, skip Midazolam and proceed to Etomidate. \n\n
+        4.	Wait 2 minutes and assess for adequate sedation for intubation. If patient adequately
+        sedated, proceed with intubation as outlined in the Intubation – Endotracheal Procedure Guideline. \n\n
+        5.	If patient requires additional sedation to facilitate intubation, administer 0.3 mg/kg Etomidate
+        x 1 dose IVP over 30-60 seconds for sedation (Maximum single dose of 40 mg).\n\n
+        6.	Wait 2 minutes and assess for adequate sedation for intubation. Attempt a maximum of 2
+        attempts to pass endotracheal tube through the vocal cords. \n\n
+        7.	During intubation attempts, monitor for signs of hypoxia (significant decrease in HR,
+        SpO2 levels below 90%%, signs of ventricular ectopy, etc.). If hypoxia develops, stop all
+        procedures and immediately ventilate the patient with 100%% oxygen. \n\n
+        8.	Following intubation, confirm proper tube placement by auscultating the gastric area
+        and the lungs bilaterally. Attach the EtCO2 Filter Line hub to the endotracheal tube hub.
+        Ventilate the patient with a BVM and watch for appropriate capnographic waveforms with each BVM
+        ventilation. Record a monitor strip as capnographic verification of appropriate endotracheal tube
+        placement. \n\n
+        9.	If intubation successful, progress to Section III: Successful Airway Procedure. \n\n
+        10.	If unable to intubate after Etomidate, progress to Section IV: Failed Airway Procedure. \n\n
+        <b>III.	Successful Airway Procedure</b> \n\n
+        •	Continuously monitor airway status to maintain intubation, adequate ventilation and adequate
+        perfusion. Continue to monitor the capnographic waveforms throughout ventilations to confirm
+        appropriate tube placement. Following any movement of the intubated patient to include at transfer
+        of care, record a capnographic waveform strip to determine that there has not been ET tube
+        dislodgment.\n\n
+        •	If necessary to maintain sedation post-intubation and BP > or = 100 mmHg systolic, administer
+        Midazolam in 2-mg increments IVP every 3-5 minutes (maximum total dosage is 10 mg). Diazepam may
+        be substituted for Midazolam in 5 mg increments Slow IVP every 3-5 minutes (maximum total dosage
+        is 20 mg).\n\n
+        <b>•	If the need arises for additional post intubation sedation administer Fentanyl 0.5 mcg/kg
+        as a loading dose followed by a Fentanyl drip at 2 mcg/min may be used for post intubation
+        sedation refractory to Midazolam.</b>\n\n
+        <b>IV.	Failed Airway Procedure</b> \n\n
+        •	Revert to Basic Life Support airway procedures as described in Section II: General
+        Procedure, ensuring adequate ventilation and oxygenation with 100%% oxygen. \n
+        •	Keep the airway clear of secretions, blood and vomitus. \n
+        •	If able to effectively ventilate the patient with a BVM, consider insertion of a
+        King Airway and continue ventilations (refer to the <i>King Airway Insertion Procedure Guideline</i>). \n\n
+        If attempts at ventilation fail, or ventilations fail to perfuse the patient with oxygen,
+        immediately perform a Cricothyrotomy (refer to the <i>Cricothyrotomy- Surgical Procedure Guideline</i>). \n
+
+
+    </string>
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
-
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
-
-        "Bold, graphic, intentional.\n\n"
-
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
-
-        "Motion provides meaning.\n\n"
-
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
-
-        "3D world.\n\n"
-
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
-
-        "Light and shadow.\n\n"
-
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-
-        "Component elevations.\n\n"
-
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
-
-        "Responsive elevation and dynamic elevation offsets.\n\n"
-
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
     </string>
+
 </resources>
