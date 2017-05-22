@@ -12,12 +12,11 @@
 
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="title_activity_asthma2">AsthmaActivity2</string>
+   
 
     <!-- param_Asthma -->
-    <string name="title_activity_asthma"><b><u>Asthma</u></b></string>
+    <string name="title_activity_asthma"><b><u>ASTHMA</u></b></string>
     <string name="parameter_asthma">
-        <b>ASTHMA</b> \n\n
         <u>DO NOT DELAY TRANSPORT WAITING FOR TREATMENT RESPONSE</u> \n\n
             \t •  <b>Initial Medical Care:</b> Permit no activity! Place patient in high-fowler\'s
                 position or patients position of comfort. \n\n
