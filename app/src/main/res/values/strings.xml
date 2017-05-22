@@ -10,90 +10,102 @@
     <string name="care_advanced"><b>Advanced Care</b></string>
 
 
-    <!-- param_Asthma -->
-    <string name="title_activity_asthma"><b><u>Asthma</u></b></string>
-    <string name="title_activity_asthma_sub"><u>DO NOT DELAY TRANSPORT WAITING FOR TREATMENT RESPONSE</u></string>
-    <string name="tv_asthma_bc1">•  <b>Initial Medical Care:</b> Permit no activity! Place patient in high-fowler\'s
-        position or patients position of comfort. </string>
-    <string name="tv_asthma_bc2">•  <b>BVMR:</b> Patients with inadequate ventilations less than 10 or greater than 30 times a
-        minute will be ventilated with OCYGEN @ 15 LPM until advanced care is established.</string>
-    <string name="tv_asthma_bc3">•  <b>Prescription Inhaler:</b> metered dose every 10 minutes (maximum 3 total doses
-        ). <u>Indications:</u> utilize patient\'s prescribed inhaler for complaint of dyspnea, and HR &lt;120. </string>
-    <string name="tv_asthma_ac1">•  <b>Capnography: </b>Apply nasal cannual filter line</string>
-    <string name="tv_asthma_ac2">•  <b>Albuterol: </b>2.5 mg via updraft, may repeat one additional time, if effective (1)
-        . For Pediatric patients, administer <b>Albuterol </b>2.5 mg with 2 ml NS via blow-by technique</string>
-    <string name="tv_asthma_ac3">•	<b>If the patient has already administered a home treatment of Albuterol 30 minutes or less
-        prior to EMS arrival,   Go directly to Combined Updraft as listed below.</b></string>
-    <string name="tv_asthma_ac4">•	<b>Albuterol</b> 2.5 mg and <b>Atrovent</b> 0.5 mg <b>combined</b> via updraft.</string>
-    <string name="tv_asthma_ac5">     i.	Do not administer Albuterol/Atrovent if heart rate > 150 or significant
-        ventricular ectopy. If during use of either medication ventricular ectopy develops, is unresolved or becomes
-        worse, discontinue the updraft immediately.</string>
-    <string name="tv_asthma_ac6">     ii.	Consider in-line <b>Albuterol/Atrovent</b> with CPAP if patient\'s condition warrants.</string>
-    <string name="tv_asthma_ac7">•  	<b>Epinephrine:</b> 0.01 mg/kg of either 1:1000 SQ (adequate perfusion), or 1:10,000 IV (inadequate
-        perfusion) (maximum total dose 0.3 mg). <b><i>Physician\'s Orders required for additional Epinephrine.</i></b></string>
-    <string name="tv_asthma_ac8">     i.	<b>Epinephrine</b>  should be administered as first medication while updraft
-        medications are being prepared if patient presents as unstable upon initial contact.</string>
-    <string name="tv_asthma_ac9">•	<b>Solu-Medrol:</b> 2 mg/kg IVP (maximum total dose 125 mg).</string>
-    <string name="tv_asthma_ac10">•	<b>Magnesium Sulfate:</b> 2 Grams in 100 ml IV over 10 minutes on a 10gtt set.</string>
-    <string name="tv_asthma_ac11">•	<b>CPAP:</b> (refer to <i>CPAP Procedure Guideline</i> for indications).
-        7.5 - 8.5 cm/H2O PEEP setting.</string>
-    <string name="tv_asthma_ac12">•	<b>Intubation:</b> If the patient is physiologically difficult to intubate (severe anxiety, etc.)
-        refer to <i>Difficult Airway-Facilitated Intubation Guideline.</i></string>
-
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_asthma2">AsthmaActivity2</string>
 
+    <!-- param_Asthma -->
+    <string name="title_activity_asthma"><b><u>Asthma</u></b></string>
+    <string name="parameter_asthma">
+        <b>ASTHMA</b> \n\n
+        <u>DO NOT DELAY TRANSPORT WAITING FOR TREATMENT RESPONSE</u> \n\n
+            \t •  <b>Initial Medical Care:</b> Permit no activity! Place patient in high-fowler\'s
+                position or patients position of comfort. \n\n
+            \t •  <b>BVMR:</b> Patients with inadequate ventilations less than 10 or greater than 30 times a
+                minute will be ventilated with OCYGEN @ 15 LPM until advanced care is established. \n\n
+            \t •  <b>Prescription Inhaler:</b> metered dose every 10 minutes (maximum 3 total doses
+                ). <u>Indications:</u> utilize patient\'s prescribed inhaler for complaint of dyspnea, and
+                HR &lt;120. \n\n
+            \t •  <b>Capnography: </b>Apply nasal cannual filter line \n\n
+            \t •  <b>Albuterol: </b>2.5 mg via updraft, may repeat one additional time, if effective (1)
+                . For Pediatric patients, administer <b>Albuterol </b>2.5 mg with 2 ml NS via blow-by technique \n\n
+            \t •	<b>If the patient has already administered a home treatment of Albuterol 30 minutes or less
+                prior to EMS arrival,   Go directly to Combined Updraft as listed below.</b> \n\n
+            \t •	<b>Albuterol</b> 2.5 mg and <b>Atrovent</b> 0.5 mg <b>combined</b> via updraft. \n\n
+                 \t\t i.	Do not administer Albuterol/Atrovent if heart rate > 150 or significant
+                ventricular ectopy. If during use of either medication ventricular ectopy develops,
+                is unresolved or becomes worse, discontinue the updraft immediately. \n\n
+                 \t\t ii.	Consider in-line <b>Albuterol/Atrovent</b> with CPAP if patient\'s condition warrants. \n\n
+            \t •  <b>Epinephrine:</b> 0.01 mg/kg of either 1:1000 SQ (adequate perfusion), or 1:10,000 IV (inadequate
+                perfusion) (maximum total dose 0.3 mg). <b><i>Physician\'s Orders required for additional
+                Epinephrine.</i></b> \n\n
+                 \t\ti.	<b>Epinephrine</b>  should be administered as first medication while updraft
+                    medications are being prepared if patient presents as unstable upon initial contact. \n\n
+            \t •	<b>Solu-Medrol:</b> 2 mg/kg IVP (maximum total dose 125 mg). \n\n
+            \t •	<b>Magnesium Sulfate:</b> 2 Grams in 100 ml IV over 10 minutes on a 10gtt set. \n\n
+            \t •	<b>CPAP:</b> (refer to <i>CPAP Procedure Guideline</i> for indications). 7.5 - 8.5 cm/H2O
+                PEEP setting. \n\n
+            \t •	<b>Intubation:</b> If the patient is physiologically difficult to intubate (severe anxiety, etc.)
+                refer to <i>Difficult Airway-Facilitated Intubation Guideline.</i> \n\n
+    </string>
 
     <!-- param_Carbon Monoxide -->
     <string name="title_activity_carbon_monoxide">Carbon Monoxide</string>
-    <string name="title_activity_carbonmono"><b>Carbon Monoxide</b></string>
-    <string name="tv_carbonmono_bc1">•	Remove patient from source to a safe environment.</string>
-    <string name="tv_carbonmono_bc2"><b>•	Initial medical care:</b> Permit no activity. Place patient in high-fowler\'s
-        position or in patient\'s position of comfort.</string>
-    <string name="tv_carbonmono_bc3"><b>•	Oxygen</b> 15 LPM via NRB with tight fitting mask</string>
-    <string name="tv_carbonmono_bc4"><b>i</b> Document exact time oxygen therapy was initiated and relay to receiving
-        facility. Be aware, pulse oximetry may indicate a false positive.</string>
-    <string name="tv_carbonmono_bc5"><b>•	BVMR:</b> Patients with inadequate ventilations less than 10 or greater than 30
-        times a minute will be ventilated with <b>Oxygen</b> @ 15 LPM until advanced care is established.</string>
-    <string name="tv_carbonmono_ac1"><b>•	Capnography:</b> Apply nasal cannula Filter Line.</string>
-    <string name="tv_carbonmono_ac2"><b>RAD-57 Monitor: Initial <u>Reading</u></b></string>
-    <string name="tv_carbonmono_ac3"><b>i.</b> 0 to 12: treat underlying symptoms</string>
-    <string name="tv_carbonmono_ac4"><b>ii.</b> 13 to 25: transport to local hospital</string>
-    <string name="tv_carbonmono_ac5"><b>iii.</b> 26 and greater: transport to hyperbaric chamber</string>
-    <string name="tv_carbonmono_ac6"><b>•	Intubation:</b> If the patient is physiologically difficult to intubate
-        (severe anxiety, etc.) refer to <i>Difficult Airway-Facilitated Intubation Guideline.</i></string>
-    <string name="tv_carbonmono_ac7"><b>•	Early coordination with receiving facility with Hyperbaric Chamber is
-        essential</b></string>
-    <string name="tv_carbonmono_ac8">•	Transportation arrangements will be made in conjunction with Dispatch.
-        The following destinations have access to <i>Hyperbaric Chambers: </i></string>
-    <string name="tv_carbonmono_ac9"><b>i.</b> Florida Hospital Orlando, Orlando </string>
-    <string name="tv_carbonmono_ac10"><b>ii.</b> Shands (UF Health) Hospital, Gainesville </string>
-
+    <string name="parameter_carbonmono">
+    <b>Carbon Monoxide</b> \n\n
+        <b>I.	BASIC CARE</b>
+            \t •	Remove patient from source to a safe environment. \n\n
+            \t <b>•	Initial medical care:</b> Permit no activity. Place patient in high-fowler\'s
+                position or in patient\'s position of comfort. \n\n
+            \t <b>•	Oxygen</b> 15 LPM via NRB with tight fitting mask \n\n
+                \t\t <b>i</b> Document exact time oxygen therapy was initiated and relay to receiving
+                    facility. Be aware, pulse oximetry may indicate a false positive. \n\n
+            \t <b>•	BVMR:</b> Patients with inadequate ventilations less than 10 or greater than 30
+                times a minute will be ventilated with <b>Oxygen</b> @ 15 LPM until advanced care is established. \n\n
+        <b>II.	ADVANCED CARE</b>
+            \t <b>•	Capnography:</b> Apply nasal cannula Filter Line. \n\n
+            \t <b>RAD-57 Monitor: Initial <u>Reading</u></b> \n\n
+                \t\t <b>i.</b> 0 to 12: treat underlying symptoms \n\n
+                \t\t <b>ii.</b> 13 to 25: transport to local hospital \n\n
+                \t\t <b>iii.</b> 26 and greater: transport to hyperbaric c \n\nhamber
+            \t <b>•	Intubation:</b> If the patient is physiologically difficult to intubate
+                (severe anxiety, etc.) refer to <i>Difficult Airway-Facilitated Intubation Guideline.</i> \n\n
+            \t <b>•	Early coordination with receiving facility with Hyperbaric Chamber is
+                essential</b> \n\n
+            \t •	Transportation arrangements will be made in conjunction with Dispatch. The following
+                destinations have access to <i>Hyperbaric Chambers: </i> \n\n
+                \t\t <b>i.</b> Florida Hospital Orlando, Orlando \n\n
+                \t\t <b>ii.</b> Shands (UF Health) Hospital, Gainesville \n\n
+    </string>
 
     <string name="title_activity_copd">COPD</string>
-    <string name="copd_header"><b><u>Chronic Obstructive Pulmonary Disease</u></b></string>
-    <string name="tv_copd_bc"><b>I. BASIC CARE</b></string>
-    <string name="tv_copd_bc1"><b>• Initial Medical Care:</b> Permit no activity. Place
-        patient in high-fowler\'s position or in patient\'s position of comfort.</string>
-    <string name="tv_copd_bc2"><b>•	BVMR:</b> Patients with inadequate ventilations less than 10 or greater
-        than 30 times a minute will be ventilated with <b>Oxygen</b> @ 15 LPM until advanced care is established.</string>
-    <string name="tv_copd_bc3"><b>•	Prescription Inhaler:</b> metered dose every 10 minutes (maximum 3 total doses). Indications:
-        utilize patient\'s prescribed inhaler for complaint of dyspnea, and HR &lt;120.</string>
-    <string name="tv_copd_ac"><b>ADVANCED CARE</b></string>
-    <string name="tv_copd_ac1"><b>•	Capnography:</b> Apply nasal cannula Filter Line, preferably before
-        medications are administered if circumstances permit. </string>
-    <string name="tv_copd_ac2"><b>•	Albuterol:</b> 2.5 mg via updraft, repeat one time if effective. </string>
-    <string name="tv_copd_ac3"><b>i.</b>	Do not administer Albuterol/Atrovent if heart rate > 150 or significant ventricular
-        ectopy. If ventricular ectopy develops, is unresolved or becomes worse, discontinue the updraft immediately. </string>
-    <string name="tv_copd_ac4"><b>•	If the patient has already administered a home treatment of Albuterol 30 minutes or less
-        prior to EMS arrival,   Go directly to Combined Updraft as listed below. </b></string>
-    <string name="tv_copd_ac5"><b>•	Albuterol</b> 2.5 mg and <b>Atrovent</b> 0.5 mg <b>combined</b> via updraft.
-        Consider in-line Albuterol/Atrovent with CPAP if patient\'s condition warrants. </string>
-    <string name="tv_copd_ac6"><b>•	CPAP:</b> Use 8 cm H2O PEEP setting. </string>
-    <string name="tv_copd_ac7"><b>•	Solu-Medrol:</b> 2 mg/kg IVP (maximum total dose 125 mg). </string>
-    <string name="tv_copd_ac8"><b>•	Intubation:</b> If the patient is physiologically difficult to intubate
-        (severe anxiety, etc.) <i>refer to Difficult Airway-Facilitated Intubation Guideline.</i></string>
+    <string name="parameter_copd">
+        <b><u>Chronic Obstructive Pulmonary Disease</u></b> \n\n
+        <b>I. BASIC CARE</b>  \n\n
+            \t <b>• Initial Medical Care:</b> Permit no activity. Place patient in high-fowler\'s position
+                or in patient\'s position of comfort. \n\n
+            \t <b>•	BVMR:</b> Patients with inadequate ventilations less than 10 or greater than 30 times
+                a minute will be ventilated with <b>Oxygen</b> @ 15 LPM until advanced care is
+                established. \n\n
+            \t <b>•	Prescription Inhaler:</b> metered dose every 10 minutes (maximum 3 total doses).
+                <u>Indications:</u> utilize patient\'s prescribed inhaler for complaint of dyspnea, and HR
+                &lt;120. \n\n
+        <b>ADVANCED CARE</b> \n\n
+            \t <b>•	Capnography:</b> Apply nasal cannula Filter Line, preferably before medications are
+                administered if circumstances permit. \n\n
+            \t <b>•	Albuterol:</b> 2.5 mg via updraft, repeat one time if effective. \n\n
+                \t\t <b>i.</b>	Do not administer Albuterol/Atrovent if heart rate > 150 or significant
+                    ventricular ectopy. If ventricular ectopy develops, is unresolved or becomes worse,
+                    discontinue the updraft immediately. \n\n
+            \t <b>•	If the patient has already administered a home treatment of Albuterol 30 minutes or less
+                prior to EMS arrival, go directly to Combined Updraft as listed below. </b> \n\n
+            \t <b>•	Albuterol</b> 2.5 mg and <b>Atrovent</b> 0.5 mg <b>combined</b> via updraft. Consider
+                in-line Albuterol/Atrovent with CPAP if patient\'s condition warrants. \n\n
+            \t <b>•	CPAP:</b> Use 8 cm H2O PEEP setting. \n\n
+            \t <b>•	Solu-Medrol:</b> 2 mg/kg IVP (maximum total dose 125 mg). \n\n
+            \t <b>•	Intubation:</b> If the patient is physiologically difficult to intubate (severe anxiety,
+                etc.) <i>refer to Difficult Airway-Facilitated Intubation Guideline.</i> \n\n
+    </string>
 
     <!--param_Difficult Airway / Facilitated Intubation-->
     <string name="title_activity_difficult_airway">DIFFICULT AIRWAY</string>
@@ -185,7 +197,7 @@
 
     <!-- param_Foreign Body Airway Obstruction -->
     <string name="title_activity_fbao">FBAO</string>
-    <string name="parameter_FBAO">
+    <string name="parameter_fbao">
         <b><u>FOREIGN BODY AIRWAY OBSTRUCTION</u></b> \n\n
         <b>I.	BASIC CARE</b> \n\n
             \t <b>PARTIAL AIRWAY OBSTRUCTION</b> \n\n
@@ -257,9 +269,387 @@
             for patients > 70 kg.
             \t <b>•	Intubation:</b> If the patient is physiologically difficult to intubate (severe anxiety,
                 etc.) refer to <u>Difficult Airway-Facilitated Intubation Guideline</u>.
+    </string>
 
+    <!--param_Acute Coronary Syndrome-->
+    <string name="title_acs">Acute Coronary SyndromePulmonary Edema</string>
+    <string name="parameter_acs">
+        <b><u>ACUTE CORONARY SYDROME</u></b> \n\n
+        <b>I.	BASIC CARE</b> \n\n
+            \t <b>•	Initial Medical Care:</b> Permit no activity. Place patient in their
+                position of comfort. If BP &lt; 90 mmHg, encourage the patient to lie supine. \n\n
+            \t <b>•	Prescription Nitroglycerin:</b> 0.4 mg SL every 5 minutes (maximum 3 total doses).
+                Indications: utilize patient\'s prescribed NTG for cardiac-related chest discomfort and BP
+                > 90 mmHg. \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t <b>•	12 Lead EKG:</b> Perform as early as possible, repeat with any significant negative change
+                in condition and/or every 15 minutes. \n\n
+            \t <b>•	Aspirin:</b> 324 mg PO (chew and swallow). \n\n
+            \t <b>•	IV:</b> Establish an IV with NS lock attached. \n\n
+            \t <b>•	Nitroglycerin:</b> 0.4 mg SL, repeat every 5 minutes if BP > 90 mmHg. \n\n
+                \t\t i.	    Give strong consideration to IV insertion prior to administration of Nitroglycerin. \n
+                \t\t ii.	Do not administer NTG if the patient has taken phosphodiesterase (PDE) inhibitors
+                    including: Viagra (sildenafil), Levitra (vardenafil) or Cialis (tadalafil) within past 24
+                    hours. \n
+            \t <b>•	Nitroglycerin Paste:</b> 1 inch applied transdermal. \n\n
+                \t\t <b>i.	Fentanyl</b> 1mcg/kg IVP repeat every 5 minutes (Fentanyl 1 mcg/kg IVP.
+                    If pain persists, after five minutes repeat dose once \n
+                \t\t (maximum total dose 2 mcg/kg).* \n\n
+                \t\t *Do not administer in pregnant or possible pregnant patients. \n\n
+                \t\t i.	<b>Physician\'s Orders</b> <i>required for additional Fentanyl.</i> \n\n
+            \t <b>•	Ondansetron:</b> 4 mg slow IVP for nausea and vomiting. May give IM if no IV. \n\n
+            \t <b>•	Second IV:</b> Establish a second IV of NS at KVO or Saline-lock. Indications: STEMI,
+                shock, widespread ST depression, or any medication by drip. \n\n
+            \t <b>•	Dysrhythmias:</b> If dysrhythmias are noted, refer to appropriate <i>Clinical Care
+                Guideline</i> for specific treatments. \n\n
+        III.	<b>Determine Transport Destination:</b> refer to <i>Transport – Cardiac Administrative
+            Policy</i>. \n\n\n
+    </string>
 
+    <!--param_Asystole/PEA-->
+    <string name="title_activity_asystole">Asystole/PEA</string>
+    <string name="parameter_asystole">
+        <b><u>ASYSTOLE – PEA</u></b> \n\n
+        <b>I.	BASIC CARE</b> \n\n
+            \t <b>•	ABCD:</b> Perform appropriate action following American Heart Association (AHA)
+                CPR Guidelines. \n\n
+            \t •	Follow <i>End of Life Administrative Policy</i>, as necessary. \n\n
+            \t •	If arrest > 4 minutes: perform 2-minutes of CPR prior to assessing rhythm. \n\n
+            \t •	If arrest &lt; 4 minutes or witnessed arrest: assess rhythm. \n\n
+            \t •	Reassess rhythm after every 2 minute period of CPR; assess radial pulse if organized rhythm,
+                do not exceed 10 seconds. If no radial pulse or unsure, resume CPR \n\n
+                \t\t i.	If using an AED, follow the manufacturer\'s prompts for cardiac arrest management.\n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t <b>•	Vascular Access:</b> IV or IO. \n\n
+            \t <b>•	Epinephrine:</b> 1 mg 1:10,000 IVP/IO followed by 10ml NS bolus. Repeat every 3 - 5
+                minutes of continued arrest \n\n
+            \t <b>•	Advanced Airway</b> (endotracheal tube, King Tube). Search for and treat 6 H\'s &amp; 5 T\'s. \n\n
+                \t\t i.	Reconfirm placement after repositioning or moving patient. Administer 8-10
+                    breaths/minute via BVM; avoid hyperventilation.\n\n
+            \t <b>•	Midazolam</b> 2 mg IVP/IO or Intra-Nasal, repeat every 5 minutes (maximum total
+                dose 10 mg). Indications: combative post-resuscitation patients. Use with caution
+                for systolic BP &lt; 100 mmHg.
+            \t •	If rhythm converts, refer to appropriate <i>Clinical Care Guideline or Post Resuscitation
+                Management Clinical Care Guideline</i>. \n\n
+    </string>
+
+    <!--param_Pulomary Edema-->
+    <string name="title_activity_bradycardia">Bradycardia</string>
+    <string name="parameter_bradycardia">
+        <b><u>BRADYCARDIA</u></b> \n\n
+        <b>I.	BASIC CARE</b> \n\n
+            \t <b>•	Initial Medical Care:</b> Place patient in their position of comfort. Place patient in
+            Trendelenburg position if BP &lt; 90 mmHg. \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t <b>•	12 Lead EKG:</b> Perform as early as possible, repeat with any significant negative change
+                in condition and/or every 15 minutes. \n\n
+            \t <b>•	Capnography:</b> Apply nasal cannula Filter Line. \n\n
+            \t <b>•	IV:</b> Establish an IV with NS lock attached \n\n
+            \t <b>•	Monitor and Observe</b> closely for changes in patients with adequate perfusion. \n\n
+            \t <b>•	Non-Symptomatic</b> \n\n
+                \t\t i.	Apply Transcutaneous Pacer on standby. \n\n
+            \t <b>•	Symptomatic</b> \n\n
+                \t\t <b><u>i.	Sinus Bradycardia</u></b> \n\n
+                    \t\t\t <b>1.	Atropine Sulfate:</b> 0.5 mg IVP, repeat every 3 - 5 minutes (maximum
+                    total dose 3 mg). \n\n
+                \t\t <b><u>ii.	2nd or 3rd Degree Block</u></b> \n\n
+                    \t\t\t <b>1.	Sedation: Midazolam</b> 2 mg IVP or Intra-Nasal, repeat every 5 minutes
+                        (maximum total dose 10 mg). \n\n
+                    \t\t\t <b>2.	Transcutaneous Pacing:</b> 60 BPM and increase mA from minimum setting until
+                        consistent electrical capture is achieved. Verify mechanical capture and increase mA
+                        by 10 for safety margin. Refer to <i>Transcutaneous Pacing Procedure Guideline</i>. \n\n
+            \t <b>•	Dopamine:</b> 5 mcg/kg/min IV drip, reassess every 5 minutes for patient response and
+                titrate in 5 mcg/kg/min increments (max total dose 20 mcg/kg/min). \n\n
+                /t/t <b>i.	Indications:</b> unstable patient (inadequate perfusion) with verified pulse
+                    rate &lt; 60 unresponsive to Atropine or TCP. \n\n\n
+    </string>
+
+    <!--param_Narrow Complex Tachycardia - irregular-->
+    <string name="title_activity_narrowtach_irreg">Narrow Complex Tachycardia - Irregular</string>
+    <string name="parameter_narrowtach_irreg">
+        <b><u>NARROW COMPLEX TACHYCARDIA – IRREGULAR</u></b> \n\n
+        <b>I.	BASIC CARE</b> \n\n
+            \t <b>•	Initial Medical Care:</b> Place patient in their position of comfort. Place
+                patient in Trendelenburg position if BP &lt; 90 mmHg. \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t <b>•	12 Lead EKG:</b> Perform as early as possible, repeat with any significant negative
+                change in condition and/or every 15 minutes. \n\n
+            \t <b>•	Capnography:</b> Apply nasal cannula Filter Line. \n\n
+            \t <b>•	Vagal Maneuvers:</b> perform Valsalva maneuver or apply cool moisture to face. \n\n
+            \t •	If patient has a history of WPW, refer to <i>Wide Complex Tachycardia Clinical Care Guideline</i>. \n\n
+            \t <b><u>STABLE</u></b> \n\n
+            \t <b>•	IV:</b> Establish an IV with NS Lock attached. \n\n
+            \t <b>•	Check blood glucose level:</b> if blood glucose is &lt; 60 or > 250, also refer to
+                Hypoglycemia &amp; Hyperglycemia Clinical Care Guideline. \n\n
+            \t <b>•	Fluid Bolus:</b> Administer a fluid bolus 250 ml of NS. Continue IV infusion KVO. \n\n
+            \t <b>•	Diltiazem:</b>  15 mg slow IVP over 2 minutes \n\n
+            \t •<b>Diltiazem:</b>	 25 mg slow IVP over 2 minutes, if rhythm unchanged. \n\n
+            \t <b>•	12 Lead EKG</b> after conversion \n\n
+            \t •	If rhythm converts, refer to appropriate <i>Clinical Care Guideline or Post Resuscitation
+                Management Clinical Care Guideline</i>.\n\n
+            \t <b><u>UNSTABLE – Systolic BP &lt; 90 mm Hg, AMS, Cardiac-focused chest pain</u></b> \n\n
+            \t <b>•	IV:</b> Establish an IV with NS lock attached, if rapidly possible. \n\n
+            \t <b>•	Consider sedation: Midazolam</b> 2 mg IVP or Intra-Nasal, repeat every 5 minutes (max dose 10 mg) \n\n
+            \t <b>•	Synchronized Cardioversion:</b> 100 joules \n\n
+            \t <b>•	Fluid Bolus:</b> Consider fluid bolus 250 ml of NS if no response to cardioversion. \n\n
+            \t <b>•	Synchronized Cardioversion:</b> 200 joules \n\n
+            \t •	If no response, <b>Diltiazem:</b> 15 mg IV over 2 minutes \n\n
+            \t •	If no response, <b>Synchronized Cardioversion:</b> 300 joules \n\n
+            \t •	If no response, <b>Synchronized Cardioversion:</b> 360 joules \n\n
+            \t <b>•	12 Lead EKG</b> after conversion \n\n
+            \t •	If rhythm converts, refer to appropriate <i>Clinical Care Guideline or Post Resuscitation
+                Management Clinical Care Guideline</i>. \n\n\n
+    </string>
+
+    <!--param_Narrow Complex Tachycardia - regular-->
+    <string name="title_activity_narrowtach_reg">Narrow Complex Tachycardia - Regular</string>
+    <string name="parameter_narrowtach_reg">
+        <b><u>NARROW COMPLEX TACHYCARDIA – REGULAR</u></b> \n\n
+        <b>I.	BASIC CARE</b> \n\n
+            \t <b>•	Initial Medical Care:</b> Place patient in their position of comfort.
+                Place patient in Trendelenburg position if BP &lt; 90 mmHg. \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t <b>•	12 Lead EKG:</b> Perform as early as possible, repeat with any significant negative
+                    change in condition and/or every 15 minutes. \n\n
+            \t <b>•	Capnography:</b> Apply nasal cannula Filter Line. \n\n
+            \t <b>•	Vagal Maneuvers:</b> perform Valsalva maneuver or apply cool moisture to face. \n\n
+            \t <b><u>STABLE</u></b>
+            \t <b>•	IV:</b> Establish an IV with NS lock attached. \n\n
+            \t <b>•	Check blood glucose level:</b> if blood glucose is &lt; 60 or > 250, also refer
+                to Hypoglycemia &amp; Hyperglycemia Clinical Care Guideline. \n\n
+            \t <b>•	Fluid Bolus:</b> Administer a fluid bolus 250 ml of NS. Continue IV infusion KVO. \n\n
+            \t <b>•	Adenosine:</b> 12 mg rapid IVP/IO. If no conversion, \n\n
+            \t <b>•	Adenosine:</b> 12 mg rapid IVP/IO \n\n
+            \t <u>Indication:</u> stable patients with regular narrow-complex tachycardia (PSVT, AT).
+            \t •	If rhythm converts briefly to reveal an irregular rhythm, refer to <i>Narrow Complex
+                Tachycardia – Irregular Clinical Care Guideline</i>. \n\n
+            \t •	Consider possible causes of dysrhythmia (6 H\'s and 6 T\'s). \n\n
+            \t •	If patient condition deteriorates, refer to <b>UNSTABLE</b> treatment. \n\n
+            \t •	<b><u>Physician Consult</u></b> for alternative treatments if above antiarrhythmic
+                agents are unsuccessful in rhythm conversion or rate control. \n\n
+            \t •	If rhythm converts, refer to appropriate <i>Clinical Care Guideline or Post
+                Resuscitation Management Clinical Care Guideline</i>. \n\n
+            \t <b><u>UNSTABLE</u></b> – Systolic BP &lt; 90 mm Hg, AMS, cardiac-focused chest pain \n\n
+            \t <b>•	IV:</b> Establish an IV with NS lock attached, if rapidly possible. \n\n
+            \t <b>•	Consider Sedation: Midazolam</b> 2 mg IVP or Intra-Nasal, repeat every 5 minutes
+                (maximum total dose 10 mg). \n\n
+            \t <b>•	Synchronized Cardioversion:</b> 100 joules.
+            \t <b>•	Fluid Bolus:</b> Consider fluid bolus 250 ml of NS if no response to cardioversion
+            \t •	If no response, <b>Synchronized Cardioversion:</b> 200 joules
+            \t •	If no response administer 12mg of <b>Adenosine</b>
+            \t •	If no response, <b>Synchronized Cardioversion:</b> 300 joules
+            \t •	If no response, <b>Synchronized Cardioversion:</b> 360 joules
+            \t •	If rhythm converts, refer to appropriate <i>Clinical Care Guideline or Post Resuscitation
+                Management Clinical Care Guideline</i>.
+    </string>
+
+    <!--param_Narrow Complex Tachycardia - irregular-->
+    <string name="title_activity_rosc">Post Resuscitation/ROSC</string>
+    <string name="parameter_rosc">
+        <b><u>POST RESUSCITATION MANAGEMENT</u></b> \n\n
+        <b><u>INDICATIONS</u></b> \n\n
+            \t •	POST CARDIAC ARREST WITH RETURN OF CIRCULATION \n\n
+            \t •	PRESENCE OF A PALPABLE BLOOD PRESSURE \n\n
+            \t •	MENTAL STATUS MAY VARY \n\n
+        <b><u>ADVANCED CARE</u></b> \n\n
+            \t •	Continue treatment per appropriate <i>Clinical Care Guideline and presumed
+                underlying cause</i>. \n\n
+            \t •	Airway management to include oxygen and ventilation support. Do not
+                over-ventilate. \n\n
+            \t •	Maintain Pulse oximetry to 94% or greater \n\n
+            \t •	Maintain Capnography between 35 and 45 mm Hg \n\n
+            \t •	Monitor cardiac rhythm for changes and treat per appropriate Clinical Care Guideline. \n\n
+            \t •	12 Lead EKG: Monitor for possible STEMI alert criteria. \n\n
+            \t •	Treat hypotension (systolic BP &lt; 90 mm Hg) with IV fluids and Dopamine per appropriate
+                Clinical Care Guideline. \n\n
+            \t •	If patient remains unresponsive refer to Induced Hypothermia Procedure Guideline. \n\n
 
 
     </string>
+
+    <!--VAD-->
+    <string name="title_activity_vad">VAD</string>
+    <string name="parameter_vad">
+        <b><u>VENTRICULAR ASSISTANCE DEVICE</u></b> \n\n
+        This Appendix applies to the management of patients who have a ventricular assist device (VAD)
+        also referred to a left ventricular assist device (LVAD) implanted. The VAD is a mechanical pump
+        used to support the heart\’s pumping function and positive blood flow on individuals who have severe
+        heart failure. \n\n
+        <b>INITIAL MEDICAL CARE</b> \n\n
+            \t •	Perform initial assessment: vital signs, oxygen saturation, pre-treatment 12-Lead ECG,
+                focused history (SAMPLE, OPQRST), and physical exam. Inquire if the patient has an old ECG. \n\n
+                \t\t o	Provide OXYGEN @ 100% via NRB mask or assist ventilations/oxygenation as indicated. \n\n
+            \t •	Listen to heart sounds. The heart sounds may be faint. \n\n
+            \t <b>•	Check for a functioning VAD:</b> These devices are usually implanted below the heart
+                    in the abdominal cavity area. Use a stethoscope to listen for constant humming or whirling
+                    sound. This sound confirms the VAD is functioning. \n\n
+                \t\t o	The nature of the VAD function provides positive constant flow (it is a centrifugal
+                    pump) therefore a <b>pulse may not be palpable</b> in these patients. \n\n
+            \t <b>•	Blood Pressure:</b> A manual blood pressure may not be obtainable. An automated blood
+                    pressure monitoring device may provide a reading with a narrow pulse pressure. \n\n
+                \t\t o	Treatment of these patients must be based on the mean arterial pressure (MAP). The normal
+                    MAP should be between 60 and 90 mm/Hg. \n\n
+            \t <b>•	Pulse Oximetry:</b> These readings may not be accurate due to the continuous flow provided
+                    by the VAD. \n\n
+                \t\t o	Monitor side capnography for ventilation and oxygenation effectiveness. \n\n
+        <b>UNRESPONSIVE PATIENT</b> \n\n
+            \t •	If the patient is unresponsive to stimuli: \n\n
+                \t\t o	Open the airway and ventilate/oxygenate as necessary. \n\n
+                \t\t o	Obtain a blood glucose level and treat per Hypoglycemia &amp; Hyperglycemia
+                    Clinical Care Guideline. \n\n
+            \t •	Listen for a functioning VAD by auscultating over the abdomen. \n\n
+                \t\t o	If the VAD has a whirling sound it is properly functioning. \n\n
+                \t\t o	<b>DO NOT PERFORM CPR!</b> \n\n
+            \t 	A VAD or LVAD is surgically implanted to the left ventricle. External cardiac compressions
+                may dislodge the VAD causing death. \n\n
+            \t •	If the VAD is silent have the caregiver or family member check the device external pump
+                controller and power supply. \n\n
+                \t\t o	<b>LISTEN TO THE CAREGIVER!</b> These individuals are experts in these devices and
+                    know/understand how to operate and troubleshoot the system. \n\n
+                \t\t o	VAD patients are instructed to always have a backup bag with 2 charged batteries
+                    and a second pump controller. \n\n
+                \t\t o	Contact the VAD coordinator listed on the patient’s information card. \n\n
+            \t•	If the VAD is inoperative despite troubleshooting and battery replacement, then CPR
+                is indicated as per cardiac arrest parameter. \n\n
+
+        <b>RESPONSIVE PATIENT:</b> \n\n
+            \t •	Perform a subjective interview to determine chief complaint and history of present illness. \n\n
+            \t •	Monitor ECG and obtain a 12 lead ECG if chest pain, ischemic symptoms, shortness of breath or
+                weakness is reported. \n\n
+                \t\t o	Any cardiac dysrhythmias must be treated per the appropriate practice parameter. \n\n
+                \t\t o	If electrical therapy is indicated on a conscious patient, the patient may be sedated
+                    (time permitting) as per parameter. \n\n
+            \t•	Establish IV access and provide fluid resuscitation as indicated based on patient\’s condition
+                and hydration status. \n\n
+            \t•	Assess for any other concurrent medical conditions or symptoms and treat per the appropriate
+                parameter. \n\n
+
+        <b>TRANSPORT OF PATIENT:</b> \n\n
+            \t <b>•	ALL VAD patients with cardiac, respiratory, neurological or infectious disease complaints
+                must be transported to the VAD center.</b> \n\n
+                \t\t o	Florida Hospital Orlando and UF Health Shands are the only local approved VAD centers. \n\n
+                \t\t o	Contact the VAD coordinator as soon as possible and notify them of the transport. \n\n
+            \t •	VAD patients presenting with minor complaints may be transported to any receiving facility
+                as long as they have their backup batteries and equipment with the patient. \n\n
+                \t\t o	These complaints include, but are not limited to: \n\n
+            \t 	Minor sprains, strains or orthopedic injuries \n\n
+            \t 	Hypoglycemia without severe signs or symptoms \n\n
+            \t 	Isolated extremity lacerations \n\n
+            \t •	Don’t forget the family member/caregiver! \n\n
+                \t\t o	The family member/caregiver must <b>ACCOMPANY</b> the patient in the ambulance. \n\n
+                \t\t o	These individuals have intimate knowledge of the patient\’s condition, the system and
+                    usually have legal authority to sign on behalf of the patient. \n\n
+            \t <b>•	Bring all VAD equipment, backup bags, charger and batteries with the patient!</b> \n\n
+    </string>
+
+    <!--param_Ventricular Fibrillation & Pulseless VTACNarrow Complex Tachycardia - irregular-->
+    <string name="title_activity_vfib">VFib &amp; Puleless VTAC</string>
+    <string name="parameter_vfib">
+        <b><u>VENTRICULAR FIBRILLATION &amp; PULSELESS V-TACH</u></b> \n\n
+        <b>I.	BASIC CARE</b> \n\n
+            \t •	Check for responsiveness - Shake and shout, Pain stimulation \n\n
+            \t •	If no response, <b>Initiate CCR</b> (Cardio-Cerebral Resuscitation) – Continuous chest
+                compressions \n\n
+                \t\t i.	At least 100 compressions per minute with at least a 2 inch compression depth \n\n
+                \t\t ii.	Continue CCR for two minutes \n\n
+            \t •	Place “Quick Combo Pads” (Defibrillation Pads) \n\n
+            \t <b>•	Defibrillate</b> initially at 200 joules or follow directions from AED \n\n
+                \t\t <b>i.	Second Defibrillation setting should be at 300 joules</b> \n\n
+                \t\t <b>ii.	All subsequent defibrillations should be at 360 joules</b> \n\n
+            \t •	Immediately following the shock, return to 2-minutes of CCR.  It is imperative that
+                there be no break in the compressions other than the second or two that it takes to
+                change out rescuers performing CCR. \n\n
+        <b>II.	ADVANCED CARE:</b> \n\n
+            \t <b>•	Venous Access:</b>  If possible, while CCR is being performed, establish a large-bore
+                IV/IO of NS \n\n
+            \t <b>•	Epinephrine:</b>  1 mg of 1:10,000 IVP/IO.  Repeat every 3-5 minutes of continued arrest.
+                Medication should be administered while CCR is in progress. Follow with 10ml NS bolus \n\n
+            \t <b>•	Antiarrhythmic Agents:</b> \n\n
+                \t\t i.	Amiodarone:  300 mg IVP/IO followed by 10ml NS bolus. Repeat 150 mg once, if
+                    necessary. \n\n
+                \t\t ii.	Magnesium Sulfate:  2 Gram mixed in 10 ml NS slow IVP/IO over 5 minutes.
+                    Repeat x 1 dose (max total dose of 2 Grams). Indications:  Torsade’s de Pointes or
+                    the maximum dose of 450 mg of amiodarone has been administered and the patient still
+                    presents in ventricular fibrillation or pulseless ventricular tachycardia. \n\n
+            \t <b>•	Airway:</b> \n\n
+                \t\t i.	OPA:  Place an OPA \n\n
+                \t\t ii.	Place the patient on oxygen with a non-rebreather mask set at 10-12 L/min. \n\n
+                \t\t Precaution:  Be prepared to remove the OPA and NRBM if the patient vomits.  Have the
+                    suction unit prepared and ready. \n\n
+                \t\t iii.	Endotracheal Intubation / King Tube Insertion:  If there is a ROSC or if time
+                    permits and there is no interruption of CCR, the NRBM may be replaced by an ET or King
+                    and high-liter flow O2.  If a BVM is used, the patient should be bagged using a rate of
+                    6-8 one-handed ventilations per minute only. \n\n
+            \t <b>•	Analysis:</b>  Following the post-shock 2 minutes of CCR, either allow the AED to
+                    analyze the rhythm or if using a manual defibrillator, briefly analyze the rhythm. \n\n
+                \t\t i.	If the rhythm continues as Ventricular Fibrillation or Pulseless Ventricular
+                    Tachycardia, \n\n
+                    \t\t\t <b>1.	Defibrillate</b> again at 360-joules.  Continue the “Shock – Post-Shock”
+                    cycle as long as he patient remains in VF or pulseless VT. \n\n
+                \t\t ii.	If the patient has a return of spontaneous circulation (palpable pulses,
+                    respirations, blood pressure), \n\n
+                    \t\t\t 1.	Place the ET or King as previously discussed if the patient will tolerate
+                        same or utilize a non-rebreather mask at 10-12 L/min and then initiate… \n\n
+            \t <b>•	Post Conversion Drip Therapy:</b>
+                \t\t <b>i.	Amiodarone:</b>  150 mg IV/IO bolus followed by an Amiodarone 150 mg IV/IO drip
+                    (over 10 minutes). \n\n
+                    \t\t\t 1.	150 mg in 100 ml D5W: 150 mg/10 min = 15.0 mg/min (100gtts/min on 10gtt IV
+                        set or 600ml/h on IV pump). \n\n
+                    \t\t\t 2.	If rhythm converts prior to administration of an antiarrhythmic agent, administer
+                        the bolus and the drip as above. \n\n
+                    \t\t\t 3.	If any Amiodarone has been administered via bolus during the resuscitative
+                        efforts, administer only the Amiodarone drip as above. \n\n
+                \t\t <b>ii.	Magnesium Sulfate:</b>  2G IV/IO drip (over 1 hour) \n\n
+                    \t\t\t 1.	2G in 250 ml D5W: 2 G/hr. =33.4mg/min (250gtts/min on 60gtt IV set or 250ml/hr.
+                        on IV pump) \n\n
+                    \t\t\t 2.	Indications: Torsade’s de pointes \n\n
+                \t\t <b>iii.	Midazolam:</b>  2 mg IV/IO or Intra-Nasal.  Repeat every 3-5 minutes (max total
+                    dose of 10 mg). Indications:  Combative, post-resuscitation patients. Use with caution in
+                    presence of hypotension (BP &lt; 90 mmHg \n\n\n
+    </string>
+
+    <!--param_-->
+    <string name="title_activity_wide_comples">Wide Complex Tachycardia -Irregular</string>
+    <string name="parameter_wide_complex">
+        <b><u>WIDE COMPLEX TACHYCARDIA</u></b> \n\n
+        <b>I.	BASIC CARE</b> \n\n
+            \t <b>•	Initial Medical Care:</b> Place patient in their position of comfort. Place patient
+                in Trendelenburg position if BP &lt; 90 mm/Hg systolic. \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t <b>•	12 Lead EKG:</b> Perform as early as possible, repeat with any significant negative change
+                in condition and/or every 15 minutes.\n\n
+            \t <b>•	Capnography:</b> Apply nasal cannula Filter Line. \n\n
+            \t <b>•	IV:</b> Establish an IV with NS Lock attached \n\n
+            \t <b>STABLE</b> \n\n
+            \t <b>•	Monitor and Observe</b> closely for changes in patients with adequate perfusion. \n\n
+            \t <b>•	Amiodarone</b> 150 mg IV drip (over 10 minutes). Indications: stable patients with
+                regular wide-complex tachycardia \n\n
+            \t <b>•	Magnesium Sulfate</b> 2G in 10 ml NS Slow IV (over 5 minutes), repeat x 1 dose
+                (max total dose 2G). Indications: torsade\’s de pointes.  \n\n
+            \t <b>•	Physician\ʼs Consult:</b> for alternative treatments if above antiarrhythmic agents are
+                unsuccessful in rhythm conversion or rate control.  \n\n
+            \t <b>UNSTABLE</b>  \n\n
+            \t <b>•	Synchronized Cardioversion:</b> 100 J. <u>Indications:</u> unstable patients with inadequate
+                perfusion. Consider pre-medication with <b>Midazolam:</b> 2 mg IV or Intra-Nasal, repeat
+                every 3-5 minutes until adequate relaxation sedation is achieved prior to procedure (
+                max total dosage is 10 mg). Use <b>Midazolam</b> with caution in the presence of hypotension
+                (BP &lt; 100 mmHg). \n\n
+            \t •	If no change: <b>Synchronized Cardioversion:</b> 200 J \n\n
+            \t •	If no change: <b>Amiodarone</b> 150mg IV Bolus \n\n
+            \t •	If no change: <b>Synchronized Cardioversion:</b> 300 J \n\n
+            \t •	If no change: <b>Synchronized Cardioversion:</b> 360 J \n\n
+            \t •	Post-Conversion Maintenance Therapy: \n\n
+                \t\t i.	<b>Amiodarone</b> 150 mg IV drip (over 10 minutes) \n\n
+                    \t\t\t <u>Indications:</u> If rhythm converts prior to antiarrhythmic agent \n\n
+                \t\t ii.	<b>Magnesium Sulfate</b> IV drip of 2 Gram/hr. \n\n
+                    \t\t\t <u>Indications:</u> If <b>Magnesium</b> converts torsade\’s de pointes \n\n
+            \t •	If rhythm converts, refer to appropriate <i>Clinical Care Guideline or Post Resuscitation
+                Management Clinical Care Guideline</i>. \n\n
+        <b><u>III.	NOTES:</u></b> \n\n
+            \t <b>1.	Amiodarone drip:</b> (150 mg in 100 ml NS) \n\n
+                \t\t 150 mg/10 min = 15.0 mg/min (100gtts/min on 10gtt IV set or 600 ml/h on IV pump) \n\n
+            \t <b>2.	Magnesium Sulfate drip:</b> (2G in 250 ml D5W) \n\n
+                \t\t 2G/hr = 33.4 mg/min (250gtts/min on 60gtt IV set or 250 ml/hr on IV pump \n\n\n
+    </string>
+
 </resources>
