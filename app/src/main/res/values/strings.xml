@@ -10,7 +10,7 @@
     <string name="care_advanced"><b>Advanced Care</b></string>
 
 
-    <!-- Asthma -->
+    <!-- param_Asthma -->
     <string name="title_activity_asthma"><b><u>Asthma</u></b></string>
     <string name="title_activity_asthma_sub"><u>DO NOT DELAY TRANSPORT WAITING FOR TREATMENT RESPONSE</u></string>
     <string name="tv_asthma_bc1">•  <b>Initial Medical Care:</b> Permit no activity! Place patient in high-fowler\'s
@@ -45,7 +45,7 @@
     <string name="title_activity_asthma2">AsthmaActivity2</string>
 
 
-    <!-- Carbon Monoxide -->
+    <!-- param_Carbon Monoxide -->
     <string name="title_activity_carbon_monoxide">Carbon Monoxide</string>
     <string name="title_activity_carbonmono"><b>Carbon Monoxide</b></string>
     <string name="tv_carbonmono_bc1">•	Remove patient from source to a safe environment.</string>
@@ -95,7 +95,7 @@
     <string name="tv_copd_ac8"><b>•	Intubation:</b> If the patient is physiologically difficult to intubate
         (severe anxiety, etc.) <i>refer to Difficult Airway-Facilitated Intubation Guideline.</i></string>
 
-    <!--Difficult Airway -->
+    <!--param_Difficult Airway / Facilitated Intubation-->
     <string name="title_activity_difficult_airway">DIFFICULT AIRWAY</string>
     <string name="parameter_diffairway">
         <b><u>DIFFICULT AIRWAY / FACILITATED INTUBATION</u></b> \n\n
@@ -106,87 +106,120 @@
         to administer Etomidate. This procedure guideline should be used as a replacement for those
         situations where Midazolam (Versed) was indicated for airway management. These situations
         include, but are not limited to: \n\n
-        •	Asthma With Dyspnea \n
-        •	COPD \n
-        •	Carbon Monoxide Inhalation \n
-        •	Foreign Body Airway Obstruction \n
-        •	Pulmonary Edema \n
-        •	Burns \n
-        •	Head Injuries \n\n
+            \t •	Asthma With Dyspnea \n
+            \t •	COPD \n
+            \t •	Carbon Monoxide Inhalation \n
+            \t •	Foreign Body Airway Obstruction \n
+            \t •	Pulmonary Edema \n
+            \t •	Burns \n
+            \t •	Head Injuries \n\n
         <b>II.	 General Procedure</b> \n\n
-        •	This is not a one-person procedure. Assistance should be utilized to facilitate the
-        best possible patient care. For trauma patients, use a second crewmember to maintain in-line
-        C-spine at all times \n\n
-        •	Basic Life Support procedures should always occur concurrently with the initial assessment
-        of any patient with the potential of hypoxia. These should include oxygen (NRB or BVM), manual
-        jaw thrust, use of nasal and oral airways, adequate suctioning, etc. For those patients requiring
-        BVM ventilation, an adequate seal, along with Sellick\'s Maneuver, is imperative to provide adequate
-        ventilation and reduce the occurrence of gastric distention. \n\n
-        •	Always pre-oxygenate for a minimum of 1 full minute with 100%% oxygen, being careful not to
-        hyperventilate at an excessive rate or force. \n\n
-        •	If the patient is NOT spontaneously breathing or is breathing ineffectively, provide
-        ventilatory support using a BVM with 100%% oxygen at a rate of 10-12 breaths per minute. \n\n
-        •	If the patient is spontaneously breathing and breathing effectively, provide blow-by 100%%
-        oxygen via NRB without overriding patient\'s ventilations, thereby reducing the risk of gastric
-        distention.\n\n
-        •	Gather and test all necessary equipment prior to the initial attempt. Prepare the
-        cardiac monitor for capnography by attaching the EtCO2 Filter Line (see <i>Capnography
-        Procedure Guideline</i>). \n\n
-        •	Intubation attempts should not be initiated without cardiac and SpO2 monitoring in place,
-        unless circumstances exist that preclude monitoring (very rare). A second crewmember should
-        read and announce out loud the patient\'s heart rate and SPO2 continuously during intubation
-        attempts. \n\n
-        •	Attempt to open the mouth by scissors (thumb and forefinger) technique. Proceed with intubation
-        as outlined in the INTUBATION- OROTRACHEAL PROCEDURE GUIDELINE. \n\n
-        •	If sedation is necessary to facilitate intubation (intact gag reflex, unable to open the
-        mouth due to trauma, if the jaw is clenched, etc.) return to BLS procedures and: \n\n
-            1.	Ensure best oxygenation and ventilation. \n\n
-            2.	Ensure a patent IV line exists. \n\n
-            3.	If BP > or = 100 mmHg systolic, administer 4 mg Midazolam IV Push over 30-60 seconds
-        for sedation. If BP &lt; 100 mmHg systolic, skip Midazolam and proceed to Etomidate. \n\n
-        4.	Wait 2 minutes and assess for adequate sedation for intubation. If patient adequately
-        sedated, proceed with intubation as outlined in the Intubation – Endotracheal Procedure Guideline. \n\n
-        5.	If patient requires additional sedation to facilitate intubation, administer 0.3 mg/kg Etomidate
-        x 1 dose IVP over 30-60 seconds for sedation (Maximum single dose of 40 mg).\n\n
-        6.	Wait 2 minutes and assess for adequate sedation for intubation. Attempt a maximum of 2
-        attempts to pass endotracheal tube through the vocal cords. \n\n
-        7.	During intubation attempts, monitor for signs of hypoxia (significant decrease in HR,
-        SpO2 levels below 90%%, signs of ventricular ectopy, etc.). If hypoxia develops, stop all
-        procedures and immediately ventilate the patient with 100%% oxygen. \n\n
-        8.	Following intubation, confirm proper tube placement by auscultating the gastric area
-        and the lungs bilaterally. Attach the EtCO2 Filter Line hub to the endotracheal tube hub.
-        Ventilate the patient with a BVM and watch for appropriate capnographic waveforms with each BVM
-        ventilation. Record a monitor strip as capnographic verification of appropriate endotracheal tube
-        placement. \n\n
-        9.	If intubation successful, progress to Section III: Successful Airway Procedure. \n\n
-        10.	If unable to intubate after Etomidate, progress to Section IV: Failed Airway Procedure. \n\n
+            \t •	This is not a one-person procedure. Assistance should be utilized to facilitate the
+            best possible patient care. For trauma patients, use a second crewmember to maintain in-line
+            C-spine at all times \n\n
+            \t •	Basic Life Support procedures should always occur concurrently with the initial assessment
+            of any patient with the potential of hypoxia. These should include oxygen (NRB or BVM), manual
+            jaw thrust, use of nasal and oral airways, adequate suctioning, etc. For those patients requiring
+            BVM ventilation, an adequate seal, along with Sellick\'s Maneuver, is imperative to provide adequate
+            ventilation and reduce the occurrence of gastric distention. \n\n
+            \t •	Always pre-oxygenate for a minimum of 1 full minute with 100%% oxygen, being careful not to
+            hyperventilate at an excessive rate or force. \n\n
+            \t •	If the patient is NOT spontaneously breathing or is breathing ineffectively, provide
+            ventilatory support using a BVM with 100%% oxygen at a rate of 10-12 breaths per minute. \n\n
+            \t •	If the patient is spontaneously breathing and breathing effectively, provide blow-by 100%%
+            oxygen via NRB without overriding patient\'s ventilations, thereby reducing the risk of gastric
+            distention.\n\n
+            \t •	Gather and test all necessary equipment prior to the initial attempt. Prepare the
+            cardiac monitor for capnography by attaching the EtCO2 Filter Line (see <i>Capnography
+            Procedure Guideline</i>). \n\n
+            \t •	Intubation attempts should not be initiated without cardiac and SpO2 monitoring in place,
+            unless circumstances exist that preclude monitoring (very rare). A second crewmember should
+            read and announce out loud the patient\'s heart rate and SPO2 continuously during intubation
+            attempts. \n\n
+            \t •	Attempt to open the mouth by scissors (thumb and forefinger) technique. Proceed with intubation
+            as outlined in the INTUBATION- OROTRACHEAL PROCEDURE GUIDELINE. \n\n
+            \t •	If sedation is necessary to facilitate intubation (intact gag reflex, unable to open the
+            mouth due to trauma, if the jaw is clenched, etc.) return to BLS procedures and: \n\n
+                \t\t 1.	Ensure best oxygenation and ventilation. \n\n
+                \t\t 2.	Ensure a patent IV line exists. \n\n
+                \t\t 3.	If BP > or = 100 mmHg systolic, administer 4 mg Midazolam IV Push over 30-60 seconds
+                for sedation. If BP &lt; 100 mmHg systolic, skip Midazolam and proceed to Etomidate. \n\n
+                \t\t 4.	Wait 2 minutes and assess for adequate sedation for intubation. If patient adequately
+                sedated, proceed with intubation as outlined in the Intubation – Endotracheal Procedure Guideline. \n\n
+                \t\t 5.	If patient requires additional sedation to facilitate intubation, administer 0.3 mg/kg Etomidate
+                x 1 dose IVP over 30-60 seconds for sedation (Maximum single dose of 40 mg).\n\n
+                \t\t 6.	Wait 2 minutes and assess for adequate sedation for intubation. Attempt a maximum of 2
+                attempts to pass endotracheal tube through the vocal cords. \n\n
+                \t\t 7.	During intubation attempts, monitor for signs of hypoxia (significant decrease in HR,
+                SpO2 levels below 90%%, signs of ventricular ectopy, etc.). If hypoxia develops, stop all
+                procedures and immediately ventilate the patient with 100%% oxygen. \n\n
+                \t\t 8.	Following intubation, confirm proper tube placement by auscultating the gastric area
+                and the lungs bilaterally. Attach the EtCO2 Filter Line hub to the endotracheal tube hub.
+                Ventilate the patient with a BVM and watch for appropriate capnographic waveforms with each BVM
+                ventilation. Record a monitor strip as capnographic verification of appropriate endotracheal tube
+                placement. \n\n
+                \t\t 9.	If intubation successful, progress to Section III: Successful Airway Procedure. \n\n
+                \t\t 10.	If unable to intubate after Etomidate, progress to Section IV: Failed Airway Procedure. \n\n
         <b>III.	Successful Airway Procedure</b> \n\n
-        •	Continuously monitor airway status to maintain intubation, adequate ventilation and adequate
-        perfusion. Continue to monitor the capnographic waveforms throughout ventilations to confirm
-        appropriate tube placement. Following any movement of the intubated patient to include at transfer
-        of care, record a capnographic waveform strip to determine that there has not been ET tube
-        dislodgment.\n\n
-        •	If necessary to maintain sedation post-intubation and BP > or = 100 mmHg systolic, administer
-        Midazolam in 2-mg increments IVP every 3-5 minutes (maximum total dosage is 10 mg). Diazepam may
-        be substituted for Midazolam in 5 mg increments Slow IVP every 3-5 minutes (maximum total dosage
-        is 20 mg).\n\n
-        <b>•	If the need arises for additional post intubation sedation administer Fentanyl 0.5 mcg/kg
-        as a loading dose followed by a Fentanyl drip at 2 mcg/min may be used for post intubation
-        sedation refractory to Midazolam.</b>\n\n
+            \t •	Continuously monitor airway status to maintain intubation, adequate ventilation and adequate
+            perfusion. Continue to monitor the capnographic waveforms throughout ventilations to confirm
+            appropriate tube placement. Following any movement of the intubated patient to include at transfer
+            of care, record a capnographic waveform strip to determine that there has not been ET tube
+            dislodgment.\n\n
+            \t •	If necessary to maintain sedation post-intubation and BP > or = 100 mmHg systolic, administer
+            Midazolam in 2-mg increments IVP every 3-5 minutes (maximum total dosage is 10 mg). Diazepam may
+            be substituted for Midazolam in 5 mg increments Slow IVP every 3-5 minutes (maximum total dosage
+            is 20 mg).\n\n
+            \t <b>•	If the need arises for additional post intubation sedation administer Fentanyl 0.5 mcg/kg
+            as a loading dose followed by a Fentanyl drip at 2 mcg/min may be used for post intubation
+            sedation refractory to Midazolam.</b>\n\n
         <b>IV.	Failed Airway Procedure</b> \n\n
-        •	Revert to Basic Life Support airway procedures as described in Section II: General
-        Procedure, ensuring adequate ventilation and oxygenation with 100%% oxygen. \n
-        •	Keep the airway clear of secretions, blood and vomitus. \n
-        •	If able to effectively ventilate the patient with a BVM, consider insertion of a
-        King Airway and continue ventilations (refer to the <i>King Airway Insertion Procedure Guideline</i>). \n\n
-        If attempts at ventilation fail, or ventilations fail to perfuse the patient with oxygen,
-        immediately perform a Cricothyrotomy (refer to the <i>Cricothyrotomy- Surgical Procedure Guideline</i>). \n
+            \t •	Revert to Basic Life Support airway procedures as described in Section II: General
+            Procedure, ensuring adequate ventilation and oxygenation with 100%% oxygen. \n
+            \t •	Keep the airway clear of secretions, blood and vomitus. \n
+            \t •	If able to effectively ventilate the patient with a BVM, consider insertion of a
+            King Airway and continue ventilations (refer to the <i>King Airway Insertion Procedure Guideline</i>). \n\n
+            If attempts at ventilation fail, or ventilations fail to perfuse the patient with oxygen,
+            immediately perform a Cricothyrotomy (refer to the <i>Cricothyrotomy- Surgical Procedure Guideline</i>). \n
+    </string>
+
+    <!-- param_Foreign Body Airway Obstruction -->
+    <string name="title_activity_fbao">FBAO</string>
+    <string name="parameter_FBAO">
+        <b><u>FOREIGN BODY AIRWAY OBSTRUCTION</u></b> /n/n
+        <b>I.	BASIC CARE</b> /n/n
+            /t <b>PARTIAL AIRWAY OBSTRUCTION</b> /n/n
+                /t/t•	Encourage the patient to continue spontaneous coughing and breathing efforts.
+                    Do not interfere with the patient\'s own attempts to expel the foreign body,
+                    but stay with the patient and monitor his or her condition. /n/n
+                /t/t•	<b>Initial Medical Care</b> /n/n
+                /t/t•	<b>Oxygen:</b> 15 LPM via NRB. /n/n
+                /t/t•	<b>IV:</b> Establish an IV with NS lock attached. /n/n
+                /t/t•	Have equipment ready if patient condition deteriorates to COMPLETE AIRWAY OBSTRUCTION. /n/n
+            /t <b>COMPLETE AIRWAY OBSTRUCTION</b> /n/n
+                /t/t<b>•	CONSCIOUS</b> /n/n
+                    /t/t/t i.	Adult / child: Abdominal thrusts /n/n
+                    /t/t/t ii.	Pregnant / obese: Chest thrusts /n/n
+                    /t/t/t iii.	Infant: Back blows and chest thrusts /n/n
+                    /t/t/t iv.	Repeat until foreign object is expelled and airway is cleared OR patient
+                        becomes unconscious. /n/n
+                /t/t<b>•	UNCONSCIOUS</b> /n/n
+                    /t/t/t i.	<b>BVMR:</b> Open airway and attempt to ventilate. /n/n
+                    /t/t/t ii.	Attempt to clear airway: /n/n
+                        /t/t/t/t 1.	Adult/child: Abdominal thrusts. /n/n
+                        /t/t/t/t 2.	Pregnant/obese: Chest thrusts. /n/n
+                        /t/t/t/t 3.	Infant: Back blows and chest thrusts. /n/n
+                    /t/t/t iii.	Alternate attempts to ventilate with airway clearing techniques.
+                        Once airway is cleared, support ventilations as needed with 100%% oxygen /n/n
+        <b>II.	ADVANCED CARE</b> /n/n
+            /t•	If unable to clear airway with Basic Care and patient is unconscious: /n
+            /t•	<b>Laryngoscope:</b> Visualize oropharynx and utilize Magill Forceps or suction as needed. /n
+            /t•	<b>BVMR:</b> Open airway and attempt to ventilate. /n
+            /t•	<b>Intubation:</b> If unable to ventilate and foreign object not visible with Laryngoscope. If the patient is physiologically difficult to intubate (severe anxiety, etc.) refer to Difficult Airway-Facilitated Intubation Guideline /n
+            /t•	<b>Cricothyrotomy:</b> If unable to ventilate effectively after above attempts. /n/n
+        <b>III.	Initial Medical Care:</b> establish after airway is secured. /n/n
+        <b>NOTE: All patients should be encouraged to seek medical attention even if airway is cleared on scene.</b>
 
 
     </string>
-
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
-    </string>
-
 </resources>
