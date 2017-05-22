@@ -186,39 +186,79 @@
     <!-- param_Foreign Body Airway Obstruction -->
     <string name="title_activity_fbao">FBAO</string>
     <string name="parameter_FBAO">
-        <b><u>FOREIGN BODY AIRWAY OBSTRUCTION</u></b> /n/n
-        <b>I.	BASIC CARE</b> /n/n
-            /t <b>PARTIAL AIRWAY OBSTRUCTION</b> /n/n
-                /t/t•	Encourage the patient to continue spontaneous coughing and breathing efforts.
+        <b><u>FOREIGN BODY AIRWAY OBSTRUCTION</u></b> \n\n
+        <b>I.	BASIC CARE</b> \n\n
+            \t <b>PARTIAL AIRWAY OBSTRUCTION</b> \n\n
+                \t\t•	Encourage the patient to continue spontaneous coughing and breathing efforts.
                     Do not interfere with the patient\'s own attempts to expel the foreign body,
-                    but stay with the patient and monitor his or her condition. /n/n
-                /t/t•	<b>Initial Medical Care</b> /n/n
-                /t/t•	<b>Oxygen:</b> 15 LPM via NRB. /n/n
-                /t/t•	<b>IV:</b> Establish an IV with NS lock attached. /n/n
-                /t/t•	Have equipment ready if patient condition deteriorates to COMPLETE AIRWAY OBSTRUCTION. /n/n
-            /t <b>COMPLETE AIRWAY OBSTRUCTION</b> /n/n
-                /t/t<b>•	CONSCIOUS</b> /n/n
-                    /t/t/t i.	Adult / child: Abdominal thrusts /n/n
-                    /t/t/t ii.	Pregnant / obese: Chest thrusts /n/n
-                    /t/t/t iii.	Infant: Back blows and chest thrusts /n/n
-                    /t/t/t iv.	Repeat until foreign object is expelled and airway is cleared OR patient
-                        becomes unconscious. /n/n
-                /t/t<b>•	UNCONSCIOUS</b> /n/n
-                    /t/t/t i.	<b>BVMR:</b> Open airway and attempt to ventilate. /n/n
-                    /t/t/t ii.	Attempt to clear airway: /n/n
-                        /t/t/t/t 1.	Adult/child: Abdominal thrusts. /n/n
-                        /t/t/t/t 2.	Pregnant/obese: Chest thrusts. /n/n
-                        /t/t/t/t 3.	Infant: Back blows and chest thrusts. /n/n
-                    /t/t/t iii.	Alternate attempts to ventilate with airway clearing techniques.
-                        Once airway is cleared, support ventilations as needed with 100%% oxygen /n/n
-        <b>II.	ADVANCED CARE</b> /n/n
-            /t•	If unable to clear airway with Basic Care and patient is unconscious: /n
-            /t•	<b>Laryngoscope:</b> Visualize oropharynx and utilize Magill Forceps or suction as needed. /n
-            /t•	<b>BVMR:</b> Open airway and attempt to ventilate. /n
-            /t•	<b>Intubation:</b> If unable to ventilate and foreign object not visible with Laryngoscope. If the patient is physiologically difficult to intubate (severe anxiety, etc.) refer to Difficult Airway-Facilitated Intubation Guideline /n
-            /t•	<b>Cricothyrotomy:</b> If unable to ventilate effectively after above attempts. /n/n
-        <b>III.	Initial Medical Care:</b> establish after airway is secured. /n/n
-        <b>NOTE: All patients should be encouraged to seek medical attention even if airway is cleared on scene.</b>
+                    but stay with the patient and monitor his or her condition. \n\n
+                \t\t•	<b>Initial Medical Care</b> \n\n
+                \t\t•	<b>Oxygen:</b> 15 LPM via NRB. \n\n
+                \t\t•	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+                \t\t•	Have equipment ready if patient condition deteriorates to COMPLETE AIRWAY OBSTRUCTION. \n\n
+            \t <b>COMPLETE AIRWAY OBSTRUCTION</b> \n\n
+                \t\t<b>•	CONSCIOUS</b> \n\n
+                    \t\t\t i.	Adult / child: Abdominal thrusts \n\n
+                    \t\t\t ii.	Pregnant / obese: Chest thrusts \n\n
+                    \t\t\t iii.	Infant: Back blows and chest thrusts \n\n
+                    \t\t\t iv.	Repeat until foreign object is expelled and airway is cleared OR patient
+                        becomes unconscious. \n\n
+                \t\t<b>•	UNCONSCIOUS</b> \n\n
+                    \t\t\t i.	<b>BVMR:</b> Open airway and attempt to ventilate. \n\n
+                    \t\t\t ii.	Attempt to clear airway: \n\n
+                        \t\t\t\t 1.	Adult/child: Abdominal thrusts. \n\n
+                        \t\t\t\t 2.	Pregnant/obese: Chest thrusts. \n\n
+                        \t\t\t\t 3.	Infant: Back blows and chest thrusts. \n\n
+                    \t\t\t iii.	Alternate attempts to ventilate with airway clearing techniques.
+                        Once airway is cleared, support ventilations as needed with 100%% oxygen \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t•	If unable to clear airway with Basic Care and patient is unconscious: \n
+            \t•	<b>Laryngoscope:</b> Visualize oropharynx and utilize Magill Forceps or suction as needed. \n
+            \t•	<b>BVMR:</b> Open airway and attempt to ventilate. \n
+            \t•	<b>Intubation:</b> If unable to ventilate and foreign object not visible with Laryngoscope. If the patient is physiologically difficult to intubate (severe anxiety, etc.) refer to Difficult Airway-Facilitated Intubation Guideline \n
+            \t•	<b>Cricothyrotomy:</b> If unable to ventilate effectively after above attempts. \n\n
+        <b>III.	Initial Medical Care:</b> establish after airway is secured. \n\n
+        <b>NOTE: All patients should be encouraged to seek medical attention even
+            if airway is cleared on scene.</b> \n\n\n
+    </string>
+
+    <!--param_Pulomary Edema-->
+    <string name="title_activity_pe">Pulmonary Edema</string>
+    <string name="parameter_pe">
+        <b><u>PULMONARY EDEMA</u></b> \n\n
+            \t If Pulse &lt; 60 and systolic BP &lt; 90 mmHg, refer to Bradycardia &amp; A.V.
+                Blocks Clinical Care Guideline. \n
+            \t If systolic BP &lt; 90 mmHg, refer to Shock (Non-Fluid Loss) Clinical Care Guideline. \n
+            \t If systolic BP &lt; 90 mmHg, use treatment algorithm listed below: \n\n\n
+        <b>BASIC CARE</b>
+            \t <b>•	Initial Medical Care:</b> Permit no activity! Place patient in high-fowler\ʼs position
+                or in patient\'s position of comfort. \n\n
+            \t <b>•	BVMR:</b> Patients with inadequate ventilations &lt; 10 or > 30 times a minute will
+                be ventilated with Oxygen @ 15 LPM NRB until advanced care is established. \n\n
+            \t <b>•	Prescription Inhaler:</b> metered dose every 10 minutes (maximum 3 total doses).
+                Indications: utilize patient\'s prescribed inhaler for dyspnea and HR &lt; 120. \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t <b>•	Capnography:</b> Apply nasal cannula Filter Line. \n\n
+            \t <b>•	IV:</b> Establish an IV with NS lock attached. \n\n
+            \t <b>•	Nitroglycerin:</b> 0.4 mg SL, repeat every 5 minutes if BP > 100 mmHg. \n\n
+                \t\t i.	Do not administer NTG if the patient has taken phosphodiesterase (PDE) inhibitors
+                    including: Viagra (sildenafil), Levitra (vardenafil) or Cialis (tadalafil) within
+                    past 24 hours. \n\n
+            \t <b>•	Nitroglycerin Paste:</b> 1 inch applied transdermal. \n\n
+            \t <b>•	CPAP:</b> (refer to CPAP Procedure Guideline for indications). Use the 10 cm H2O
+                setting. For patients with a history of COPD or Asthma, use 8cm H2O PEEP setting for CPAP. \n\n
+            \t •	If patient has chest pain, Fentanyl 1 mcg/kg, repeat every 5 minutes \n\n
+            \t <b>•	Fentanyl</b> 1 mcg/kg IVP. If pain persists, after five minutes repeat dose once
+                (maximum total dose 2 mcg/kg). \n\n
+                \t\t *   *Do not administer in pregnant or possible pregnant patients. \n\n
+                    \t\t\t i.	<b>Physician\'s Orders</b> required for additional Morphine Sulfate.\n\n
+            \t <b>•	Physician\ʼs Orders:</b> If the patient presents with fluid overload (rales, pitting edema > 2+),
+                \t\t i.	<b>Bumetanide</b> 1 mg IVP for patients &lt; 70 kg or 2 mg IVP
+            for patients > 70 kg.
+            \t <b>•	Intubation:</b> If the patient is physiologically difficult to intubate (severe anxiety,
+                etc.) refer to <u>Difficult Airway-Facilitated Intubation Guideline</u>.
+
+
 
 
     </string>
