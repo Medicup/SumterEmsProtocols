@@ -1,4 +1,96 @@
 <resources>
+    <string name="title_activity_initial_medical_care">InitialMedicalCareActivity</string>
+    <string name="title_activity_pain_management">PainManagementActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
     <string name="app_name">Sumter EMS Protocols</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -12,7 +104,6 @@
 
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-   
 
     <!-- param_Asthma -->
     <string name="title_activity_asthma"><b><u>ASTHMA</u></b></string>
@@ -234,7 +325,7 @@
     </string>
 
     <!--param_Pulomary Edema-->
-    <string name="title_activity_pe">Pulmonary Edema</string>
+    <string name="title_activity_pulmonary_edema">Pulmonary Edema</string>
     <string name="parameter_pe">
         <b><u>PULMONARY EDEMA</u></b> \n\n
             \t If Pulse &lt; 60 and systolic BP &lt; 90 mmHg, refer to Bradycardia &amp; A.V.
@@ -271,9 +362,9 @@
     </string>
 
     <!--param_Acute Coronary Syndrome-->
-    <string name="title_acs">Acute Coronary SyndromePulmonary Edema</string>
+    <string name="title_activity_acs">Acute Coronary SyndromePulmonary Edema</string>
+    <string name="parameter_acs_header"><b><u>ACUTE CORONARY SYDROME</u></b></string>
     <string name="parameter_acs">
-        <b><u>ACUTE CORONARY SYDROME</u></b> \n\n
         <b>I.	BASIC CARE</b> \n\n
             \t <b>•	Initial Medical Care:</b> Permit no activity. Place patient in their
                 position of comfort. If BP &lt; 90 mmHg, encourage the patient to lie supine. \n\n
@@ -307,8 +398,8 @@
 
     <!--param_Asystole/PEA-->
     <string name="title_activity_asystole">Asystole/PEA</string>
+    <string name="parameter_asystole_header"><b><u>ASYSTOLE – PEA</u></b></string>
     <string name="parameter_asystole">
-        <b><u>ASYSTOLE – PEA</u></b> \n\n
         <b>I.	BASIC CARE</b> \n\n
             \t <b>•	ABCD:</b> Perform appropriate action following American Heart Association (AHA)
                 CPR Guidelines. \n\n
@@ -334,8 +425,8 @@
 
     <!--param_Pulomary Edema-->
     <string name="title_activity_bradycardia">Bradycardia</string>
+    <string name="parameter_bradycardia_header"><b><u>BRADYCARDIA</u></b></string>
     <string name="parameter_bradycardia">
-        <b><u>BRADYCARDIA</u></b> \n\n
         <b>I.	BASIC CARE</b> \n\n
             \t <b>•	Initial Medical Care:</b> Place patient in their position of comfort. Place patient in
             Trendelenburg position if BP &lt; 90 mmHg. \n\n
@@ -364,9 +455,9 @@
     </string>
 
     <!--param_Narrow Complex Tachycardia - irregular-->
-    <string name="title_activity_narrowtach_irreg">Narrow Complex Tachycardia - Irregular</string>
+    <string name="title_activity_narrow_complex_irreg">Narrow Tach Irreg</string>
+    <string name="parameter_narrowtach_irreg_header"><b><u>NARROW COMPLEX TACHYCARDIA – IRREGULAR</u></b></string>
     <string name="parameter_narrowtach_irreg">
-        <b><u>NARROW COMPLEX TACHYCARDIA – IRREGULAR</u></b> \n\n
         <b>I.	BASIC CARE</b> \n\n
             \t <b>•	Initial Medical Care:</b> Place patient in their position of comfort. Place
                 patient in Trendelenburg position if BP &lt; 90 mmHg. \n\n
@@ -401,9 +492,9 @@
     </string>
 
     <!--param_Narrow Complex Tachycardia - regular-->
-    <string name="title_activity_narrowtach_reg">Narrow Complex Tachycardia - Regular</string>
+    <string name="title_activity_narrow_complex_reg">Narrow Tach Regular</string>
+    <string name="parameter_narrowtach_reg_header"><b><u>NARROW COMPLEX TACHYCARDIA – REGULAR</u></b></string>
     <string name="parameter_narrowtach_reg">
-        <b><u>NARROW COMPLEX TACHYCARDIA – REGULAR</u></b> \n\n
         <b>I.	BASIC CARE</b> \n\n
             \t <b>•	Initial Medical Care:</b> Place patient in their position of comfort.
                 Place patient in Trendelenburg position if BP &lt; 90 mmHg. \n\n
@@ -444,8 +535,8 @@
 
     <!--param_Narrow Complex Tachycardia - irregular-->
     <string name="title_activity_rosc">Post Resuscitation/ROSC</string>
+    <string name="parameter_rosc_header"><b><u>POST RESUSCITATION MANAGEMENT</u></b></string>
     <string name="parameter_rosc">
-        <b><u>POST RESUSCITATION MANAGEMENT</u></b> \n\n
         <b><u>INDICATIONS</u></b> \n\n
             \t •	POST CARDIAC ARREST WITH RETURN OF CIRCULATION \n\n
             \t •	PRESENCE OF A PALPABLE BLOOD PRESSURE \n\n
@@ -468,8 +559,8 @@
 
     <!--VAD-->
     <string name="title_activity_vad">VAD</string>
+    <string name="parameter_vad_header"><b><u>VENTRICULAR ASSISTANCE DEVICE</u></b></string>
     <string name="parameter_vad">
-        <b><u>VENTRICULAR ASSISTANCE DEVICE</u></b> \n\n
         This Appendix applies to the management of patients who have a ventricular assist device (VAD)
         also referred to a left ventricular assist device (LVAD) implanted. The VAD is a mechanical pump
         used to support the heart\’s pumping function and positive blood flow on individuals who have severe
@@ -542,9 +633,9 @@
     </string>
 
     <!--param_Ventricular Fibrillation & Pulseless VTACNarrow Complex Tachycardia - irregular-->
-    <string name="title_activity_vfib">VFib &amp; Puleless VTAC</string>
+    <string name="title_activity_vfib">VFib/Puleless VTAC</string>
+    <string name="parameter_vfib_header"><b><u>VENTRICULAR FIBRILLATION &amp; PULSELESS V-TACH</u></b></string>
     <string name="parameter_vfib">
-        <b><u>VENTRICULAR FIBRILLATION &amp; PULSELESS V-TACH</u></b> \n\n
         <b>I.	BASIC CARE</b> \n\n
             \t •	Check for responsiveness - Shake and shout, Pain stimulation \n\n
             \t •	If no response, <b>Initiate CCR</b> (Cardio-Cerebral Resuscitation) – Continuous chest
@@ -607,10 +698,10 @@
                     presence of hypotension (BP &lt; 90 mmHg \n\n\n
     </string>
 
-    <!--param_-->
-    <string name="title_activity_wide_comples">Wide Complex Tachycardia -Irregular</string>
+    <!--param_Wide Complex Tachycardia - Irregular-->
+    <string name="title_activity_wide_complex">Wide Complex Tach</string>
+    <string name="parameter_wide_complex_header"><b><u>WIDE COMPLEX TACHYCARDIA</u></b></string>
     <string name="parameter_wide_complex">
-        <b><u>WIDE COMPLEX TACHYCARDIA</u></b> \n\n
         <b>I.	BASIC CARE</b> \n\n
             \t <b>•	Initial Medical Care:</b> Place patient in their position of comfort. Place patient
                 in Trendelenburg position if BP &lt; 90 mm/Hg systolic. \n\n
@@ -649,6 +740,558 @@
                 \t\t 150 mg/10 min = 15.0 mg/min (100gtts/min on 10gtt IV set or 600 ml/h on IV pump) \n\n
             \t <b>2.	Magnesium Sulfate drip:</b> (2G in 250 ml D5W) \n\n
                 \t\t 2G/hr = 33.4 mg/min (250gtts/min on 60gtt IV set or 250 ml/hr on IV pump \n\n\n
+    </string>
+
+    <!--param_Abdominal Pain-->
+    <string name="title_activity_abdominal_pain">Abdominal Pain</string>
+    <string name="parameter_abd_pain_header"><u><b>ABDOMINAL PAIN</b></u></string>
+    <string name="parameter_abd_pain">
+        <b>CONSIDER CARDIAC ETIOLOGY</b> \n\n
+        Refer to acute coronary syndrome Clinical care Guideline \n\n
+        <b>Initial Medical Care</b> \n\n
+            \t •	If hypotension/shock is present, refer to Shock Clinical Care Guideline. \n\n
+            \t <b>•	12 Lead EKG</b> \n\n
+            \t <b>•	Check blood glucose level:</b> if blood glucose is &lt; 60 or > 250, also refer
+                to <i>Hypoglycemia &amp; Hyperglycemia Clinical Care Guideline</i>. \n\n
+            \t <b>•	IV:</b> Establish an IV with NS lock attached. \n\n
+            \t <b>•	Administer nothing by mouth.</b> \n\n
+            \t <b>•	Assess distal/femoral pulses.</b> \n\n
+            \t <b>•	Ondansetron:</b> 4 mg slow IVP for nausea and vomiting \n\n
+            \t <b>*Do not administer in patients that are pregnant or who may be pregnant.</b> \n\n
+            \t <i><b>•	Physician’s Orders</b> for pain management. Refer to Pain Management Clinical
+                Care Guideline</i> \n\n\n
+    </string>
+
+    <!-- param_allergic_reaction_&_anaphalctic_shock -->
+    <string name="title_activity_allergic_reaction">Allergic Reaction</string>
+    <string name="parameter_allergic_reaction_header"><b><u>ALLERGIC REACTION &amp; ANAPHYLACTIC SHOCK</u></b></string>
+    <string name="parameter_allergic_reaction">
+        <b>STABLE</b> \n\n
+        <b>I.	Initial Medical Care</b> \n\n
+            \t •	If wheezing is present and heart rate &lt; 160, Albuterol 2.5 mg via updraft.
+                (Repeat as necessary.) \n\n
+            \t •	If hives (urticaria) or history of systemic reaction in past: <b>Diphenhydramine</b>
+                    1 mg/kg IVP not to exceed 50 mg slowly over 2-3 minutes. If no IV, may give IM. \n\n
+            \t •	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+            \t •	<b>Solu-Medrol:</b> 125 mg IVP (adults) or 2 mg/kg IVP (Pediatrics).
+        <b>UNSTABLE</b>
+        <b>I.	Initial Medical Care</b>
+            \t •	ADULTS: Administer <b>Epinephrine</b> 1:10,000: 0.3mg IVP. If no IV, administer <b>Epinephrine</b>
+                1:1000: 0.3mg SQ. \n\n
+            \t •	PEDIATRICS: Administer <b>Epinephrine</b> 1:10,000 0.01mg/kg IVP or IO. If no IV or IO,
+                administer <b>Epinephrine </b>1:1000 0.01 mg/kg SQ. \n\n
+            \t •	NEWBORN: Administer <b>Epinephrine</b> per Length-Based Tape. \n\n
+        II.	If Systolic BP &lt; 90 refer to <i>Shock Clinical Care Guideline.</i> \n\n
+        III.	If wheezing present and heart rate &lt; 160, <b>Albuterol</b> 2.5 mg via updraft. \n\n
+        IV.	If no response to above treatment, administer <b>Solu-Medrol </b>125 mg IVP (adults) or 2
+                mg/kg IVP (pediatrics) \n\n
+        V.	If hives (urticaria) or history of systemic reaction in past, \n\n
+            \t •	<b>Diphenhydramine</b> 1 mg/kg IVP not to exceed 50 mg slowly over 2-3 minutes. If no IV,
+                may give IM.
+        VI.	<i><b>Physician Orders:</b> May repeat Epinephrine at dosages listed above.</i>
+
+        <b><i>DIPHENHYDRAMINE IS CONTRAINDICATED IN ASTHMA PATIENTS</i></b>
+    </string>
+
+    <!-- param_altered_mental_status-->
+    <string name="title_activity_ams">AMS</string>
+    <string name="parameter_altered_mental_header"><b><u>ALTERED MENTAL STATUS</u></b></string>
+    <string name="parameter_altered_mental">
+        I.	<b>Initial Medical Care</b> \n\n
+        II.	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+        III.	If hypotensive with signs of decreased tissue perfusion, refer to Shock Clinical Care
+                Guideline. Consider patient may still be experiencing hypoglycemia, hyperglycemia or substance
+                abuse. \n\n
+        IV.	<b>If blood glucose level &lt; 60:</b> Refer to <i>Hypoglycemia &amp; Hyperglycemia Clinical
+                Care Guideline.</i> \n\n
+        V.	If substance abuse suspected: Naloxone 1 mg slow IVP or Intra-Nasal every 3 minutes as needed if
+            transient response observed (maximum total dosage 8 mg).\n\n
+            \t •	Use good judgment with Naloxone. Only administer if there is probable cause for an opiate
+                overdose.
+            \t •	Refer to Length Based Tape for pediatric administration of Naloxone. \n\n\n
+    </string>
+
+    <!-- param_cerebrovascular_accident -->
+    <string name="title_activity_cva">CVA</string>
+    <string name="parameter_cva_header"><b><u>CEREBROVASCULAR ACCIDENT</u></b></string>
+    <string name="parameter_cva">
+        <b>I.	BASIC CARE</b> \n\n
+            \t •	<b>Initial Medical Care:</b> Maintain head and neck in neutral alignment; elevate head
+                of stretcher 15-30 degrees if BP > 100 mm Hg. Protect paralyzed limbs from injury. \n\n
+            \t •	Confirm accurate time when patient last seen normal. \n\n
+            \t •	Oxygen: Nasal Cannula at 2 LPM; if patient is hypoxic, apply appropriate oxygen adjunct
+                with appropriate liter flow.\n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t •	<b>Check blood glucose level:</b> If &lt; 60, refer to <i>Hypoglycemia &amp; Hyperglycemia
+                Clinical Care Guideline.</i>  \n\n
+            \t <b>•	12 Lead EKG</b>
+            \t •	<b>Cincinnati Stroke Scale</b> (F.A.S.T.): Complete on scene. If 1 abnormal assessment from
+                FAST, complete the  <u>Stroke Alert sheet</u>, STROKE ALERT and Destination Criterion will determine
+                the appropriate destination for patients based on exclusion/inclusion criteria. Do not delay
+                transport. Document initial assessment and subsequent changes. Deliver completed form to
+                ED staff \n\n
+            \t <b>•	Determine Transport Destination:</b> refer to <i>Transport – Stroke Administrative Policy</i>. \n\n
+            \t <b>•	IV:</b> Establish an IV with NS lock attached. \n\n
+            \t <b>•	Ondansetron:</b> 4 mg slow IVP for nausea and vomiting. If no IV, may give IM. \n\n
+                \t\t <b>*Do not administer if pregnant or possibility of pregnancy.</b> \n\n
+            \t •	For patients presenting with severe hypertension, refer to <i>Hypertensive Crisis
+                Clinical Care Guideline.</i> \n\n
+            \t <b>•	MEND Exam:</b> Perform during transport. \n\n
+            \t <b>•	Second IV:</b> Establish a second peripheral IV (Saline-lock).
+                \t\t <u>Indications:</u> Stroke Alert and time permitting. \n\n
+            \t <b>•	Documentation:</b> Document witness information (name and telephone numbers),
+                symptom onset (time last seen normal), Mend Exam, and location of any missed IVs. \n\n\n
+
+    </string>
+
+    <!-- param_drug_overdose_and_poisoning -->
+    <string name="title_activity_drug_overdose">OD/Poison</string>
+    <string name="parameter_drug_overdose_header">
+        <b><u>DRUG OVERDOSE &amp; POISONING</u></b> \n
+        <u>A <b>TOXIC EXPOSURE</b> shall be defined as:</u> 
+    </string>
+    <string name="parameter_drug_overdose_subheader">The intentional or unintentional ingestion, inhalation,
+        injection, dermal or ocular application of a medication, chemical, biological or active substance
+        that results in immediate or potentially delayed effects.</string>
+    <string name="parameter_drug_overdose">
+        I.	<b>Initial Medical Care</b> \n\n
+        II.	<b>Check blood glucose level:</b> refer to <i>Hypoglycemia &amp; Hyperglycemia Clinical Care
+            Guideline</i>, as indicated. \n\n
+        III.	If altered sensorium, refer to <i>Altered Mental Status Clinical Care Guideline</i>. \n\n
+        IV.	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+        V.	<b>Contact the American Association of Poison Control Centers</b>, through the Communications
+            Center or by calling 1-800-222-1222, to obtain information regarding the initial stabilization
+                and management of the exposure. \n\n
+            \t <b>The American Association of Poison Control Centers</b> will provide medical direction,
+                home management, and follow-up per their standard operating protocols as required by
+                Florida Statutes. Communications can cancel the call via the Poison Control’s authority. \n\n\n
+    </string>
+
+    <!--param_Environmental_Cold_Emergencies-->
+    <string name="title_activity_environmental_cold">Environmental Cold</string>
+    <string name="parameter_environmental_cold_header"><b><u>ENVIRONMENTAL COLD EMERGENCIES</u></b></string>
+    <string name="parameter_environmental_cold">
+        <b><u>All patients should have body temperature assessed</u></b> \n\n
+        <b><u>I.	FROSTBITE</u></b> \n\n
+            \t • <b>Initial Medical Care</b> \n\n
+            \t •	Remove wet garments and move patient to a warm environment ASAP. \n\n
+            \t •	Elevate affected body part and cover with loosely applied, dry, sterile dressings. \n\n
+            \t •	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+            \t •	<b>Physician\'s Orders:</b> Morphine Sulfate as per Medical Control. \n\n
+        <b><u>II.	MILD / MODERATE SYSTEMIC HYPOTHERMIA</u></b> \n\n \n\n
+        Body temperature of 90-95 degrees F. Patient may be conscious or have an altered sensorium with shivering. \n\n
+            \t •	<b>Initial Medical Care</b> \n\n
+            \t •	Warm <b>Oxygen:</b> 15 LPM via NRB. \n\n
+            \t •	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+            \t •	IV fluids; warm is preferred. \n\n
+            \t •	Remove wet clothing and protect patient against heat loss and wind chill. \n\n
+            \t •	Place patient in horizontal position avoiding rough movement and excess activity. \n\n
+            \t •	Completely dry patient and cover patient with insulated blanket. \n\n
+        <b><u>III.	SEVERE SYSTEMIC HYPOTHERMIA</u></b> \n\n
+        A body temperature of 90 degrees F or less. Patient may appear uncoordinated with poor muscle control
+        or stiff, simulating rigor mortis. There will be NO shivering. Patient may be confused, withdrawn,
+        disoriented, and comatose. \n\n
+            \t •	<b>Initial Medical Care</b> \n\n
+            \t •	DO NOT INTUBATE UNLESS PATIENT IS APNEIC. \n\n
+            \t •	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+            \t •	Warm IV tubing and Oxygen tubing with hot packs. \n\n
+            \t •	Refer to appropriate Clinical Care Guideline. \n\n
+            \t •	Refer to MILD/MODERATE SYSTEMIC HYPOTHERMIA above. \n\n
+            \t •	Administer no more than 3 defibrillations until re-warmed \n\n
+    </string>
+
+    <string name="title_activity_environmental_heat">Environmental Heat</string>
+    <string name="parameter_environmental_heat_header">
+        <b><u>ENVIRONMENTAL HEAT EMERGENCIES</u></b> \n\n
+        <b><u> All patients should have body temperature assessed Avoid rebound hypothermia with rapid cooling
+            – Shivering is too far!</u></b>
+    </string>
+    <string name="parameter_environmental_heat">
+        <b>I.	HEAT CRAMPS</b> \n\n
+            \t •	<b>Initial Medical Care</b> \n\n
+            \t •	<b>IV:</b> Establish an IV of NS or LR \n\n
+            \t •	Move patient to a cool environment and transport \n\n
+            \t •	<b>Physician\'s Orders:</b> For severe cramps - <b>Magnesium Sulfate</b> drip 5 Grams in 250
+                ml of D5W over 30 minutes. \n\n
+        <b>II.	HEAT EXHAUSTION</b> \n\n
+            \t •	<b>Initial Medical Care</b> \n\n
+            \t •	Move patient to a cool environment as soon as possible after initial medical assessment. \n\n
+            \t •	Place patient in a supine position with feet elevated \n\n
+            \t •	<b>IV:</b> Establish an IV of NS or LR \n\n
+            \t •	<b>Fluid Boluses:</b> in increments of 500 ml. \n\n
+                \t\t i.	Evaluate/auscultate lungs throughout administration of fluid. If rales present, withhold
+                    (maximum total dosage of 1 Liter). \n\n
+            \t •	<b>Physician\’s Consult: </b>Contact Medical Control for further administration of fluid boluses \n\n
+            \t •	Initiate rapid cooling \n\n
+                \t\t i.	Remove as much clothing as possible to facilitate cooling. \n\n
+                \t\t ii.	Sponge the patient with tepid water or cover with wet sheet. Blow ambient air across
+                    the patient to maximize evaporation. \n\n
+                \t\t iii.	Apply icepacks to axilla, back of neck and groin area \n\n
+        <b>III.	HEAT STROKE</b> \n\n
+            \t •	<b>Initial Medical Care</b> \n\n
+            \t •	<b>IV:</b> Establish an IV of NS or LR \n\n
+            \t •	Move patient to a cool environment as soon as possible after initial medical assessment. \n\n
+            \t •	Place patient in semi-reclining position with head elevated 15-30 degrees if systolic BP is
+                greater than 100mmHg. Evaluate and take precautions for increased intracranial pressure. \n\n
+            \t •	<b>Fluid Boluses:</b> in increments of 500 ml. \n\n
+                \t\t i.	Evaluate/auscultate lungs throughout administration of fluid. If rales present, withhold
+                    (maximum total dosage of 1 Liter). \n\n
+            \t •	<b>Physician\’s Consult:</b> Contact Medical Control for further administration of fluid
+                boluses \n\n
+            \t •	Initiate rapid cooling \n\n
+                \t\t i.	Remove as much clothing as possible to facilitate cooling. \n\n
+                \t\t ii.	Sponge the patient with tepid water or cover with wet sheet. Blow ambient air
+                    across the patient to maximize evaporation. \n\n
+                \t\t iii.	Apply icepacks to axilla, back of neck and groin area. \n\n\n
+
+    </string>
+
+    <!--param_esophageal_foreign_body_obstruction-->
+    <string name="title_activity_esophageal_foreign_body_obstruction">Esophageal Obstruction</string>
+    <string name="parameter_esophageal_obstruct_header"><b><U>ESOPHAGEAL FOREIGN BODY OBSTRUCTION</U></b></string>
+    <string name="parameter_esophageal_obstruct">
+        I.	<b>Initial Medical Care</b> \n\n
+            \t •	If airway obstruction present, refer to <i>Foreign Body Airway Obstruction Clinical Care
+                Guideline.</i>   \n\n
+        II.	 <b>Airway Maneuvers</b> \n\n
+            \t •	Protect against aspiration. \n\n
+            \t •	<b>Oxygen:</b> nasal cannula at 2 LPM; if patient hypoxic apply appropriate oxygen adjunct
+                with appropriate liter flow. \n\n
+            \t •	<b>Cardiac Monitor</b> \n\n
+            \t •	<b>Capnography:</b> apply nasal cannula Filter Line. \n\n
+        III.	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+        IV.	Place patient in position of comfort. \n\n
+        V.	Encourage coughing. \n\n
+        VI.	<b>Glucagon:</b> 1 mg IVP. May repeat once after 5 minutes (maximum total dose 2 mg). \n\n
+            \t •	Consider if patient is going to be transported \n\n\n
+    </string>
+
+    <!--param_excited_delirium-->
+    <string name="title_activity_excited_delirium">Excited Delirium</string>
+    <string name="parameter_excited_delirium_header"><b><u>EXCITED DELIRIUM</u></b></string>
+    <string name="parameter_excited_delirium">
+        <b><u>Initial considerations</u></b> \n\n
+            \t •	Law Enforcement will play an important role in the actions to control these patients. \n\n
+            \t •	These patients are truly out of control and have a potentially life threatening medical
+                emergency. \n\n
+            \t •	Patient will possibly present with Paranoia, disorientation, hyper-aggression, hallucinations,
+                tachycardia, increased strength and hyperthermia. \n\n
+            \t •	Emphasis shall be placed on scene safety, appropriate use of both chemical and physical
+                restraints and the aggressive treatment of the patient’s agitation and underlying cause of
+                this condition. \n\n
+        \t <b>I.	Basic Care</b> \n\n
+            \t\t •	Ensure scene safety and enough personnel are on scene to safely manage the patient. \n\n
+            \t\t •	Ensure all Taser activity (if deployed) is canceled prior to contact. \n\n
+            \t\t •	Manually restrain patient as needed to provide safe contact for care and maintain until
+                sedated. \n\n
+        \t <b>II.	Advance Care</b> \n\n
+            \t\t •	Initial Sedation (based on safest way to make contact) \n\n
+            \t\t •	Ketamine \n\n
+            \t\t •	1.0 mg/kg Nasal atomizer (max 100 mg) 50mg/Nares \n\n
+            \t\t •	 2 Mg/ Kg IV (Max dose of 400 Mg) \n\n
+            \t\t •	4.0 mg/kg IM (Max 500 mg) \n\n
+        \t <b>III.	Post Administration Care</b> \n\n
+            \t\t • Place patient on stretcher in a supine position. \n\n
+            \t\t • Apply 4 point soft restraints. \n\n
+            \t\t • Maintain a controlled airway. \n\n
+            \t\t • IV /10 accesses as per protocol. \n\n
+            \t\t • Vital signs q 5 minutes. \n\n
+            \t\t • Check Blood Glucose level \n\n
+            \t\t • SA02, ETC02, and EKG Monitoring. \n\n
+        \t <b>IV.	Maintenance Medication Dose</b> \n\n
+            \t\t •	 Ketamine \n\n
+            \t\t •	1.0 mg/kg Nasal atomizer (Max 100 mg) or \n\n
+            \t\t •	Ketamine \n\n
+            \t\t •	 2mg/kg IV/I0 (Max 200mg) \n\n\n
+    </string>
+
+    <!--param_extra_pyramidal_activity-->
+    <string name="title_activity_extra_pyramidal">Extra Pyramidal</string>
+    <string name="parameter_extra_pyramidal_header"><b><u>EXTRA PYRAMIDAL SYNDROME</u></b></string>
+    <string name="parameter_extra_pyramidal">
+        <b>I.	Extra Pyramidal Syndrome Types</b> \n\n
+            •	Buccal Lingual Crisis – Thick Tongue \n\n
+            •	Oculogyric Crisis – Eyes roll to one side, confusion \n\n
+            •	Rectus Abdominus – Muscle Spasms \n\n
+            •	Torticollis – Neck frozen in one position \n\n
+            •	Opisthotonus – Back Muscle Spams \n\n
+        <b>II.	Initial Medical Care.</b> Place patient in their position of comfort. \n\n
+        <b>III.	IV:</b> Establish an IV with NS lock attached. \n\n
+        <b>IV.	Diphenhydramine:</b> \n\n
+            •	Adults: 25 mg IVP, may give IM if no IV. \n\n
+            •	Pediatrics: 1 mg/kg IVP, may give IM if no IV \n\n
+        <b>V.	Physician’s Orders:</b> If signs/symptoms reoccur, contact Medical Control to repeat 
+                    Diphenhydramine administration. \n\n\n
+    </string>
+
+    <!--param_hazardous_material-->
+    <string name="title_activity_hazardous_material">HazardousMaterialActivity</string>
+    <string name="parameter_hazardous_material_header"><b><u>HAZARDOUS MATERIALS</u></b></string>
+    <string name="parameter_hazardous_material">
+        A <b>TOXIC EXPOSURE</b> is defined as: \n\n
+        The intentional or unintentional ingestion, inhalation, injection, dermal or ocular application of a
+        medication, chemical, biological active substance, resulting in immediate or potentially delayed
+        effects \n\n
+            \t I.	PROTECT YOURSELF, OTHER EMERGENCY PERSONNEL AND CIVILIANS. Do not attempt to treat
+                or remove the patient from exposure without appropriate PPE. \n\n
+            \t II.	Request response of Fire Department Haz-Mat Team \n\n
+            \t III.	Maintain safe zone and assess scene from appropriate distance per Emergency Response
+                Guide Book.\n\n
+            \t IV.	Coordinate efforts with Fire Department Haz-Mat Team Incident Commander. \n\n
+            \t V.	The patient should be decontaminated by Haz-Mat Team and clearance should be obtained
+                prior to transferring care to EMS under the following conditions: \n\n
+                \t\t •	Appropriate protective clothing and respiratory protection should be worn by transport
+                    crew members.\n\n
+                \t\t •	Determination of the appropriate level of BSI should be done in conjunction with the
+                    Haz¬Mat Team Incident Commander or Safety Officer. \n\n
+                \t\t •	The patient should be wrapped in a blanket and outer plastic sheet to prevent
+                    contamination. An alternative would be to place the patient in a special transport
+                    unit that is equipped with contamination safety measures. \n\n
+                \t\t •	If possible, a reserve transport unit should be used so that in the event of serious
+                    contamination, it can remain out of service for decontamination. \n\n
+                \t\t •	Maintain maximum patient compartment ventilation; <b>fresh air is important.</b> \n\n
+            \t VI.	<b>Initial Medical or Trauma Care.</b> \n\n
+            \t VII.	Follow the appropriate <i>Clinical Care Guideline</i> for specific cases. \n\n
+            \t VIII.	Consult with the initial receiving facility\'s physician early in the incident. The hospital
+                should be alerted about the impending arrival of the patient and the circumstances surrounding the
+                event, including the type of hazardous material involved. \n\n
+                \t\t •	<b>Do not enter the hospital with the patient without the ED physician\'s approval</b> \n\n
+            \t IX.	<b>Personal Decontamination per your organization\’s Exposure Control Plan.</b> \n\n
+            \t X.	<b>Contact the American Association of Poison Control Centers</b>, through the Communications
+                Center or by calling <b>1-800-222-1222</b>, to obtain information regarding the initial
+                stabilization and management of the exposure. \n\n
+            \t XI.	<b>The American Association of Poison Control Centers</b> will provide medical direction,
+                provide home management, and follow-up per their standard operating protocols as required by
+                Florida Statutes 401.23(13) and 395.1027. Consult with the Haz-Mat Team reference contacting the
+                appropriate agencies such as Chemtrec (1-800-535- 5053) or Infotrac (1-800-535-5053) for specific
+                hazardous material information. \n\n
+    </string>
+
+    <!--param_hypertensive_crisis-->
+    <string name="title_activity_hypertensive_crisis">Hypertensive Crisis</string>
+    <string name="parameter_hypertensive_crisis_header">
+        <b><u>HYPERTENSIVE CRISIS</u></b> \n\n
+        <b>TREATABLE HYPERTENSION is defined as: \n
+        Systolic BP > 220 mmHg OR Diastolic BP > 120 mmHg</b>
+    </string>
+    <string name="parameter_hypertensive_crisis">
+        <b>I.	BASIC CARE</b> \n\n
+            \t •	<b>Initial Medical Care:</b> Maintain head and neck in neutral alignment; elevate head
+                of stretcher 45-90 degrees. \n\n
+            \t •	<b>Oxygen:</b> Nasal Cannula at 2 LPM. If patient is hypoxic, apply appropriate oxygen adjunct
+                with appropriate liter flow. \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t •	<b>12 Lead EKG</b> \n\n
+            \t •	<b>Blood Pressure:</b> verify with manual cuff. \n\n
+            \t •	<b>Stroke Exam:</b> <i>Refer to Cerebrovascular Accident Guideline if positive</i>. \n\n
+            \t •	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+            \t •	<b>Nitroglycerin:</b> 0.4 mg SL. If effective, repeat every 3-5 minutes. \n\n
+            \t •	If NTG is ineffective after 2 doses and heart rate is greater than 60 BPM; \n\n
+            \t •	<b>Labetalol:</b> 10 mg slow IVP over 1 minute. May repeat every 5 minutes until systolic
+                blood pressure is 180 mm Hg or diastolic blood pressure is 90 mm Hg (maximum total dosage
+                30 mg). \n\n
+            \t •	<b>Ondansetron:</b> 4 mg slow IVP for nausea or vomiting; may be given IM if no IV. May repeat
+                once. \n\n
+            \t •	<b>Do not administer if patient is pregnant or possibility of pregnancy.</b>\n\n
+    </string>
+
+    <!--param_hypoglycemia & hyperglycemia-->
+    <string name="title_activity_hypo_hyper_glycemia">Hypo/Hyper Glycemia</string>
+    <string name="parameter_hypo_hyper_glycemia_header">
+        <b><u>HYPOGLYCEMIA &amp; HYPERGLYCEMIA</u></b>
+    </string>
+    <string name="parameter_hypo_hyper_glycemia">
+            <b>•	Obtain history of time of patient\'s last medication dosage and patient\'s last meal.</b> \n
+            <b>•	Obtain and record blood sugar level.</b> \n\n
+        <b>I.	HYPOGLYCEMIA</b> \n\n
+        BLOOD GLUCOSE LEVEL &lt; 60 AND/OR WITH ASSOCIATED SIGNS AND SYMPTOMS \n\n
+            •	<b>Initial Medical Care</b> \n\n
+            •	<b>Instant Glucose:</b> 30 Grams orally if the patient is conscious and able to swallow
+                effectively. \n\n
+            •	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+            •	<b>Adult administration:</b>  250 ml bag of D10W administered via a 10 qtt set.  Administer at
+                an open rate. Evaluate responsiveness throughout administration. \n\n
+            •	<b>Blood glucose level should be evaluated after 50% (125 ml’s) have been administered.  If
+                the BGL is 120 or higher, stop administration and evaluate the patient.</b> \n\n
+            •	250 ml of D10W is equal to 25Gms of Dextrose 50%. \n\n
+            •	<b>Pediatric Administration:</b>  Administer D10W at a dose of 1ml per KG.  Evaluate patient
+                and blood glucose level.  May administer second dose if needed. \n\n
+            •	If IV cannot be established, administer <b>Glucagon</b> 1 mg IM. *Patient must be transported \n\n
+            •	In cases where the patient is combative and out of control placing the responders in an
+                unsafe environment, Dextrose 50% (25 Gms) may be administered to the patient.  A fluid bolus
+                of 100 ml of normal saline shall follow this treatment. \n\n
+        <b>II.	HYPERGLYCEMIA</b> \n\n
+        BLOOD GLUCOSE LEVEL > 250 AND/OR WITH ASSOCIATED SIGNS AND SYMPTOMS \n\n
+            •	<b>Initial Medical Care  IV:</b> Establish an IV with NS lock attached. \n\n
+            •	<b>Fluid Bolus:</b> Administer a fluid bolus of 500 ml of Normal Saline. Continue IV infusion
+                KVO. \n\n
+            •	<b>Physician\'s Consult:</b> If prolonged transport time, contact Medical Control regarding
+                further fluid boluses. \n\n
+    </string>
+    <string name="parameter_hypo_hyper_glycemia_sub">
+        There may be times when patients are refusing further treatment or transport after a
+        hypoglycemic episode. These patients will be allowed to refuse transport under the <i>Refusal of
+        Service Administrative Policy</i>.
+    </string>
+
+    <!--param_nausea_vomiting-->
+    <string name="title_activity_nausea_vomiting">Nausea/Vomiting</string>
+    <string name="parameter_nausea_vomiting_header"><b><u>NAUSEA &amp; VOMITING</u></b></string>
+    <string name="parameter_nausea_vomiting">
+        I.	<b>Initial Medical Care.</b> Place patient in their position of comfort. \n\n
+        II.	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+        III.	<b>Ondansetron:</b> 4 mg slow IVP; may be given IM if no IV. May repeat once as needed \n\n
+            <b>•	Do not administer in patient who are pregnant or who may be pregnant.</b> \n\n
+        IV.	Look for underlying causes and treat per appropriate <i>Clinical Care Guideline</i>. \n\n
+    </string>
+
+    <!--param_non_environmental_hyperthermia-->
+    <string name="title_activity_non_environmental_hyperthermia">Hyperthermia Nonenv</string>
+    <string name="parameter_non_enviro_hyperthermia_header">
+        <b><u>NON-ENVIRONMENTAL HYPERTHERMIA</u></b>
+    </string>
+    <string name="parameter_non_enviro_hyperthermia_subheader">
+        \t\t\t A Temperature of 105 degrees F or higher \n
+        \t\t\t Hyperthermia caused by, but not limited to: \n
+        \t\t\t •	Infectious diseases (most common), \n
+        \t\t\t •	Post-Surgical or Post-Procedural Hospital \n
+        \t\t\t Acquired Infection \n
+        \t\t\t •	Amphetamines, \n
+        \t\t\t •	malignant hyperthermia, \n
+        \t\t\t •	Cocaine, PCP and other similar drugs.
+    </string>
+    <string name="parameter_non_enviro_hyperthermia">
+        I.	<b>Initial Medical /Trauma Care</b> \n\n
+            \t •	Common Infectious diseases include but are not limited to: Influenza, Measles, MRSA,
+                Tuberculosis, Meningitis, Streptococcal Pneumonia, Pertussis (whooping cough), and Hemorrhagic
+                Fevers. \n\n
+                \t\t 	Refer to the <i>Infectious Disease Exposure Hemorrhagic Fever and PPE Procedure
+                    Guideline</i> if you suspect your patient\’s Fever is caused by an infectious hemorrhagic
+                    disease. \n\n
+            \t •	Attention should be given to personal protection from exposure of the patient\’s bodily fluids
+                and the aerosolized contents of their exhalation. \n\n
+                \t\t 	Refer to the <i>Infectious Disease Exposure and PPE Procedure Guideline</i> \n\n
+            \t •	The patient should be transported in a well ventilated ambulance, limiting the amount of time
+                the patient and responders spend in a closed unventilated space.\n\n
+        II.	Establish an IV of NS (preferably antecubital fossae) and administer at 120 ml / hr. \n\n
+            •	Limit IV attempts, Invasive airway, and any other procedures that precipitate the release of
+                bodily fluids if you suspect the patient’s condition is caused by a hemorrhagic infectious
+                disease. \n\n
+        III.	Begin cooling of patient.\n\n
+            •	Remove as much clothing as possible to facilitate cooling.\n\n
+            •	Sponge the patient with tepid water or cover with wet sheet. Blow ambient air across the
+                patient to maximize evaporation.\n\n
+            •	Apply icepacks to axilla, back of neck and groin area.\n\n
+        IV.	Consider that patients who have elevated temperature caused by <b>any</b> infection are also at
+            risk for Sepsis and Septic Shock. Refer to the <i>Sepsis / Sepsis Alert Clinical Care Guideline</i> to
+            determine if in addition to the precipitating cause of the fever, they also fit these criteria and
+            treat as appropriate. \n\n
+        V.	<b><i>Physician\'s Consult: for further management of patient\'s condition.</i></b>
+        VI.	Epidemic and Pandemic information is typically identified and forwarded by the Centers for Disease
+            Control and The Florida Department of Health. In times of outbreak this guideline should serve as a
+            starting point in recognition, and be followed by specific recommendations approved and distributed
+            by these organizations.\n\n
+        VII.	If Altered Mental Status or other symptoms exist, refer to the appropriate <i>Clinical Care
+                Guideline.</i> \n\n
+        VIII.	Expedite transport. \n\n\n
+    </string>
+
+    <!--param_psychological_&_behavioral_emergencies-->
+    <string name="title_activity_psychological_behavioral">Psych/Behavioral</string>
+    <string name="parameter_psychological_behavior_header">
+        <b><u>PSYCHOLOGICAL &amp; BEHAVIORAL EMERGENCIES</u></b>
+    </string>
+    <string name="parameter_psychological_behavior_sub_header">
+        <b>CONSIDER MEDICAL ETIOLOGY OF PSYCHOLOGICAL &amp; BEHAVIORAL DISORDER Refer to appropriate <i>Clinical
+            Care Guideline</i>:</b> \n
+            \t\t 	Hypoxia: <b><i>Medical Care</i></b> \n
+            \t\t 	Substance Abuse: <b><i>Drug Overdose &amp; Poisoning</i></b> \n
+            \t\t 	Neurologic Disease: <b><i>Cerebrovascular Accident</i></b> \n
+            \t\t 	Metabolic Derangements: <b><i>Hypoglycemia &amp; Hyperglycemia</i></b>
+    </string>
+    <string name="parameter_psychological_behavior">
+        \t I.	Establish <b>Scene and Personal Safety</b> - Call law enforcement to scene. Above all,
+            <b>do nothing to jeopardize your own safety.</b> \n\n
+        \t II.	Determine and document if patient is a threat to self or others, or if patient is unable to
+            care or provide for self. Protect patient from harm to self or others. \n\n
+        \t III.	Attempt to calm the patient. \n\n
+        \t IV.	Physically restrain as necessary, if danger unavoidable. Document use, type, time applied, and
+            reasons for application. Document distal circulation, sensory, and motor assessments every 5
+            minutes. \n\n
+        \t V.	<b>Initial Medical Care.</b> \n\n
+        \t VI.	<b>Physician Consult:</b> in ALL instances where refusal of transport is being considered.
+        \t VII.	If patient becomes severely agitated, to the point of interfering with patient care and / or
+            becomes a physical danger to the crew\'s well-being: \n\n
+            \t\t 	<b>Physician\'s Orders: Midazolam</b> 4 mg Slow IVP, IM, or Intranasal. \n\n
+            \t\t 	Consulting Physician will determine repeat doses as needed. \n\n
+        \t VIII.	If needed, consult law enforcement for assistance with transport of the unwilling patient. \n
+    </string>
+    <string name="parameter_psychological_behavior_end">
+        <b>MIDAZOLAM is not to be administered to patients with CNS depression, patients taking narcotics, or
+            patients taking Lithium Carbonate.</b> \n\n
+    </string>
+
+    <!--param_scene_rehab-->
+    <string name="title_activity_scene_rehab">Scene Rehab</string>
+    <string name="parameter_scene_rehab_header"><b><u>SCENE REHABILITATION</u></b></string>
+    <string name="parameter_scene_rehab">
+        The Scene Rehabilitation Area will be staffed by at least one Paramedic. There shall also be a
+        dedicated ALS Transport. In the event that a civilian patient requires the use of this ambulance,
+        another shall be dispatched to take its place. The Paramedic in charge of the Rehab Area will become
+        the Rehabilitation Unit Leader or “Rehab”. \n\n
+        Initial care received in the Rehab Area will consist of: \n
+            \t •	Removal of All PPE  \n
+            \t •	Vital Signs Measurements \n
+            \t •	Passive &amp; Active Cooling as needed. Refer to <i>Environmental Heat Emergency Care
+                Guideline</i> \n
+            \t •	REST \n
+            \t •	Nourishment \n
+            \t •	Minimum of 24oz of water \n\n
+        If vital signs are within the acceptable range listed below the responder will remain in rehab for: \n
+        10-min if: \n
+            \t •	Depletion of a total of one 30-minute SCBA cylinder \n
+            \t •	After 20 minutes of intense work without SCBA \n\n
+        20-min if: \n
+            \t •	Depletion of two or more 30-minute SCBA cylinders \n
+            \t •	Depletion of one 45- or 60-minute SCBA cylinder \n
+            \t •	Whenever encapsulating chemical protective clothing is worn \n
+            \t •	After 40 minutes of intense work without SCBA \n\n
+        If vital signs are outside of the acceptable range, the responder should be moved into an ambulance
+        or designated treatment area and cared for by a paramedic until they return to normal \n\n
+            \t Vital Sign Acceptable Range \n
+            \t •	Heart rate: &lt; 85\u0025 age specific maximum \n
+            \t •	Temperature: &lt; 102\º F tympanic \n
+            \t •	Systolic Blood Pressure: &lt; 160 mmHg \n
+            \t •	Diastolic Blood Pressure &lt; 110 mmHg \n
+            \t •	Respirations: > 10 or &lt; 30 \n
+            \t •	Pulse oximetry: &gt; 94\u0025 \n
+            \t •	ETCO (Carbon Monoxide) &lt; 10\u0025 \n
+            \t •	Fatigue abates and skin condition within normal limits \n\n
+    </string>
+    <string name="parameter_scene_rehab_chart">
+        <b><u>Vital Signs Acceptable Range</u></b> \n\n
+        Age Predicted 85\u0025 Max Heart Rate \n
+        Age	85 Percent \n
+        20-25	170 \n
+        26-30	165 \n
+        31-35	160 \n
+        36-40	155 \n
+        41-45	152 \n
+        46-50	148 \n
+        51-55	140 \n
+        56-60	136 \n
+        61-65	132 \n\n
+    </string>
+    <string name="parameter_scene_rehab_end">
+        <b><u>Transport Considerations</u></b> \n\n
+            \t •	All unstable personnel will be immediately referred to Rehab for treatment and transport. \n\n
+            \t •	All personnel who require further treatment beyond cooling and rehydration, or those who are
+                unable to return to normal vital signs within 30-minutes will be treated per appropriate care
+                guideline and transported for continual care. \n\n
+            \t •	Personnel who receive IV fluid therapy, regardless of vital signs, on scene will be transported
+                per appropriate transport guideline.  \n\n
+            \t •	The Incident Commander or Ranking Officer on the scene should be notified in any case that
+                results in the transport of a responder.\n\n
     </string>
 
 </resources>
