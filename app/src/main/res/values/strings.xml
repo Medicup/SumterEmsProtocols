@@ -1294,4 +1294,137 @@
                 results in the transport of a responder.\n\n
     </string>
 
+    <!--param_seizure-->
+    <string name="title_activity_seizure">Seizure</string>
+    <string name="parameter_seizure_header"><b><u>SEIZURE</u></b></string>
+    <string name="parameter_seizure">
+        <b>I.	Initial Medical Care</b> \n\n
+            \t •	Vomiting / aspiration precautions. Place nothing in mouth during seizure.\n
+            \t •	If blood glucose level &lt; 60, refer to Hypoglycemia &amp; Hyperglycemia Clinical Care Guideline.\n
+            \t •	<b>IV:</b> Establish an IV with NS lock attached.\n\n
+        II.	<b>Midazolam</b> 5 mg IVP, IM or Intra-nasal (Max does of 10 mg.)\n\n
+        III.	For Pediatric Patients:  0.1 mg/kg (Max dose of 5.0 mg.).\n\n
+        IV.	Observe patient\'s sensorium and airway during postictal period. If hypoxic seizures, drug-induced
+            seizures, seizures from head trauma, stroke or eclampsia are suspected, treat as above and refer
+            to appropriate <i>Clinical Care Guideline</i> for further treatment.\n\n
+        V.	If febrile seizure, move to cool environment and cool patient.\n\n
+        VI.	<b>Physician\'s Orders:</b> If seizure activity continues, contact Medical Control.\n\n
+    </string>
+
+    <!--param_sepsis & sepsis alert-->
+    <string name="title_activity_sepsis">Sepsis</string>
+    <string name="parameter_sepsis_header"><b><u>SEPSIS &amp; SEPSIS ALERT</u></b></string>
+    <string name="parameter_sepsis">
+        Sepsis is a rapidly progressing, life-threatening condition due to systemic infection.
+        Sepsis must be recognized early and treated aggressively to prevent progression to shock and death.
+        Sepsis can be identified when the following markers of the <b>Systemic Inflammatory Response Syndrome
+        (SIRS)</b> are present in a patient with suspected infection: \n\n
+            \t\t •   Temperature > 38o C (100.4o F) or &lt; 36o C (96.8o F) \n
+            \t\t •	Respiratory Rate > 20 breaths /min \n
+            \t\t •	Heart rate > 90 beats/min \n\n
+        In addition to physiologic markers of SIRS, severe sepsis may cause hypoxia and inadequate organ
+        perfusion, resulting in metabolic acidosis marked by elevated blood lactate levels and decreased ETCO2
+        levels (measured by capnography). \n\n
+
+        <b>SEPSIS ALERT:</b> \n\n
+        The purpose of a <b>Sepsis Alert</b> is to provide pre-arrival Emergency Department notification in order
+        to facilitate rapid assessment and treatment of a suspected severe sepsis patient.  A <b>Sepsis Alert</b>
+        will be instituted for patients meeting the following three (3) criteria: \n\n
+            \t I.	Suspected infection \n\n
+            \t II.	Two or more of the following: \n
+                \t\t •	Temperature &gt; 38º C (100.4º F) or &lt; 36º C (96.8º F) \n
+                \t\t •	Respiratory Rate &gt; 20 breaths /min \n
+                \t\t •	Heart rate &gt; 90 beats/min \n\n
+            \t III.	ETCO2  ≤ 25mmHg <b>OR</b> Lactate &gt; 4mMol/L
+
+        <b><u>I.	Basic Life Support</u></b> \n
+            \t •	Supplemental 100\u0025 Oxygen \n\n
+
+        <b><u>II.	Advanced Life Support</u></b> \n
+            \t •	Full ALS assessment and treatment \n
+            \t •	Notify hospital of incoming <b>Sepsis Alert</b> prior to arrival \n
+            \t •	<b>IV:</b> Establish an IV with NS lock attached. \n
+                \t\t o	Administer NS 250 ml boluses until systolic BP &gt; 90 mmHg \n
+                \t\t o	Total amount of IVF should not exceed 2000 ml \n
+                \t\t o	Boluses may be given in rapid succession if systolic BP remains below 90 mmHg \n\n
+
+        <b>III.	Contact Medical Control for Additional Orders if Needed</b> \n\n\n
+    </string>
+
+    <!--param_shock-->
+    <string name="title_activity_shock">Shock</string>
+    <string name="parameter_shock_header"><b><u>SHOCK</u></b></string>
+    <string name="parameter_shock">
+        <b>I.	HEMORRHAGIC</b> \n\n
+            \t •	<b>Initial Medical Care.</b> Control and stop external hemorrhage.\n
+            \t •	Place patient in Trendelenburg position. \n
+            \t •	<b>IV:</b> Establish 2 large bore IV lines \n
+            \t •	<b>Fluid bolus</b> in 500 ml increments, re-evaluate every 500 ml. Titrate systolic BP &gt;
+                90 mmHg. (Maximum infusion of 3 liters)\n
+            \t •	<b>Physician\'s Orders:</b> For further fluid administration orders. \n\n
+        <b>II.	RELATIVE HYPOVOLEMIA</b> \n\n
+            \t Neurologic, metabolic, psychogenic, or other volume depleted states. \n
+            \t •	<b>Initial Medical Care.</b> \n
+            \t •	Place patient in Trendelenburg position \n
+            \t •	<b>IV:</b> Establish IV of NS. \n
+            \t •	<b>Fluid bolus</b> in 500 ml increments, re-evaluate every 250 ml. Titrate systolic BP
+                &gt; 100 mmHg. Once systolic BP &gt; 100 mm Hg, continue infusion at 120 ml/hr. (Max
+                infusion of 1 liter) \n
+            \t •	<b>Physician\'s Orders:</b> For further fluid administration orders. \n\n
+        <b>III.	CARDIOGENIC</b> \n\n
+            \t •	<b>Initial Medical Care</b> \n
+            \t •	Place patient in Trendelenburg position. \n
+            \t •	Consider heart rate etiology and treat per appropriate <i>Clinical Care Guideline. </i> \n
+            \t •	<b>IV:</b> Establish an IV of NS. \n
+            \t •	<b>Fluid bolus</b> of 250 ml \n
+            \t •	If no response or condition worsens, start a <b>Dopamine</b> Drip at 5 mcg / kg / min.
+                Increase the drip in 5 mcg / kg / min increments every 5 minutes. Titrate to systolic BP
+                &gt; 100 mm Hg. (Maximum of 20 mcg / kg / min). \n\n
+        <b>IV.	PEDIATRIC</b> \n\n
+            \t •	<b>Initial Medical Care</b> \n
+            \t •	<b>IV:</b> Establish an IV of NS. \n
+            \t •	<b>Fluid bolus</b> in 20 ml / kg increments. Refer to Length Based Tape for administration
+                of fluids and / or medications. Maximum of 3 boluses \n\n
+    </string>
+
+    <!--param_sickle_cell_anemia-->
+    <string name="title_activity_sickle_cell_anemia">Sickle Cell</string>
+    <string name="parameter_sickle_cell_header">
+        <b><u>SICKLE CELL ANEMIA CRISIS</u></b> \n\n
+        <B>POSSIBLE SIGNS AND SYMPTOMS:</B>
+    </string>
+    <string name="parameter_sickle_cell">
+                \t\t\t•	Severe dyspnea. \n
+                \t\t\t•	Severe pain secondary to hypoxia or vaso-occlusive disease process. \n
+                \t\t\t•	Pain may include any large muscle mass. \n\n
+
+        I.	<b>Initial Medical Care</b> \n\n
+        II.	Keep patient as quiet as possible to minimize OXYGEN needs.  \n\n
+        III.	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+        IV.	<b>Fluid bolus</b> of 250 ml. Continue IV infusion at 120 ml / hr. \n\n
+        V.	<b>Fentanyl </b>1 mcg/kg; after five minutes may repeat once (maximum total dosage 2 mcg/kg). \n\n
+            \t\t *Do not administer in pregnant or possible pregnant patients. \n\n
+        VI.	<b>Physician\'s Orders:</b> additional administration of Fentanyl. \n\n
+        VII.	Refer to <i>Acute Coronary Syndrome Clinical Care Guideline</i> for symptoms,
+            chief complaint, or multi-lead diagnostic EKG evaluation that suggests Angina / Myocardial
+            Infarction \n\n\n
+    </string>
+
+    <!--param_syncope, near syncope, general_weakness-->
+    <string name="title_activity_syncope">Syncope/GenWeakness</string>
+    <string name="parameter_syncope_header"><b><u>SYNCOPE, NEAR SYNCOPE &amp; GENERAL WEAKNESS</u></b></string>
+    <string name="parameter_syncope">
+        I.	Look for causes for syncope, near syncope and general weakness. These episodes may be indicative of
+            a severe problem. Correct underlying abnormalities and refer to the appropriate <i>Clinical Care
+            Guideline.</i> \n\n
+        II.	<b>Initial Medical Care</b> \n\n
+            \t •	C-spine precautions as indicated. \n\n
+        III.	<b>12 Lead EKG:</b> Document 12 Lead or Multi-Lead monitor assessment, if available, for all
+            possible cardiac-related syncope. \n\n
+        IV.	Obtain blood glucose level. Refer to <i>Hypoglycemia &amp; Hyperglycemia Clinical Care Guideline</i> if
+            Blood Glucose &lt; 60 or &gt; 250. \n\n
+        V.	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+        VI.	If hypotension present, <b>fluid bolus</b> of 250 ml to maintain a systolic BP &gt; 90 mm Hg \n\n
+
+    </string>
 </resources>
