@@ -1425,6 +1425,42 @@
             Blood Glucose &lt; 60 or &gt; 250. \n\n
         V.	<b>IV:</b> Establish an IV with NS lock attached. \n\n
         VI.	If hypotension present, <b>fluid bolus</b> of 250 ml to maintain a systolic BP &gt; 90 mm Hg \n\n
+    </string>
 
+    <!--param_childbirth_emergency-->
+    <string name="title_activity_childbirth">Childbirth</string>
+    <string name="parameter_childbirth_header"><b><u>CHILDBIRTH (EMERGENCY)</u></b></string>
+    <string name="parameter_childbirth">
+        <b>PHASE I: LABOR</b> \n\n
+            \t A.	Obtain history and determine if there is adequate time to transport. \n\n
+            \t B.	Inspect for bulging perineum, crowning or whether patient is involuntarily pushing
+                with contractions. If contractions are two minutes apart or less, or any of the above
+                are present, prepare for delivery. <b>Do not attempt to restrain or delay delivery unless
+                prolapsed cord.</b> \n\n
+            \t C.	<b>Initial Medical Care</b> \n\n
+            \t D.	If mother is hyperventilating, encourage eye contact and coach her to take slow,
+                deep breaths. \n\n
+            \t E.	If mother becomes hypotensive or lightheaded at any time, administer <b>fluid boluses</b> in
+                increments of 250 ml, to titrate systolic BP &gt; 90 mm Hg and apply Oxygen 15 LPM via NRB mask
+                or assist with BVM. \n\n
+            \t F.	Position mother supine on flat surface, if possible. If time permits, put on full
+                blood and body secretion barriers. \n\n
+            \t G.	Open OB pack. Place drapes over mother\'s abdomen and beneath perineum. Prepare bulb
+                syringe, cord clamps and blankets to receive infant. \n\n
+        <b>II. PHASE II: DELIVERY</b> \n\n
+            \t A.	Allow head to deliver passively. Control rate of delivery by placing palm of one hand
+                gently over occiput. Protect perineum with pressure from other hand. \n\n
+            \t B.	Gently suction infant\'s nose and mouth as soon as the head delivers if time allows.
+                Once head is delivered, allow it to passively turn to 1 side to allow shoulders to deliver.\n\n
+            \t C.	Feel around the infant\'s neck for the umbilical cord (nuchal cord). If present, attempt to
+                gently lift it over the baby\'s head. If unsuccessful, double clamp and cut the cord between
+                the clamps. \n\n
+            \t D.	To facilitate delivery of the upper shoulder, gently guide the head downward. Support and
+                lift the head and neck slightly to deliver the lower shoulder. \n\n
+            \t E.	The rest of the infant should deliver quickly with one contraction. Firmly grasp the infant
+                as it emerges. Baby will be wet and slippery. \n\n
+            \t F.	Keep infant level with perineum until the cord stops pulsating and is double clamped and
+                cut. Proceed to Newborn And Post-Partum Care Clinical Care Guideline. \n\n
+            \t G.	If able, mother may hold infant on chest / abdomen during transport.
     </string>
 </resources>
