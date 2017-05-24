@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.red6tech.android.scfems2.Parameters.ObGyn.NewbornActivity"
+    tools:showIn="@layout/activity_newborn">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:gravity="center"
+            android:text="@string/parameter_newborn_header" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/parameter_newborn" />
+
+<!--TODO need to fix table display for newborn table 1 and table 2-->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+            >
+            <TableRow
+                android:id="@+id/table1_row1"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="@string/parameter_newborn_tb1r1c1"
+                    android:background="#FFC0CB"
+                    android:layout_column="0" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:id="@+id/row1_column2"
+                    android:text="@string/parameter_newborn_tb1r1c2"
+                    android:background="#00BFFF"
+                    android:layout_column="1"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/table1_row2"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="@string/parameter_newborn_tb1r2c1"
+                    android:background="#FFC0CB"
+                    android:layout_column="0" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:id="@+id/row2_column2"
+                    android:text="@string/parameter_newborn_tb1r2c2"
+                    android:background="#00BFFF"
+                    android:layout_column="1"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/table1_row3"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="@string/parameter_newborn_tb1r3c1"
+                    android:background="#FFC0CB"
+                    android:layout_column="0" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:id="@+id/row3_column2"
+                    android:text="@string/parameter_newborn_tb1r3c2"
+                    android:background="#00BFFF"
+                    android:layout_column="1"/>
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/parameter_newborn" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

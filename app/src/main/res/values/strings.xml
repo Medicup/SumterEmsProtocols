@@ -1598,4 +1598,426 @@
                 Clinical Care Guideline.
     </string>
 
+    <!--param_pediatric bradycardia-->
+    <string name="title_activity_pediatric_bradycardia">Pediatric Bradycardia</string>
+    <string name="parameter_pediatric_brady_header"><b><u>PEDIATRIC BRADYCARDIA</u></b></string>
+    <string name="parameter_pediatric_brady">
+        <b>BASIC CARE</b> \n\n
+            \t I.	<b>Initial Medical Care:</b> assess and support ABCs as needed. \n\n
+            \t II.	<b>Length-Based Tape:</b> measure child to determine weight and color zone.
+                Medication dosages listed on the Length-Based Tape are based upon resuscitation,
+                not bradycardia management. Calculate dosages using weight-based dosages. \n\n
+            \t III.	<b>Cardiopulmonary Support:</b> provide if HR &lt; 80 with inadequate perfusion. Start
+                with Oxygen and progressing to BVM and/or CPR if limited or no response to therapy after
+                30-60 seconds. \n\n
+                \t\t  •	<b>Oxygen:</b> high flow via blow-by or pediatric mask. \n
+                \t\t •	<b>BVMR:</b> ventilation rate of 20 breaths/min. If poor perfusion persists despite
+                    aggressive oxygenation. \n
+                \t\t •	<b>CPR:</b> perform if HR &lt; 60 with poor perfusion despite aggressive oxygenation
+                    and ventilation. \n\n
+        <b>ADVANCED CARE</b> \n\n
+            \t I.	<b>Persistent Symptomatic Bradycardia:</b> \n\n
+                \t\t •	<b>Contributing Factors:</b> search for and treat 6 H\'s &amp; 5 T\'s \n
+                    \t\t\t i.	<b>Fluid boluses for hypovolemia should be calculated using LBT</b> \n
+                \t\t •	<b>IV:</b> Establish an IV with NS lock attached. \n
+                \t\t •	<b>Epinephrine</b> 1:10,000: 0.01 mg/kg IV/10, repeat every 3-5 minutes of continued
+                    bradycardia Indications: consider if refractory to aggressive BASIC CARE measures. \n
+                \t\t •	<b>Atropine Sulfate</b>: 0.02 mg/kg IV/IO, repeat every 3-5 minutes (min dose of 0.1mg;
+                    max total dose 1 mg). Indications: consider if refractory to aggressive BASIC CARE and if
+                    increased vagal tone or primary AV block. \n
+                \t\t •	<b>Physician Consult:</b> Contact Medical Control for alternative treatments \n\n
+                \t\t\t (ex. Transcutaneous Pacing) if above measures are unsuccessful. \n
+    </string>
+
+    <!--param_pediatric esophageal foreign body obstruction-->
+    <string name="title_activity_pediatric_fbo">Pediatric EFBO</string>
+    <string name="parameter_pedi_esophageal_obstruction_header"><b><u>PEDIATRIC ESOPHAGEAL FOREIGN
+        BODY OBSTRUCTION</u></b></string>
+    <string name="parameter_pedi_esophageal_obstruction">
+        I.	<b>Initial Medical Care</b> \n\n
+        II.	If airway obstruction present, refer to <i>Foreign Body Airway Obstruction Clinical Care
+        Guideline.</i> \b\b \n\n
+        III.	<b>Airway Maneuvers</b> \n\n
+            \t •	Protect against aspiration. \n
+            \t  •	<b>Oxygen:</b> blow-by; if patient hypoxic apply appropriate oxygen adjunct with appropriate liter flow. \n
+            \t  •	<b>Cardiac Monitor</b> \n
+            \t  •	<b>Capnography:</b> apply nasal cannula Filter Line. \n\n
+        IV.	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+        V.	Place patient in position of comfort. \n\n
+        VI.	Encourage coughing. \n\n
+        VII.	<b>Glucagon:</b> 0.1 mg IVP. May repeat in 5 minutes (maximum total dose 1 mg).
+            \t •	Pt must be transported after glucagon administration \n\n
+    </string>
+
+    <!--para_pediatric febrile emergency -->
+    <string name="title_activity_pediatric_febrile_emergency">Pediatric Febrile </string>
+    <string name="parameter_pediatric_febrile_header"><b><u>PEDIATRIC FEBRILE EMERGENCY</u></b></string>
+    <string name="parameter_pediatric_febrile">
+        <b>I.	BASIC CARE</b> \n\n
+            \t •	<b>Initial Medical Care:</b> assess and support ABCs as needed. \n\n
+            \t •	<b>Length-Based Tape:</b> measure child to determine weight and color zone. Medication
+                dosages listed on the Length-Based Tape are based upon resuscitation. \n\n
+            \t •	<b>Temperature Assessment:</b> 1020 F or higher, initiate <b>Cooling and Advanced Care.</b> \n\n
+            \t •<b>Cooling: </b>	move patient to cool environment. Remove clothing, if appropriate, and sponge
+                patient with tepid water. Do not chill patient too rapidly as this may cause shivering and
+                increased heat production \n\n
+            \t •	Vomiting / aspiration precautions \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t •	IV: Establish an IV with NS lock attached. \n\n
+            \t •	Contributing Factors: search for and treat possible contributing factors. Fluid boluses for h
+                ypovolemia should be calculated using LBT \n\n
+            \t •	Blood Glucose Level: If blood glucose level &lt; 60, refer to Hypoglycemia &amp; Hyperglycemia
+                Clinical Care Guideline. \n\n
+            \t •	Observe patient’s sensorium and airway during postictal period. Consider etiology and refer
+                to Altered Mental Status Clinical Care Guideline. \n\n
+            \t •	Place nothing in mouth during seizure. \n\n
+        <b>III.	  Midazolam</b> 0.1 mg/kg IVP, IM or Intra-nasal with max does of 5 mg \n\n
+        <b>IV.	   Physician Orders:</b> Contact Medical Control if seizure activity continues. \n\n
+    </string>
+
+    <!--param_pediatric infectious upper airway obstruction -->
+    <string name="title_activity_pediatric_infectios">Pediatric Infectios</string>
+    <string name="parameter_pediatric_infectious_header">
+        <b><u>PEDIATRIC INFECTIOUS UPPER AIRWAY OBSTRUCTION</u></b>
+    </string>
+    <string name="parameter_pediatric_infectious">
+        <b>I.	BASIC CARE</b> \n\n
+            \t •	<b>Length-Based Tape:</b> measure child to determine weight and color zone.
+                Select equipment as indicated by color zone on the Length-Based Tape.  \n\n
+            \t •	<b>Initial Medical Care:</b> assess and support ABCs as needed. Significant attempts
+                should be made to keep child calm at all times; including allowing parents close contact
+                with patient during transport.  \n\n
+            \t •	<b>Oxygen:</b> via Pediatric mask or "blow-by" technique. If respiratory failure is imminent,
+                use BVMR and ventilate with Oxygen @ 15 LPM.  \n\n
+        <b>II.	 ADVANCED CARE</b>  \n\n
+            \t •	<b>Capnography:</b> apply nasal cannula Filter Line.  \n\n
+        <b>Supportive Care:</b>  \n\n
+            \t •	<b>Humidified Oxygen:</b> with 3 ml of NS via blow-by.  \n\n
+            \t •	<b>Albuterol:</b> 2.5 mg via blow-by, if effective may repeat x 2. <i>Indications:</i>
+                bronchial constriction and/or wheezing.  \n\n
+            \t •	If no response, <b>Albuterol</b> 2.5 mg and <b>Atrovent</b>0.5 mg combined via updraft
+                blow-by.  \n\n
+        <b>Impending Respiratory Failure:</b>  \n\n
+            \t •	<b>IV:</b> Establish an IV of NS KVO.  \n\n
+            \t •	<b>Solu-Medrol:</b> 2 mg/kg IV (max total dose 125 mg). Indications: moderate to severe
+                obstruction refractory to beta-agonists.  \n\n
+            \t •	<b>Advanced Airway:</b> Endotracheal tube. Do not attempt aggressive airway intervention
+                unless airway becomes obstructed. Use an ET tube one size smaller than the recommended size
+                according to the Length-Based Tape. If the patient is physiologically difficult to intubate
+                (severe anxiety, etc.) refer to Difficult Airway - Facilitated Intubation Guideline.  \n\n
+            \t •	<b>Needle Cricothyrotomy Indications:</b> Unable to ventilate effectively after above
+                attempts.  \n\n
+    </string>
+
+    <!--param_pediatric tachycardia-->
+    <string name="title_activity_pediatric_tachycardia">Pediatric Tachycardia</string>
+    <string name="parameter_pediatric_tachycardia_header"><b><u>PEDIATRIC TACHYCARDIA</u></b></string>
+    <string name="parameter_pediatric_tachycardia">
+        <b>I.	BASIC CARE</b> \n\n
+            \t •	<b>Initial Medical Care.</b> Place patient in their position of comfort. \n\n
+            \t •	<b>Length-Based Tape:</b> measure child to determine weight and color zone. Select
+                antiarrhythmic dosages and equipment as indicated by color zone on the Length-Based Tape.
+                If Length-Based Tape not available, calculate dosages using weight-based dosages listed
+                below. \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t •	<b>Treat Underlying Cause:</b> assess and treat suspected cause if sinus tachycardia
+                (See Notes). \n\n
+            \t •	<b>Vagal Maneuvers:</b> perform Valsalva maneuver or apply cool moisture to face. \n\n
+            \t •	<b>Antiarrhythmic Agents:</b> \n\n
+                \t\t i.	<b>Adenosine:</b> first dose of 0.1 mg/kg Rapid IVP (maximum 1st dose of 6 mg). If
+                    no conversion, second dose: 0.2 mg/kg Rapid IVP (maximum 2nd dose of 12 mg).
+                    <u>Indications:</u> stable patients with narrow-complex tachycardia. \n\n
+                \t\t ii.	<b>Amiodarone:</b> 5 mg/kg IV drip (bolus over 20 minutes) (max single dose of
+                    300 mg) \n\n
+                    <u>Indications:</u> stable patients with wide-complex tachycardia. \n\n
+                \t\t iii.	Physician\’s Consult: contact Medical Control for alternative treatments if above
+                    antiarrhythmic agents are unsuccessful in rhythm conversion or rate control. \n\n
+            \t •	<b>Synchronized Cardioversion:</b> 1 J/kg \n\n
+                \t\t <u>Indications:</u> unstable patients with inadequate perfusion. \n\n
+                \t\t i.	Consider pre-medication with Midazolam: 0.1 mg/kg IV or Intra-nasal, repeat every
+                    3-5 minutes until adequate relaxation / sedation is achieved prior to procedure
+                    (max total dosage 4 mg). Use Midazolam with caution in the presence of hypotension. \n\n
+                \t\t ii.	If rhythm does not convert, escalate energy level to 2 J/kg for Subsequent
+                    SYNCHRONIZED CARDIOVERSIONS \n\n
+                \t\t iii.	If delays in synchronization occur and clinical condition is critical, proceed
+                    immediately to unsynchronized shocks i.e. defibrillation \n\n
+        <b><u>NOTES:</u></b> \n\n
+        1.	Sinus tachycardia: p-waves present and normal, usually has variable RR intervals (varies during
+            respirations and agitation), and constant PR interval.
+    </string>
+
+    <string name="parameter_pediatric_tachycardia_chart1">
+        Infants:	HR usually &lt; 220 bpm. \n
+        Children:	HR usually &lt; 180 bpm.
+    </string>
+    <string name="parameter_pediatric_tachycardia_note2">
+        2.	SVT or narrow-complex tachycardia: p-waves absent / abnormal, RR intervals not variable, and
+        history of abrupt rate changes.
+    </string>
+    <string name="parameter_pediatric_tachycardia_chart2">
+        Infants:	HR usually &gt; 220 bpm. \n
+        Children:	HR usually &gt; 180 bpm.
+    </string>
+
+    <!--param_PEDIATRIC V-FIB & PULSELESS V-TACH-->
+    <string name="title_activity_pediatric_vfib">Pediatric Vfib</string>
+    <string name="parameter_pediatric_vfib_header"><b><u>PEDIATRIC V-FIB &amp; PULSELESS V-TACH</u></b></string>
+    <string name="parameter_pediatric_vfib">
+        <b>I.	BASIC CARE</b> \n\n
+            \t •	<b>Length-Based Tape:</b> measure child to determine weight and color zone. Select
+                RESUSCITATION medication dosages and equipment as indicated by color zone on the Length-Based
+                Tape. If Length-Based Tape not available, calculate dosages using weight-based dosages. \n\n
+        <b>Cardiac Arrest Management:</b>
+            \t •	Assess patient using Primary ABCD Survey and perform appropriate action following American
+                Heart Association (AHA) CPR Guidelines. \n\n
+            \t •	If using an AED, follow the manufacturer\'s prompts for cardiac arrest management (use
+                pediatric AED system if available for children 1 to 8 years of age). \n\n
+            \t •	Follow <i>End Of Life Administrative Policy</i>, as necessary. \n\n
+            \t •	<b>If arrest &gt; 4 minutes:</b> perform 2 minutes of CPR prior to assessing rhythm. \n\n
+            \t •	<b>If arrest &lt; 4-minutes or witnessed:</b> assess rhythm. \n\n
+            \t •<b>Defibrillation:</b>	 2 J / kg x 1 shock. \n\n
+                \t\t\t\t i.	<b>Non-organized rhythm:</b> start CPR. \n\n
+                \t\t\t\t ii. <b>Organized rhythm:</b> check pulse &lt; 10 seconds. If no radial pulse or
+                    unsure, perform 2 minutes of CPR and then reassess. \n\n
+            \t •	Reassess rhythm after every 2-minute period of CPR. \n\n
+            \t •	If shock-able rhythm persists, use 4 J / kg for subsequent shocks. \n\n
+            \t •	Treatment Sequence: Prepare next drug prior to rhythm check. Administer drug during CPR,
+                as soon as possible after the rhythm check confirms VF/pulseless VT. Do not delay shock.
+                Continue CPR while drugs are prepared and administered and defibrillator is charging.
+                Ideally, chest compressions should be interrupted only for ventilation (until advanced
+                airway placed), rhythm check, and shock delivery \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+        <b>Resuscitation:</b> \n\n
+            \t •	<b>IV:</b> Establish an IV/IO of NS KVO. \n\n
+            \t •	<b>Epinephrine</b> 1:10,000: 0.01 mg/kg IV/10. Repeat every 3-5 minutes of continued arrest. \n\n
+            \t •	<b>Antiarrhythmic Agents:</b> repeated every 3-5 minutes of continued arrest \n\n
+                \t\t i.	<b>Amiodarone:</b> 5 mg/kg IV/IO, repeat x 2 doses (max single dose of 300 mg) \n\n
+                \t\t ii.	<b>Magnesium Sulfate:</b> 50 mg/kg slow IVP/IO over 5 minutes mixed in 10 ml \n\n
+                    NS (maximum total dose 2 grams). <i>Indications:</i> torsades de pointes \n\n
+            \t •	Advanced Airway \n\n
+            \t •	Contributing Factors: search for and treat 6 H\'s &amp; 5 T\'s. If hypovolemia known or
+                suspected, administer fluid boluses as calculated by Length-Based Tape (20 ml/kg).
+                Max 3 boluses \n\n
+        <b>Post-resuscitation Maintenance Therapy:</b> \n\n
+            \t •	<b>Amiodarone:</b> 5 mg/kg IV/IO drip over 20 minutes (maximum single dose 300 mg)
+                Indications: If rhythm converts prior to antiarrhythmic agent. \n\n
+            \t •	<b>Midazolam:</b> 0.1 mg/kg IV/IO or Intra-nasal, repeat every 5 minutes (maximum total
+                dose 4 mg) (6). <u>Indications:</u> combative post resuscitation patients. Use Midazolam with
+                caution in the presence or hypotension. \n\n
+        III.	Refer to <i>Post-resuscitation Management Clinical Care Guideline</i> \n\n\n
+    </string>
+
+    <!--param_NEWBORN CARE-->
+    <string name="title_activity_newborn">Newborn Care</string>
+    <string name="parameter_newborn_header"><b><u>NEWBORN CARE</u></b></string>
+    <string name="parameter_newborn">
+        I.	.Deliver infant according to <i>Childbirth (Emergency) Clinical Care Guideline</i>. \n
+            \t •	Record TIME of delivery. \n
+            \t •	Record APGAR score at 1 and 5 minutes. \n\n
+        II.	Continue to suction mouth <b>FIRST</b>, then nose of infant with bulb syringe. <b>Meconium-stained
+            infants should not be stimulated to breathe until suctioning has occurred</b>: \n
+            \t •	Suction <u>only</u> upon delivery of the head <u>PRIOR</u> to delivery of the baby. \n
+            \t •	After delivery, INTUBATE infant and apply suction to the lumen of the ETT while withdrawing
+                from the trachea. Following intubation, confirm proper tube placement by auscultating the
+                gastric area and the lungs bilaterally, and noting positive change on the end-tidal CO2
+                detector. \n\n
+        III.	Continually assess respiratory rate.
+    </string>
+    <string name="parameter_newborn_iv">
+        IV.	Assess heart rate.\n\n
+            \t •	If the heart rate is &lt; 100 beats per minute, positive-pressure ventilations with
+                100\u0025 oxygen should be initiated immediately. \n
+            \t •	If the heart rate is &lt; 60 beats per minute or 60 to 80 beats per minute and not
+                increasing rapidly despite effective ventilation with 100\u0025 oxygen, <b><u>CHEST
+                COMPRESSIONS  SHOULD BE INITIATED.</u></b> \n\n
+    </string>
+
+    <!--newborn table1-->
+    <string name="parameter_newborn_tb1r1c1">
+        <b>If Respirations Adequate / Pt Crying:</b>
+    </string>
+    <string name="parameter_newborn_tb1r1c2">
+        <b>If Respirations Shallow, Slow, Or Absent:</b>
+    </string>
+    <string name="parameter_newborn_tb1r2c1">
+        Place infant on side in Trendelenburg position.
+    </string>
+    <string name="parameter_newborn_tb1r2c2">
+        Assist ventilations with OXYGEN @ 100/u0025 via BVM.
+    </string>
+    <string name="parameter_newborn_tb1r3c1">
+        Assess color and provide OXYGEN @ 100/u0025 via NRB mask if central cyanosis present.
+    </string>
+    <string name="parameter_newborn_tb1r3c2">
+        If respirations improve, provide OXYGEN @ 100/u0025 via NRB mask.
+    </string>
+    <string name="parameter_newborn_tb1r4c1">
+        If respirations improve, administer "blow-by" OXYGEN.
+    </string>
+
+    <!--newborn table2-->
+    <string name="parameter_newborn_tbl2r1c1">SIGN</string>
+    <string name="parameter_newborn_tbl2r1c2">0</string>
+    <string name="parameter_newborn_tbl2r1c3">1</string>
+    <string name="parameter_newborn_tbl2r1c4">2</string>
+    <string name="parameter_newborn_tbl2r2c1">Appearance</string>
+    <string name="parameter_newborn_tbl2r2c2">Pale / blue</string>
+    <string name="parameter_newborn_tbl2r2c3">Pink body, blue extremities</string>
+    <string name="parameter_newborn_tbl2r2c4">Pink body, pink extremities</string>
+    <string name="parameter_newborn_tbl2r3c1">Pulse</string>
+    <string name="parameter_newborn_tbl2r3c2">Absent</string>
+    <string name="parameter_newborn_tbl2r3c3">Less than 100</string>
+    <string name="parameter_newborn_tbl2r3c4">100 or greater</string>
+    <string name="parameter_newborn_tbl2r4c1">Grimace</string>
+    <string name="parameter_newborn_tbl2r4c2">No response</string>
+    <string name="parameter_newborn_tbl2r4c3">Grimace</string>
+    <string name="parameter_newborn_tbl2r4c4">Cough, sneeze</string>
+    <string name="parameter_newborn_tbl2r5c1">Activity</string>
+    <string name="parameter_newborn_tbl2r5c2">Limp</string>
+    <string name="parameter_newborn_tbl2r5c3">Some flexion</string>
+    <string name="parameter_newborn_tbl2r5c4">Action</string>
+    <string name="parameter_newborn_tbl2r6c1">Respiratory effort</string>
+    <string name="parameter_newborn_tbl2r6c2">Absent</string>
+    <string name="parameter_newborn_tbl2r6c3">Slow, irregular</string>
+    <string name="parameter_newborn_tbl2r6c4">Strong crying</string>
+
+    <!--param_ANIMAL BITES & STINGS-->
+    <string name="title_activity_animal_bite">Animal Bite/Sting</string>
+    <string name="parameter_animal_bite_header"><b><u>ANIMAL BITES &amp; STINGS</u></b></string>
+    <string name="parameter_animal_bite">
+        <b>I.	VENOMUS/POISONOUS</b> \n\n
+            \t •	<b>Initial Medical / Trauma Care.</b> Contact law enforcement. \n\n
+            \t •	Irrigate and cleanse wound with saline. \n\n
+            \t •	Assess degree of bite or sting by measuring bite / sting marks. Outline edematous, erythemic and
+                ecchymotic areas with pen, and note time. \n\n
+            \t •	Apply constricting band if ETA to initial receiving facility is &gt; 20 minutes. Apply
+                constricting band proximal to wound if insect or snake bite / sting shows signs of increasing
+                reaction. Ensure constricting band does not impede arterial blood flow. \n\n
+            \t •	Keep patient supine and calm. Immobilize affected part. Remove distal jewelry. \n\n
+            \t •	Remove stingers; if present, taking care to avoid compression. \n\n
+            \t •	Identify animal that caused bite or sting. \n\n
+            \t •	<b>Do not apply ice or cold pack to snake bites or marine stings</b> \n\n
+            \t •	<b>Bring the dead animal to the hospital, if able. Do not try to catch the animal if it is
+                still alive.</b> \n\n
+        <b>II.	TRAUMATIC</b> \n\n
+            \t •	<b>Initial Medical / Trauma Care.</b> \n\n
+            \t •	Cleanse area around wounds. \n\n
+            \t •	Dry sterile dressing to wounds. \n\n
+            \t •	Treat per applicable Clinical Care Guideline. \n\n
+
+        <b><u>NOTES</u></b>
+        <b>Contact the American Association of Poison Control Centers</b>, through the Communications
+        Center or by calling <b>1-800-222-1222</b>, to obtain information regarding the initial stabilization
+        and management of the exposure. <b>The American Association of Poison Control Centers</b> will
+        assume responsibility and provide home management and follow-up per their standard
+        operating protocols as required by Florida Statutes \n\n
+        <b>Patients presenting with signs and symptoms consistent with anaphylaxis must be treated with the
+            appropriate <i>Clinical Care Guideline.</i></b> \n\n
+    </string>
+
+    <!--param_BURNS-->
+    <string name="title_activity_burns">BurnsActivity</string>
+    <string name="parameter_burns_header"><b><u>BURNS</u></b></string>
+    <string name="parameter_burns">
+        <b><u>INHALATION BURNS</u></b> \n\n
+        <b>I.	BASIC CARE</b> \n\n
+            \t •	Note presence of wheezing, hoarseness, stridor, carbonaceous sputum / cough,
+                singed nasal hair, eyebrows / lashes or respiratory distress. \n\n
+            \t •	<b>BVMR:</b> Assist ventilations if respiratory insufficiency is evident. \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t •	<b>Initial Trauma Care</b> \n\n
+            \t •	<b>IV:</b> Establish an IV with NS lock attached \n\n
+            \t •	<b>Intubation:</b> Consider early intubation if the above respiratory involvement
+                signs are present. If early intubation is warranted or the patient is physiologically
+                difficult to intubate (severe anxiety, etc.), refer to Difficult Airway-Facilitated
+                Intubation Guideline for sedation. \n\n
+        <b><u>ELECTRICAL BURNS</u></b> \n\n
+        <b>I.	BASIC CARE</b> \n\n
+            \t •	Establish scene safety. Have electrical source turned off. Immobilize as indicated. \n\n
+            \t •	Assess for entry and exit wounds. Assess neurovascular status of affected part. \n\n
+            \t •	Cover wounds with dry sterile dressings (cooling not necessary). \n\n
+            \t •	Spinal immobilization if high voltage electrical injuries (>1000 Volts, excluding Taser) \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t •	<b>Initial Trauma Care</b> \n\n
+            \t •	<b>IV:</b> Establish an IV with NS lock attached \n\n
+            \t •	Assess ECG for arrhythmias and refer to appropriate <i>Clinical Care Guideline</i>. \n\n
+            \t •	Refer to <i>Pain Management Clinical Care Guideline</i>. \n\n
+        <b><u>CHEMICAL BURNS</u></b> \n\n
+        <b>I.	BASIC CARE</b> \n\n
+            \t •	<b>Primary decontamination listed below should be performed prior to transport and in
+                coordination with Hazmat Guideline</b> \n\n
+            \t •	If powdered chemical, brush away excess. Remove clothing if possible and place in red
+                biohazard bag (do not transport the bag in the passenger/patient compartment). \n\n
+            \t •	Irrigate with copious amounts of water or saline ASAP and during transport. \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t •	<b>Initial Trauma Care</b> \n\n
+            \t •	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+            \t •	Refer to <i>Pain Management Clinical Care Guideline.</i> \n\n
+        <b><u>THERMAL BURNS</u></b> \n\n
+        <b>I.	BASIC CARE</b> \n\n
+            \t •	Remove or cool heat source if present (tar, clothing) \n\n
+            \t •	Apply cool compress dressings on minor burns with sterile saline (do not use ice packs). \n\n
+            \t •	Apply dry, sterile burn sheet on: \n\n
+                \t\t i.	2° burns greater than 15% of Body Surface Area \n
+                \t\t ii.	3° burns \n\n
+        <b>II.	ADVANCED CARE</b> \n\n
+            \t •	<b>Initial Trauma Care</b> \n\n
+            \t •	<b>IV:</b> Establish an IV with NS lock attached. \n\n
+            \t •	Refer to <i>Pain Management Clinical Care Guideline</i> \n\n
+    </string>
+
+    <!--param_CHEST INJURIES-->
+    <string name="title_activity_chest_injury">Chest Injury</string>
+    <string name="parameter_chest_injury_header"><b><u>CHEST INJURY</u></b></string>
+    <string name="parameter_chest_injury">
+        <b>I.	SUCKING CHEST WOUND/OPEN PNEUMOTHORAX</b> \n\n
+            \t •	<b>Initial Medical/Trauma Care</b> \n\n
+            \t •	Apply occlusive dressing taped on three sides to create flutter valve. \n\n
+            \t •	If patient deteriorates, remove dressing temporarily to allow air to escape. \n\n
+        <b>II.	TENSION PNEUMOTHORAX</b> \n\n
+            \t •	<b>Initial Medical/Trauma Care</b> \n\n
+            \t •	<b>IV:</b> Establish an IV with NS lock attached \n\n
+            \t •	Suspect when patient presents with severe respiratory distress, hypotension, distended
+                neck veins, absent breath sounds on the involved side, and/or tracheal deviation. Also
+                suspect when marked resistance is met while assisting respirations. \n\n
+            \t •	<b>Pleural Decompression on the affected side.</b> \n\n
+        <b>III.	PERICARDIAL TAMPONADE</b> \n\n
+            \t •	<b>Initial Medical/Trauma Care</b> \n\n
+            \t •	<b>IV:</b> Establish an IV with NS lock attached \n\n
+            \t •	Suspect when patient presents with hypotension, distended neck veins, muffled heart tones
+                and good breath sounds bilaterally, or penetrating chest injuries between the right
+                midclavicular line and the left midaxillary line. \n\n
+            \t •	<b>Fluid Bolus:</b> 250 ml increments of NS while transporting (maximum total infusion
+                1 liter). \n\n
+        <b>IV.	FLAIL SEGMENT</b> \n\n
+            \t •	<b>Initial Medical/Trauma Care</b> \n\n
+            \t •	<b>Splint/support</b> flail segment with soft splinting material \n\n
+            \t •	Assess for ventilatory compromise. \n\n
+            \t •	If patient deteriorates, assess for possible pneumothorax. \n\n
+            \t •	<b>IV:</b> Establish an IV with NS lock attached \n\n
+    </string>
+
+    <!--param_CRUSH INJURY / ENTRAPMENT-->
+    <string name="title_activity_crush">Crush / Entrapment</string>
+    <string name="parameter_crush_header"><b><u>CRUSH INJURY / ENTRAPMENT</u></b></string>
+    <string name="parameter_crush">
+        <b>I.	BASIC CARE</b> \n\n
+            \t •	<b>Initial Medical/Trauma Care</b> \n\n
+            \t •	Keep patient warm \n\n
+            \t •	<b>Oxygen:</b> 15 LPM NRB \n\n
+        <b>II.	 ADVANCED CARE</b> \n\n
+            \t •	Cardiac monitor \n\n
+            \t •	<b>Pulse Oximetry and Capnography:</b> Apply capnography and monitor respiratory drive. \n\n
+            \t •	<b>IV:</b> Establish an IV of NS KVO \n\n
+            \t •	<b>Fluid bolus</b> in 250 ml increments, re-evaluating every 250 ml. Titrate systolic BP
+                &gt; 100 mm Hg. \n\n
+            \t •	<b>Pain Management:</b> refer to Pain Management Clinical Care Guideline. \n\n
+            \t •	<b>Ondansetron:</b> 4 mg slow IVP over 2 minutes for nausea and vomiting \n\n
+        <b>III.	Physician’s Consult:</b> For delayed extrications where one or more extremities is involved
+                and circulation is compromised contact Medical Control for: \n\n
+            \t •	<b>IV fluids</b> of 1000 ml, followed by 500 ml/hr drip. \n\n
+            \t •	<b>Sodium Bicarbonate:</b>50 mEq IVP. \n\n
+            \t •	Constricting bands on affected extremities prior to release. \n\n
+
+    </string>
 </resources>

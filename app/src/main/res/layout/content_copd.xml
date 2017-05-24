@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.red6tech.android.scfems2.CopdActivity"
+    tools:context="com.red6tech.android.scfems2.Parameters.Respiratory.CopdActivity"
     tools:showIn="@layout/activity_copd">
 
     <LinearLayout
@@ -18,102 +18,10 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
-            android:text="@string/copd_header"
+            android:text="@string/parameter_copd"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"/>
 
-        <TextView
-            android:id="@+id/copd_bc"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tv_copd_bc"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"/>
-
-        <TextView
-            android:id="@+id/copd_bc1"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tv_copd_bc1"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"/>
-        <TextView
-            android:id="@+id/copd_bc2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tv_copd_bc2"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"/>
-        <TextView
-            android:id="@+id/copd_bc3"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tv_copd_bc3"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"/>
-        <TextView
-            android:id="@+id/copd_ac"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tv_copd_ac"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"/>
-        <TextView
-            android:id="@+id/copd_ac1"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tv_copd_ac1"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"/>
-        <TextView
-            android:id="@+id/copd_ac2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tv_copd_ac2"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"/>
-        <TextView
-            android:id="@+id/copd_ac3"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tv_copd_ac3"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"/>
-        <TextView
-            android:id="@+id/copd_ac4"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tv_copd_ac4"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"/>
-        <TextView
-            android:id="@+id/copd_ac5"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tv_copd_ac5"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"/>
-        <TextView
-            android:id="@+id/copd_ac6"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tv_copd_ac6"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"/>
-        <TextView
-            android:id="@+id/copd_ac7"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tv_copd_ac7"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"/>
-        <TextView
-            android:id="@+id/copd_ac8"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/tv_copd_ac8"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"/>
     </LinearLayout>
 
 

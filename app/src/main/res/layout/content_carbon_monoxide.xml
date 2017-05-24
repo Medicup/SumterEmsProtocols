@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.red6tech.android.scfems2.CarbonMonoxideActivity"
+    tools:context="com.red6tech.android.scfems2.Parameters.Respiratory.CarbonMonoxideActivity"
     tools:showIn="@layout/activity_carbon_monoxide">
 
     <LinearLayout
@@ -20,150 +20,16 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginTop="8dp"
-            android:gravity="center"
             android:keepScreenOn="true"
-            android:text="@string/title_activity_carbonmono"
-            android:textColor="#33b5e5"
-            android:textIsSelectable="true"
+            android:gravity="center"
+            android:text="@string/title_activity_carbon_monoxide"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/carbomono_bc"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/care_basic"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/carbomono_bc1"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_bc1" />
-
-        <TextView
-            android:id="@+id/carbomono_bc2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_bc2" />
-
-        <TextView
-            android:id="@+id/carbomono_bc3"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_bc3" />
-
-        <TextView
-            android:id="@+id/carbomono_bc4"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_bc4" />
-
-        <TextView
-            android:id="@+id/carbomono_bc5"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_bc5" />
-
-        <TextView
-            android:id="@+id/carbomono_ac"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/care_advanced"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/carbomono_ac1"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_ac1" />
-
-        <TextView
-            android:id="@+id/carbomono_ac2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_ac2" />
-
-        <TextView
-            android:id="@+id/carbomono_ac3"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_ac3" />
-
-        <TextView
-            android:id="@+id/carbomono_ac4"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_ac4" />
-
-        <TextView
-            android:id="@+id/carbomono_ac5"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_ac5" />
-
-        <TextView
-            android:id="@+id/carbomono_ac6"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_ac6" />
-
-        <TextView
-            android:id="@+id/carbomono_ac7"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_ac7" />
-
-        <TextView
-            android:id="@+id/carbomono_ac8"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_ac8" />
-
-        <TextView
-            android:id="@+id/carbomono_ac9"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_ac9" />
-
-        <TextView
-            android:id="@+id/carbomono_ac10"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:text="@string/tv_carbonmono_ac10" />
+            android:layout_margin="16dp"
+            android:text="@string/parameter_carbonmono"/>
 
     </LinearLayout>
 

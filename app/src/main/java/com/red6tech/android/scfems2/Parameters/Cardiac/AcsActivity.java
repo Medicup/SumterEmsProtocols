@@ -1,18 +1,17 @@
-package com.red6tech.android.scfems2;
+package com.red6tech.android.scfems2.Parameters.Cardiac;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 
-public class CarbonMonoxideActivity extends AppCompatActivity {
+import com.red6tech.android.scfems2.R;
+
+public class AcsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_carbon_monoxide);
+        setContentView(R.layout.activity_acs);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
