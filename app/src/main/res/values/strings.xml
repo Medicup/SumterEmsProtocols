@@ -2020,4 +2020,51 @@
             \t •	Constricting bands on affected extremities prior to release. \n\n
 
     </string>
+
+    <!--param_DECOMPRESSION SICKNESS & DYSBARISM-->
+    <string name="title_activity_decompression">Decompression Sickness</string>
+    <string name="parameter_decompression_header">
+        <b><u>DECOMPRESSION SICKNESS &amp; DYSBARISM</u></b> \n\n\n
+        <b><u>SIGNS AND SYMPTOMS:</u></b>
+    </string>
+    <string name="parameter_decompression">
+                    \t\t\t •	Onset usually within 1 - 3 hours after scuba diving. \n
+                    \t\t\t •	Severe, throbbing pain involving the muscles, joints, and abdomen. \n
+                    \t\t\t •	Pruritus and mottling of the skin. \n
+                    \t\t\t •	Patients with a severe reaction will have CNS and / or respiratory difficulties. \n\n
+        <b>I.	Initial Medical/Trauma Care</b> \n\n
+            \t •	Position and transport patient in left lateral, head down position. Keep patient warm. \n\n
+        <b>II.	Transport Destination:</b> Determine and coordinate with the Communications Center for
+            transport arrangements to the closest hyperbaric chamber. \n\n
+            \t •	If the patient is exhibiting altered mental status, the paramedic should immediately coordinate
+                with the Communications Center and Receiving facility for possible transport arrangements to the
+                closest Hyperbaric Chamber: \n\n
+                \t\t 	UF Health Shands Gainesville \n\n
+                \t\t 	Florida Hospital Orlando \n\n
+        III.	If other significant injuries exist, follow <i>Trauma Transport Protocol or appropriate
+            Clinical Care Guideline.</i>
+    </string>
+    <!--param_DROWNING & NEAR DROWNING-->
+    <string name="title_activity_drowning">DrowningActivity</string>
+    <string name="parameter_drowning_header">
+        <b><u>DROWNING &amp; NEAR DROWNING</u></b>
+    </string>
+    <string name="parameter_drowning">
+        I.	<b>Initial Medical/Trauma Care</b> \n\n
+            \t •	Care should begin in the water, if appropriate.
+        II.	<b>Dry patient:</b> remove wet clothing and protect patient against heat loss and wind chill.
+        Completely dry patient and cover patient with insulated blanket. \n\n
+        III.	If arrhythmias are present, refer to appropriate <i>Clinical Care Guideline.</i> \n\n
+        IV.	If patient is hypothermic, refer to Environmental <i>Cold Emergencies Clinical Care
+            Guideline.</i> 
+    </string>
+    <string name="parameter_drowning_end"> \n\n
+        ADULT (&gt; 15 years old) near drowning should be considered a medical call unless trauma is
+            suspected. These medical patients should be transported by ground to an initial receiving
+            facility. If trauma is evident, transport to a trauma center via air or ground transport per
+            Trauma Transport Protocol Administrative Policy. \n\n
+        PEDIATRIC (&lt; 15 years old) near drowning should be transported to a trauma center, whether
+            the mechanism was trauma or medical via air or ground transport per Trauma Transport Protocol
+            Administrative Policy. \n\n
+    </string>
 </resources>

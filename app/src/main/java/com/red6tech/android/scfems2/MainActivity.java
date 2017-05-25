@@ -16,6 +16,8 @@ import android.widget.Button;
 
 import com.red6tech.android.scfems2.Parameters.Trauma.ChestInjuryActivity;
 import com.red6tech.android.scfems2.Parameters.Trauma.CrushActivity;
+import com.red6tech.android.scfems2.Parameters.Trauma.DecompressionActivity;
+import com.red6tech.android.scfems2.Parameters.Trauma.DrowningActivity;
 import com.red6tech.android.scfems2.data.DbHelper;
 
 public class MainActivity extends AppCompatActivity
@@ -44,7 +46,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent testIntent = new Intent(MainActivity.this,
-                        CrushActivity.class);
+                        DrowningActivity.class);
                 startActivity(testIntent);
             }
         });

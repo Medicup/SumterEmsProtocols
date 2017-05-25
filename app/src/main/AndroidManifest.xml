@@ -246,6 +246,14 @@
         <activity
             android:name=".Parameters.Trauma.CrushActivity"
             android:label="@string/title_activity_crush"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Parameters.Trauma.DecompressionActivity"
+            android:label="@string/title_activity_decompression"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Parameters.Trauma.DrowningActivity"
+            android:label="@string/title_activity_drowning"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
