@@ -2056,7 +2056,7 @@
         Completely dry patient and cover patient with insulated blanket. \n\n
         III.	If arrhythmias are present, refer to appropriate <i>Clinical Care Guideline.</i> \n\n
         IV.	If patient is hypothermic, refer to Environmental <i>Cold Emergencies Clinical Care
-            Guideline.</i> 
+            Guideline.</i>
     </string>
     <string name="parameter_drowning_end"> \n\n
         ADULT (&gt; 15 years old) near drowning should be considered a medical call unless trauma is
@@ -2067,4 +2067,19 @@
             the mechanism was trauma or medical via air or ground transport per Trauma Transport Protocol
             Administrative Policy. \n\n
     </string>
+
+    <!-- Add titles for menus -->
+    <string name="m_administrative_policies">Administrative Policies</string>
+    <string name="m_clinical_care_guidelines">Clinical Care Guidelines</string>
+    <string name="m_initial_medical_care">Initial Medical/Trauma Care</string>
+    <string name="m_pain_management">Pain Management</string>
+    <string name="m_respiratory">Respiratory</string>
+    <string name="m_cardiac">Cardiac</string>
+    <string name="m_medical_emergencies">Medical Emergencies</string>
+    <string name="m_obgyn">OB/GYN</string>
+    <string name="m_pediatric">Pediatric</string>
+    <string name="m_trauma">Trauma</string>
+    <string name="m_medication_guideline">Medication Guidelines</string>
+    <string name="m_procedure_guideline">Procedure Guidelines</string>
+    <string name="m_appendices">Appendices</string>
 </resources>

@@ -8,22 +8,66 @@
     tools:context="com.red6tech.android.scfems2.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
 
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
 
-    <Button
-        android:id="@+id/button_test"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="117dp" />
+        <Button
+            android:id="@+id/but_initmed_trauma_care"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/m_initial_medical_care" />
+
+        <Button
+            android:id="@+id/but_pain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/m_pain_management" />
+
+        <Button
+            android:id="@+id/but_respiratory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/m_respiratory" />
+
+        <Button
+            android:id="@+id/but_cardiac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/m_cardiac" />
+        <Button
+            android:id="@+id/but_medical_emergencies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/m_medical_emergencies" />
+        <Button
+            android:id="@+id/but_obgyn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/m_obgyn" />
+        <Button
+            android:id="@+id/but_pediatric"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/m_pediatric" />
+
+        <Button
+            android:id="@+id/but_trauma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/m_trauma" />
+    </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>
