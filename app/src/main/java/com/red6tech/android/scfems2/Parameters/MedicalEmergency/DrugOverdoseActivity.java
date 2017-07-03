@@ -26,5 +26,6 @@ public class DrugOverdoseActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

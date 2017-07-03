@@ -26,5 +26,6 @@ public class EnvironmentalColdActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

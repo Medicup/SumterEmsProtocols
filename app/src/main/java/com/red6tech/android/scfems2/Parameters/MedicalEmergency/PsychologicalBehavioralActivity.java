@@ -26,5 +26,6 @@ public class PsychologicalBehavioralActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

@@ -26,5 +26,6 @@ public class NonEnvironmentalHyperthermiaActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

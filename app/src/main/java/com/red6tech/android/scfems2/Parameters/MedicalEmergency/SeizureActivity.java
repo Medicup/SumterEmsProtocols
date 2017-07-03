@@ -26,5 +26,6 @@ public class SeizureActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

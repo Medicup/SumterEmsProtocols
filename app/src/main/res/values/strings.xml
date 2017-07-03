@@ -2085,5 +2085,6 @@
 
     <string name="title_activity_menu__respiratory_">Menu Respiratory Activity</string>
     <string name="title_activity_menu__card_">Menu_Card_Activity</string>
+    <string name="title_activity_menu__medical_">Menu_Medical_Activity</string>
 
 </resources>

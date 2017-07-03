@@ -26,5 +26,6 @@ public class SepsisActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

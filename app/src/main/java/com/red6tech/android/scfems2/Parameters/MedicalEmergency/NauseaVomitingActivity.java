@@ -26,5 +26,6 @@ public class NauseaVomitingActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

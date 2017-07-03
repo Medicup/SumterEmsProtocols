@@ -26,5 +26,6 @@ public class AbdominalPainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

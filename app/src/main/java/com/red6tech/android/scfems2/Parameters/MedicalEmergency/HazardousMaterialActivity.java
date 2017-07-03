@@ -26,5 +26,6 @@ public class HazardousMaterialActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

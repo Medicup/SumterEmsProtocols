@@ -26,5 +26,6 @@ public class AllergicReactionActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

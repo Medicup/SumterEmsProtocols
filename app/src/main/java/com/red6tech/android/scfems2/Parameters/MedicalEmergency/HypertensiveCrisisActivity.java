@@ -26,5 +26,6 @@ public class HypertensiveCrisisActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

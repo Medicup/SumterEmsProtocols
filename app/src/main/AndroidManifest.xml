@@ -273,6 +273,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.red6tech.android.scfems2.MainActivity" />
         </activity>
+        <activity
+            android:name=".Parameters.MedicalEmergency.Menu_Medical_Activity"
+            android:label="@string/title_activity_menu__medical_"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

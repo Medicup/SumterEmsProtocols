@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.red6tech.android.scfems2.Parameters.MedicalEmergency.Menu_Medical_Activity"
+    tools:showIn="@layout/activity_menu__medical_">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.red6tech.android.scfems2.Parameters.Cardiac.Menu_Card_Activity"
+        tools:showIn="@layout/activity_menu__card_">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/but_abdpain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_abdominal_pain" />
+            <Button
+                android:id="@+id/but_allergic_reaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_allergic_reaction" />
+            <Button
+                android:id="@+id/but_ams"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_ams" />
+            <Button
+                android:id="@+id/but_drug_od"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_drug_overdose" />
+            <Button
+                android:id="@+id/but_environ_cold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_environmental_cold" />
+            <Button
+                android:id="@+id/but_environ_heat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_environmental_heat" />
+            <Button
+                android:id="@+id/but_esop_fbao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_esophageal_foreign_body_obstruction" />
+            <Button
+                android:id="@+id/but_excied_delirium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_excited_delirium" />
+            <Button
+                android:id="@+id/but_extra_pyramidal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_extra_pyramidal" />
+            <Button
+                android:id="@+id/but_hazmat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_hazardous_material" />
+            <Button
+                android:id="@+id/but_htn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_hypertensive_crisis" />
+            <Button
+                android:id="@+id/but_hypohyperglycemia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_hypo_hyper_glycemia" />
+            <Button
+                android:id="@+id/but_nausea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_nausea_vomiting" />
+            <Button
+                android:id="@+id/but_nonenviron_hyper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_non_environmental_hyperthermia" />
+            <Button
+                android:id="@+id/but_psyhological"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_psychological_behavioral" />
+            <Button
+                android:id="@+id/but_scene_rehab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_scene_rehab" />
+            <Button
+                android:id="@+id/but_seizure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_seizure" />
+            <Button
+                android:id="@+id/but_sepsis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_sepsis" />
+            <Button
+                android:id="@+id/but_shock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_shock" />
+            <Button
+                android:id="@+id/but_sicklecell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_sickle_cell_anemia" />
+            <Button
+                android:id="@+id/but_syncope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_syncope" />
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

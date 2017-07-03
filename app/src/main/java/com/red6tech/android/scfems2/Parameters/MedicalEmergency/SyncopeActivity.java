@@ -26,5 +26,6 @@ public class SyncopeActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

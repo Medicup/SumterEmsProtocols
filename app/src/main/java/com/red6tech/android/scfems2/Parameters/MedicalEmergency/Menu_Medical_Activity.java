@@ -9,12 +9,12 @@ import android.view.View;
 
 import com.red6tech.android.scfems2.R;
 
-public class ExcitedDeliriumActivity extends AppCompatActivity {
+public class Menu_Medical_Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_excited_delirium);
+        setContentView(R.layout.activity_menu__medical_);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -27,5 +27,6 @@ public class ExcitedDeliriumActivity extends AppCompatActivity {
             }
         });
         fab.hide();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

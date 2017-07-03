@@ -26,5 +26,6 @@ public class SickleCellAnemiaActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

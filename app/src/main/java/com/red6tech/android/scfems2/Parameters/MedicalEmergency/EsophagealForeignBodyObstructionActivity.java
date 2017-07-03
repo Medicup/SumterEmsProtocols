@@ -26,5 +26,6 @@ public class EsophagealForeignBodyObstructionActivity extends AppCompatActivity 
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

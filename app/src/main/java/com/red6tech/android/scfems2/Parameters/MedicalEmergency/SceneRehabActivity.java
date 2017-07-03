@@ -26,5 +26,6 @@ public class SceneRehabActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }
