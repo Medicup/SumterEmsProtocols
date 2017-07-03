@@ -27,5 +27,6 @@ public class SyncopeActivity extends AppCompatActivity {
             }
         });
         fab.hide();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

@@ -22,239 +22,476 @@
         <activity
             android:name=".Parameters.Respiratory.AsthmaActivity"
             android:label="@string/title_activity_asthma"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Respiratory.CarbonMonoxideActivity"
             android:label="@string/title_activity_carbon_monoxide"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Respiratory.CopdActivity"
             android:label="@string/title_activity_copd"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Respiratory.DifficultAirwayActivity"
             android:label="@string/title_activity_difficult_airway"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.DrugOverdoseActivity"
             android:label="@string/title_activity_drug_overdose"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.ClinicalCare.InitialMedicalCareActivity"
             android:label="@string/title_activity_initial_medical_care"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.ClinicalCare.PainManagementActivity"
             android:label="@string/title_activity_pain_management"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Respiratory.FbaoActivity"
             android:label="@string/title_activity_fbao"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Respiratory.PulmonaryEdemaActivity"
             android:label="@string/title_activity_pulmonary_edema"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Cardiac.AcsActivity"
             android:label="@string/title_activity_acs"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Cardiac.AsystoleActivity"
             android:label="@string/title_activity_asystole"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Cardiac.BradycardiaActivity"
             android:label="@string/title_activity_bradycardia"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Cardiac.NarrowComplexIrregActivity"
             android:label="@string/title_activity_narrow_complex_irreg"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Cardiac.NarrowComplexRegActivity"
             android:label="@string/title_activity_narrow_complex_reg"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Cardiac.RoscActivity"
             android:label="@string/title_activity_rosc"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Cardiac.VadActivity"
             android:label="@string/title_activity_vad"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Cardiac.VfibActivity"
             android:label="@string/title_activity_vfib"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Cardiac.WideComplexActivity"
             android:label="@string/title_activity_wide_complex"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.AbdominalPainActivity"
             android:label="@string/title_activity_abdominal_pain"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.AllergicReactionActivity"
             android:label="@string/title_activity_allergic_reaction"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.AmsActivity"
             android:label="@string/title_activity_ams"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.CvaActivity"
             android:label="@string/title_activity_cva"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.EnvironmentalColdActivity"
             android:label="@string/title_activity_environmental_cold"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.EnvironmentalHeatActivity"
             android:label="@string/title_activity_environmental_heat"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.EsophagealForeignBodyObstructionActivity"
             android:label="@string/title_activity_esophageal_foreign_body_obstruction"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.ExcitedDeliriumActivity"
             android:label="@string/title_activity_excited_delirium"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.ExtraPyramidalActivity"
             android:label="@string/title_activity_extra_pyramidal"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.HazardousMaterialActivity"
             android:label="@string/title_activity_hazardous_material"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.HypertensiveCrisisActivity"
             android:label="@string/title_activity_hypertensive_crisis"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.HypoHyperGlycemiaActivity"
             android:label="@string/title_activity_hypo_hyper_glycemia"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.NauseaVomitingActivity"
             android:label="@string/title_activity_nausea_vomiting"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.NonEnvironmentalHyperthermiaActivity"
             android:label="@string/title_activity_non_environmental_hyperthermia"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.PsychologicalBehavioralActivity"
             android:label="@string/title_activity_psychological_behavioral"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.SceneRehabActivity"
             android:label="@string/title_activity_scene_rehab"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.SeizureActivity"
             android:label="@string/title_activity_seizure"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.SepsisActivity"
             android:label="@string/title_activity_sepsis"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.ShockActivity"
             android:label="@string/title_activity_shock"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.SickleCellAnemiaActivity"
             android:label="@string/title_activity_sickle_cell_anemia"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.MedicalEmergency.SyncopeActivity"
             android:label="@string/title_activity_syncope"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.ObGyn.ChildbirthActivity"
             android:label="@string/title_activity_childbirth"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.ObGyn.ChildbirthComplicationsActivity"
             android:label="@string/title_activity_childbirth_complications"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.ObGyn.PostPartumActivity"
             android:label="@string/title_activity_post_partum"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.ObGyn.PrenatalEmergenciesActivity"
             android:label="@string/title_activity_prenatal_emergencies"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.ObGyn.TraumaInPregnancyActivity"
             android:label="@string/title_activity_trauma_in_pregnancy"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.ObGyn.VaginalBleedingActivity"
             android:label="@string/title_activity_vaginal_bleeding"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Pediatric.PediatricAsystoleActivity"
             android:label="@string/title_activity_pediatric_asystole"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Pediatric.PediatricBradycardiaActivity"
             android:label="@string/title_activity_pediatric_bradycardia"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Pediatric.PediatricFboActivity"
             android:label="@string/title_activity_pediatric_fbo"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Pediatric.PediatricFebrileEmergencyActivity"
             android:label="@string/title_activity_pediatric_febrile_emergency"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Pediatric.PediatricInfectiosActivity"
             android:label="@string/title_activity_pediatric_infectios"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Pediatric.PediatricTachycardiaActivity"
             android:label="@string/title_activity_pediatric_tachycardia"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Pediatric.PediatricVfibActivity"
             android:label="@string/title_activity_pediatric_vfib"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.ObGyn.NewbornActivity"
             android:label="@string/title_activity_newborn"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Trauma.AnimalBiteActivity"
             android:label="@string/title_activity_animal_bite"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Trauma.BurnsActivity"
             android:label="@string/title_activity_burns"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Trauma.ChestInjuryActivity"
             android:label="@string/title_activity_chest_injury"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Trauma.CrushActivity"
             android:label="@string/title_activity_crush"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Trauma.DecompressionActivity"
             android:label="@string/title_activity_decompression"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Trauma.DrowningActivity"
             android:label="@string/title_activity_drowning"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
         <activity
             android:name=".Parameters.Respiratory.Menu_Respiratory_Activity"
             android:label="@string/title_activity_menu__respiratory_"
@@ -276,6 +513,15 @@
         <activity
             android:name=".Parameters.MedicalEmergency.Menu_Medical_Activity"
             android:label="@string/title_activity_menu__medical_"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.Pediatric.Menu_Pediatric"
+            android:label="@string/title_activity_menu__pediatric"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data

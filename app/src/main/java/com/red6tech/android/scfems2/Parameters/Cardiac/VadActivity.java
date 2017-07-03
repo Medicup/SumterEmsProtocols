@@ -27,5 +27,6 @@ public class VadActivity extends AppCompatActivity {
             }
         });
         fab.hide();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

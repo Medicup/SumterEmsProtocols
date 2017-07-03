@@ -27,5 +27,6 @@ public class AsthmaActivity extends AppCompatActivity {
             }
         });
         fab.hide();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

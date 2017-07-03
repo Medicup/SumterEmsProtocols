@@ -26,5 +26,7 @@ public class PediatricFebrileEmergencyActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

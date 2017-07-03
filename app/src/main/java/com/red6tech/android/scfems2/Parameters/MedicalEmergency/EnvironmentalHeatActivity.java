@@ -27,5 +27,6 @@ public class EnvironmentalHeatActivity extends AppCompatActivity {
             }
         });
         fab.hide();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

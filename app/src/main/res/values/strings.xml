@@ -362,7 +362,7 @@
     </string>
 
     <!--param_Acute Coronary Syndrome-->
-    <string name="title_activity_acs">Acute Coronary SyndromePulmonary Edema</string>
+    <string name="title_activity_acs">Acute Coronary Syndrome</string>
     <string name="parameter_acs_header"><b><u>ACUTE CORONARY SYDROME</u></b></string>
     <string name="parameter_acs">
         <b>I.	BASIC CARE</b> \n\n
@@ -2086,5 +2086,6 @@
     <string name="title_activity_menu__respiratory_">Menu Respiratory Activity</string>
     <string name="title_activity_menu__card_">Menu_Card_Activity</string>
     <string name="title_activity_menu__medical_">Menu_Medical_Activity</string>
+    <string name="title_activity_menu__pediatric">Menu_Pediatric</string>
 
 </resources>

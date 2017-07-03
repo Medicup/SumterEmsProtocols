@@ -27,5 +27,6 @@ public class HypoHyperGlycemiaActivity extends AppCompatActivity {
             }
         });
         fab.hide();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

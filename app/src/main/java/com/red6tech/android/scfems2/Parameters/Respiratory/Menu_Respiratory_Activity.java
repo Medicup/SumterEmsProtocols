@@ -31,6 +31,7 @@ public class Menu_Respiratory_Activity extends AppCompatActivity {
             }
         });
         fab.hide();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Button asthma_but;
         asthma_but = (Button) findViewById(R.id.m_resp_asthma);

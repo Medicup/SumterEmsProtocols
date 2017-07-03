@@ -27,5 +27,6 @@ public class PsychologicalBehavioralActivity extends AppCompatActivity {
             }
         });
         fab.hide();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

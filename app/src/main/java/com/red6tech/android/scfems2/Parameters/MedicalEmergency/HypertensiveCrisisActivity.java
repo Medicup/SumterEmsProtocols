@@ -27,5 +27,6 @@ public class HypertensiveCrisisActivity extends AppCompatActivity {
             }
         });
         fab.hide();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

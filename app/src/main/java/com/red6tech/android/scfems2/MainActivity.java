@@ -16,6 +16,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
+import com.red6tech.android.scfems2.Parameters.Cardiac.Menu_Card_Activity;
+import com.red6tech.android.scfems2.Parameters.MedicalEmergency.Menu_Medical_Activity;
+import com.red6tech.android.scfems2.Parameters.Pediatric.Menu_Pediatric;
 import com.red6tech.android.scfems2.Parameters.Respiratory.Menu_Respiratory_Activity;
 import com.red6tech.android.scfems2.Parameters.Trauma.ChestInjuryActivity;
 import com.red6tech.android.scfems2.Parameters.Trauma.CrushActivity;
@@ -53,6 +56,36 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent respIntent = new Intent(MainActivity.this, Menu_Respiratory_Activity.class);
                 startActivity(respIntent);
+            }
+        });
+
+        Button card_button;
+        card_button = (Button) findViewById(R.id.but_cardiac);
+        card_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent cardIntent = new Intent(MainActivity.this, Menu_Card_Activity.class);
+                startActivity(cardIntent);
+            }
+        });
+//todo add scroll to main menus, cardiac, resp, etc
+        Button medical_button;
+        medical_button = (Button) findViewById(R.id.but_medical_emergencies);
+        medical_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent medicalIntent = new Intent(MainActivity.this, Menu_Medical_Activity.class);
+                startActivity(medicalIntent);
+            }
+        });
+
+        Button oediatric_button;
+        medical_button = (Button) findViewById(R.id.but_pediatric);
+        medical_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent pediatriclIntent = new Intent(MainActivity.this, Menu_Pediatric.class);
+                startActivity(pediatriclIntent);
             }
         });
 

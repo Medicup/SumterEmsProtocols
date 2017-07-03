@@ -26,5 +26,7 @@ public class PediatricAsystoleActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

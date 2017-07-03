@@ -29,63 +29,63 @@
         tools:layout_constraintTop_creator="1">
 
         <Button
-            android:id="@+id/but_card_acs"
+            android:id="@+id/m_but_card_acs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/title_activity_acs" />
 
         <Button
-            android:id="@+id/but_card_asystole"
+            android:id="@+id/m_but_card_asystole"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/title_activity_asystole" />
 
         <Button
-            android:id="@+id/but_card_brady"
+            android:id="@+id/m_but_card_brady"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/title_activity_bradycardia" />
 
         <Button
-            android:id="@+id/but_card_narrow_irreg"
+            android:id="@+id/m_but_card_narrow_irreg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/title_activity_narrow_complex_irreg" />
 
         <Button
-            android:id="@+id/but_card_narrow_reg"
+            android:id="@+id/m_but_card_narrow_reg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/title_activity_narrow_complex_reg" />
 
         <Button
-            android:id="@+id/but_card_rosc"
+            android:id="@+id/m_but_card_rosc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/title_activity_rosc" />
 
         <Button
-            android:id="@+id/but_card_vad"
+            android:id="@+id/m_but_card_vad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/title_activity_vad" />
 
         <Button
-            android:id="@+id/but_card_vfib"
+            android:id="@+id/m_but_card_vfib"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/title_activity_vfib" />
 
         <Button
-            android:id="@+id/but_card_wide_complex"
+            android:id="@+id/m_but_card_wide_complex"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
