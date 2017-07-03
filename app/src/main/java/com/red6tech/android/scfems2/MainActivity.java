@@ -2,6 +2,8 @@ package com.red6tech.android.scfems2;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -14,11 +16,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
+import com.red6tech.android.scfems2.Parameters.Respiratory.Menu_Respiratory_Activity;
 import com.red6tech.android.scfems2.Parameters.Trauma.ChestInjuryActivity;
 import com.red6tech.android.scfems2.Parameters.Trauma.CrushActivity;
 import com.red6tech.android.scfems2.Parameters.Trauma.DecompressionActivity;
 import com.red6tech.android.scfems2.Parameters.Trauma.DrowningActivity;
 import com.red6tech.android.scfems2.data.DbHelper;
+
+import static com.red6tech.android.scfems2.R.id.fab;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -31,28 +36,25 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        /*FloatingActionButton fab = (FloatingActionButton) findViewById(fab);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });*/
+        });
+        fab.hide();
 
-        Button button;
-        button = (Button)findViewById(R.id.button_test);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button resp_button;
+        resp_button = (Button) findViewById(R.id.but_respiratory);
+        resp_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent testIntent = new Intent(MainActivity.this,
-                        DrowningActivity.class);
-                startActivity(testIntent);
+                Intent respIntent = new Intent(MainActivity.this, Menu_Respiratory_Activity.class);
+                startActivity(respIntent);
             }
         });
-
-
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -113,10 +115,6 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
 
         }
 

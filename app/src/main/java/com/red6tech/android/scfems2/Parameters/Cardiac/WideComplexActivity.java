@@ -26,5 +26,6 @@ public class WideComplexActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
     }
 }

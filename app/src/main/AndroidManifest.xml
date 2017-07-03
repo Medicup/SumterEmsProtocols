@@ -254,7 +254,25 @@
         <activity
             android:name=".Parameters.Trauma.DrowningActivity"
             android:label="@string/title_activity_drowning"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Parameters.Respiratory.Menu_Respiratory_Activity"
+            android:label="@string/title_activity_menu__respiratory_"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.Cardiac.Menu_Card_Activity"
+            android:label="@string/title_activity_menu__card_"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

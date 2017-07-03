@@ -9,12 +9,12 @@ import android.view.View;
 
 import com.red6tech.android.scfems2.R;
 
-public class AsystoleActivity extends AppCompatActivity {
+public class Menu_Card_Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_asystole);
+        setContentView(R.layout.activity_menu__card_);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -27,5 +27,7 @@ public class AsystoleActivity extends AppCompatActivity {
             }
         });
         fab.hide();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
 }
