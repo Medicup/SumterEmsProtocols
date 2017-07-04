@@ -18,6 +18,7 @@ import android.widget.Button;
 
 import com.red6tech.android.scfems2.Parameters.Cardiac.Menu_Card_Activity;
 import com.red6tech.android.scfems2.Parameters.MedicalEmergency.Menu_Medical_Activity;
+import com.red6tech.android.scfems2.Parameters.ObGyn.Menu_Obgyn_Activity;
 import com.red6tech.android.scfems2.Parameters.Pediatric.Menu_Pediatric;
 import com.red6tech.android.scfems2.Parameters.Respiratory.Menu_Respiratory_Activity;
 import com.red6tech.android.scfems2.Parameters.Trauma.ChestInjuryActivity;
@@ -79,13 +80,23 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        Button oediatric_button;
-        medical_button = (Button) findViewById(R.id.but_pediatric);
-        medical_button.setOnClickListener(new View.OnClickListener() {
+        Button pediatric_button;
+        pediatric_button = (Button) findViewById(R.id.but_pediatric);
+        pediatric_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent pediatriclIntent = new Intent(MainActivity.this, Menu_Pediatric.class);
                 startActivity(pediatriclIntent);
+            }
+        });
+
+        Button obgyn_button;
+        obgyn_button = (Button) findViewById(R.id.but_obgyn);
+        obgyn_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent obgynIntent = new Intent(MainActivity.this, Menu_Obgyn_Activity.class);
+                startActivity(obgynIntent);
             }
         });
 

@@ -8,10 +8,22 @@
     tools:context="com.red6tech.android.scfems2.Parameters.MedicalEmergency.ShockActivity"
     tools:showIn="@layout/activity_shock">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text" />
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/parameter_shock_header"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/parameter_shock" />
+    </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

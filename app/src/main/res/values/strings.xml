@@ -2083,9 +2083,11 @@
     <string name="m_procedure_guideline">Procedure Guidelines</string>
     <string name="m_appendices">Appendices</string>
 
-    <string name="title_activity_menu__respiratory_">Menu Respiratory Activity</string>
-    <string name="title_activity_menu__card_">Menu_Card_Activity</string>
-    <string name="title_activity_menu__medical_">Menu_Medical_Activity</string>
-    <string name="title_activity_menu__pediatric">Menu_Pediatric</string>
+    <string name="title_activity_menu__respiratory_">Respiratory Activities</string>
+    <string name="title_activity_menu__card_">Cardiac Activities</string>
+    <string name="title_activity_menu__medical_">Medical_Activities</string>
+    <string name="title_activity_menu__pediatric">Pediatric Activities</string>
+    <string name="title_activity_menu__obgyn_">Obgyn Activities</string>
+    <string name="title_activity_menu__trauma_">Trauma Activities</string>
 
 </resources>

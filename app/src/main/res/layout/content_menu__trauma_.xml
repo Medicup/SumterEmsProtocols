@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.red6tech.android.scfems2.Parameters.Trauma.Menu_Trauma_Activity"
+    tools:showIn="@layout/activity_menu__trauma_">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/butt_animal_bite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_animal_bite" />
+
+            <Button
+                android:id="@+id/butt_burns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_burns" />
+
+            <Button
+                android:id="@+id/butt_chest_injury"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_chest_injury" />
+
+            <Button
+                android:id="@+id/butt_crush"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_crush" />
+
+            <Button
+                android:id="@+id/butt_decompression"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_decompression" />
+
+            <Button
+                android:id="@+id/butt_drowning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_drowning" />
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

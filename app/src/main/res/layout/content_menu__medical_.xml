@@ -42,10 +42,10 @@
                 android:text="@string/title_activity_ams"
                 android:layout_weight="1"/>
             <Button
-                android:id="@+id/but_drug_od"
+                android:id="@+id/but_cva"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/title_activity_drug_overdose"
+                android:text="@string/title_activity_cva"
                 android:layout_weight="1"/>
             <Button
                 android:id="@+id/but_environ_cold"
@@ -89,6 +89,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/title_activity_hypertensive_crisis"
                 android:layout_weight="1"/>
+
             <Button
                 android:id="@+id/but_hypohyperglycemia"
                 android:layout_width="match_parent"
@@ -96,16 +97,23 @@
                 android:text="@string/title_activity_hypo_hyper_glycemia"
                 android:layout_weight="1"/>
             <Button
+                android:id="@+id/but_nonenviron_hyper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_non_environmental_hyperthermia"
+                android:layout_weight="1"/>
+            <Button
                 android:id="@+id/but_nausea"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/title_activity_nausea_vomiting"
                 android:layout_weight="1"/>
+
             <Button
-                android:id="@+id/but_nonenviron_hyper"
+                android:id="@+id/but_overdose"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/title_activity_non_environmental_hyperthermia"
+                android:text="@string/title_activity_drug_overdose"
                 android:layout_weight="1"/>
             <Button
                 android:id="@+id/but_psyhological"

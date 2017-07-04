@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.red6tech.android.scfems2.Parameters.ObGyn.Menu_Obgyn_Activity"
+    tools:showIn="@layout/activity_menu__obgyn_">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/butt_childbirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/title_activity_childbirth" />
+
+            <Button
+                android:id="@+id/butt_childbirth_comp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/title_activity_childbirth_complications" />
+            <Button
+                android:id="@+id/butt_newborn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/title_activity_newborn" />
+            <Button
+                android:id="@+id/butt_post_partum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/title_activity_post_partum" />
+            <Button
+                android:id="@+id/butt_prenatal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/title_activity_prenatal_emergencies" />
+            <Button
+                android:id="@+id/butt_trauma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/title_activity_trauma_in_pregnancy" />
+            <Button
+                android:id="@+id/butt_vaginal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/title_activity_vaginal_bleeding" />
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>
