@@ -26,5 +26,7 @@ public class DecompressionActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        fab.hide();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
