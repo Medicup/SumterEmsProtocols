@@ -2085,7 +2085,7 @@
 
     <string name="title_activity_menu__respiratory_">Respiratory Activities</string>
     <string name="title_activity_menu__card_">Cardiac Activities</string>
-    <string name="title_activity_menu__medical_">Medical_Activities</string>
+    <string name="title_activity_menu__medical_">Medical Activities</string>
     <string name="title_activity_menu__pediatric">Pediatric Activities</string>
     <string name="title_activity_menu__obgyn_">Obgyn Activities</string>
     <string name="title_activity_menu__trauma_">Trauma Activities</string>
