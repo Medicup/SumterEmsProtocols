@@ -25,6 +25,7 @@ import com.red6tech.android.scfems2.Parameters.Trauma.ChestInjuryActivity;
 import com.red6tech.android.scfems2.Parameters.Trauma.CrushActivity;
 import com.red6tech.android.scfems2.Parameters.Trauma.DecompressionActivity;
 import com.red6tech.android.scfems2.Parameters.Trauma.DrowningActivity;
+import com.red6tech.android.scfems2.Parameters.Trauma.Menu_Trauma_Activity;
 import com.red6tech.android.scfems2.data.DbHelper;
 
 import static com.red6tech.android.scfems2.R.id.fab;
@@ -97,6 +98,16 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent obgynIntent = new Intent(MainActivity.this, Menu_Obgyn_Activity.class);
                 startActivity(obgynIntent);
+            }
+        });
+
+        Button trauma_button;
+        trauma_button = (Button) findViewById(R.id.but_trauma);
+        trauma_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent traumaIntent = new Intent(MainActivity.this, Menu_Trauma_Activity.class);
+                startActivity(traumaIntent);
             }
         });
 
