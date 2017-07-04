@@ -2045,7 +2045,7 @@
             Clinical Care Guideline.</i>
     </string>
     <!--param_DROWNING & NEAR DROWNING-->
-    <string name="title_activity_drowning">DrowningActivity</string>
+    <string name="title_activity_drowning">Drowning</string>
     <string name="parameter_drowning_header">
         <b><u>DROWNING &amp; NEAR DROWNING</u></b>
     </string>

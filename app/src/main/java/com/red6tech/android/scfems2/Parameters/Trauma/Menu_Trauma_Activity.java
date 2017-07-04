@@ -74,6 +74,26 @@ public class Menu_Trauma_Activity extends AppCompatActivity {
             }
         });
 
+        Button decompression_button;
+        decompression_button = (Button) findViewById(R.id.butt_decompression);
+        decompression_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent decompressionIntent = new Intent(Menu_Trauma_Activity.this, DecompressionActivity.class);
+                startActivity(decompressionIntent);
+            }
+        });
+
+        Button drowning_button;
+        drowning_button = (Button) findViewById(R.id.butt_drowning);
+        drowning_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent drowningIntent = new Intent(Menu_Trauma_Activity.this, DrowningActivity.class);
+                startActivity(drowningIntent);
+            }
+        });
+
 
     }
 }
