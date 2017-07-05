@@ -1,4 +1,4 @@
-package com.red6tech.android.scfems2.Parameters.ClinicalCare;
+package com.red6tech.android.scfems2.Parameters.AdministrativePolicies;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -9,12 +9,12 @@ import android.view.View;
 
 import com.red6tech.android.scfems2.R;
 
-public class PainManagementActivity extends AppCompatActivity {
+public class TriageSystem extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pain_management);
+        setContentView(R.layout.activity_triage_system);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

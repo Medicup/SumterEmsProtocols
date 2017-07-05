@@ -1,94 +1,133 @@
 <resources>
-    <string name="title_activity_initial_medical_care">InitialMedicalCareActivity</string>
-    <string name="title_activity_pain_management">PainManagementActivity</string>
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
+    <string name="title_activity_initial_medical_care">Initial Medical Care</string>
+    <string name="initial_medical_header"><b><u>INITIAL MEDICAL/TRAUMA CARE</u></b></string>
+    <string name="parameter_initial_medical">
+        <b>A.	General</b> \n\n
+            \t 1.	Assess and secure scene safety. \n
+            \t 2.	Use universal blood and body substance precautions while treating all patients. \n
+            \t 3.	Identify and treat immediate life threats per specific <i>Clinical Care
+                Guideline.</i> \n
+            \t 4.	Assess for potential injuries based on mechanism of injury. \n
+            \t 5.	Initiate <b>Trauma Alert</b>, if applicable. \n
+            \t 6.	Refer to <i>Triage System Administrative Policy</i> for multiple patients and
+                injuries. \n\n
+        <b>B.	Initial Assessment</b> \n\n
+            \t 1.	General Impression: The overall opinion of the patient\'s condition including
+                    severity of distress. Survey the patient with an eye to the mechanism of injury. \n
+            \t 2.	Identify yourself to the patient and seek permission to examine and treat, if
+                able. \n
+            \t 3.	Determine Responsiveness/Level of Consciousness (LOC)* \n\n
+                \t\t a)	<b>A</b> – Alert \n
+                \t\t b)	<b>V</b> – Verbal \n
+                \t\t c)	<b>P</b> – Painful Stimuli \n
+                \t\t d)	<b>U</b> – Unresponsive \n\n
+            \t 4.	ABCDE \n\n
+                \t\t a)	<b>CARDIAC ARREST:</b> manage per applicable <i>Clinical Care Guideline.</i> \n
+                \t\t b)	<b>AIRWAY/C-SPINE:</b> Establish and maintain airway. Utilize cervical spine
+                    precautions when indicated. For trauma patients, if intubation is required,
+                    utilize in-line unless contraindicated. If unable to secure airway by any other
+                    means and airway is not patent, perform cricothyrotomy. \n
+                \t\t c)	<b>BREATHING:</b> Check for inadequate breath sounds, JVD, tracheal deviation,
+                    and the use of accessory muscles for respirations. \n\n
+                        \t\t\t  1.	Administer the appropriate dosage and route of supplemental
+                            O2 as necessary to alleviate the patient\'s chief complaint, maintain
+                            O2 sat &gt; 94% and keep the patient\'s skin condition pink, warm and dry.
+                            All ALS patients will have pulse oximetry monitored and documented.
+                            All ALS patients with appropriate C/C or PMH or Current situation
+                            will have <b>ETCO2</b> monitored and recorded. \n
+                        \t\t\t  2.	If indicated by ineffective breathing pattern/impaired gas-
+                            exchange, assist ventilations, establish a definitive airway and
+                            suction if necessary. If intubated, confirm proper tube placement
+                            by auscultating the gastric area and the lungs bilaterally <b>AND</b>
+                            ETCO2. \n\n
+                \t\t d)	<b>CIRCULATION:</b> Evaluate peripheral pulses for presence, quality and equality.
+                    CPR as indicated. Treat severe external hemorrhage with direct pressure. \n\n
+                        \t\t\t 1.	ADEQUATE PERFUSION: Establish IV of Normal Saline with macro-drip
+                            tubing at KVO or IV Lock system as indicated by patient condition. Use
+                            a large-bore catheter for trauma patients. Micro-drip tubing shall be
+                            used for IV infusions for pediatric patients. <b>Attempt X 2 unless
+                            situation demands further repeated attempts. Failure to obtain IV access
+                            does not preclude the intervention of other definitive therapy.</b> \n
+                        \t\t\t 2.	INADEQUATE PERFUSION: Refer to <i>Shock Clinical Care Guideline.</i>
+                            Initiate enroute unless delayed by extrication. \n\n
+                \t\t e)	<b>DISABILITY:</b> Assess distal <b>CSM</b> impairment \n\n
+                        \t\t\t 1.	<b>C</b>-Circulation \n
+                        \t\t\t 2.	<b>S</b>-Sensory \n
+                        \t\t\t 3.	<b>M</b>-Motor \n\n
+                \t\t f)	<b>EXPOSE:</b> Remove clothing as applicable to assess for hidden illnesses or
+                    injuries while protecting the patient\’s modesty. \n\n
+            \t 5.	ORIENTATION – <b>An Altered Mental Status (AMS) is defined as an alteration in
+                either the patient\’s LOC or orientation.</b> \n\n
+                \t\t a)	<b>4/4</b> – Person, Place, Time and Event \n
+                \t\t b)	<b>3/4</b> – Indicates 1 faculty absent \n
+                \t\t c)	<b>2/4</b> – Indicates 2 faculties absent \n
+                \t\t d)	<b>1/4</b> – Indicates 3 faculties absent \n
+                \t\t e)	<b>0/4</b> – Indicates 4 faculties absent \n\n
+            \t 6.	MEDICAL / TRAUMA FOCUSED AND DETAILED HISTORY AND EXAM \n\n
+        <b>C.	 PERFORM INITIAL CARE SIMULTANEOUSLY WITH THERAPIES</b> \n\n
+            \t 1.	Place patient in position of comfort if not contraindicated. \n
+            \t 2.	Paramedic should determine if the patient requires ALS within three
+                (3) minutes. \n
+            \t 3.	Once a medication route has been established, administer medication per
+                appropriate <i>Clinical Care Guideline.</i> \n
+            \t 4.	Use <b>cardiac monitor</b> to observe rhythm, confirm assessment in another lead
+                if necessary to correctly identify rhythm, record strips every 5 minutes (unstable)
+                to 15 minutes (stable), and to document intervention necessities and outcome.
+                Perform a <b>12 Lead EKG</b> on all patients with suspected cardiac or respiratory
+                problems including associated complaints or syncope, near syncope or general
+                weakness. \n
+            \t 5.	Assess blood glucose with glucometer as indicated. \n
+            \t 6.	Assess vital signs and patient condition every 5 minutes (unstable) to
+                15 minutes (stable) and before and after medication administration. \n\n
+        <b><i>D.	If there is no response to the appropriate treatment, consider contacting
+                Medical Control.</i></b> \n\n
+    </string>
+    <string name="title_activity_pain_management">Pain Management</string>
+    <string name="pain_management_header"><b><u>PAIN MANAGEMENT</u></b> \n</string>
+    <string name="pain_management_protocol">
+        The goal is to reduce the level of pain for the patient in the pre-hospital setting.
+        All patients presenting with pain should be assessed according to the “Wong Pain Scale”
+        or the 1-to-10 pain scale. Reassessment should be timed according to medication onset of
+        action, changes in patient condition, patient positioning, and other treatments. \n\n
+        <b>A.	INDICATIONS FOR PAIN MANAGEMENT:</b> \n\n
+            \t ·	Burns \n
+            \t ·	Isolated extremity trauma \n
+            \t ·	Back pain \n
+            \t ·	Flank pain \n
+            \t ·	Severe headache without altered mental status \n
+            \t ·	Significant pain in alert multiple trauma patient \n
+            \t ·	Significant abdominal pain – Requires Physician’s Order \n\n
+        <b>B.	BASIC CARE</b>
+        Basic initial medical care is predicated upon the circumstances causing the pain.
+        Determine the underlying cause and direct your initial medical care towards that
+        underlying circumstance. Permit no activity. Place patient in position of comfort.
+        For cardiac patients, follow the ACS Clinical Care Guideline. For trauma patients
+        follow the appropriate trauma care guideline. \n\n
+            \t <b>1. Oxygen:</b> Place the patient on oxygen at a rate and manner that helps to reduce
+                anxiety and limit the pain. \n
+            \t <b>2.	IV:</b> Initiate an IV. If patient’s blood pressure is &lt; 90 mm Hg, administer
+                a bolus of up to 500 ml NS. Evaluate/auscultate lungs throughout administration
+                of fluid. \n
+            \t <b>3.	Capnography:</b> Apply capnography and monitor respiratory drive. \n\n
+        <b>C.	ADVANCED CARE</b>  \n\n
+            \t 1.	If indicated by pain level, administer medication as described below.
+                Throughout administration of pain medication, systolic BP should be maintained at
+                &gt; 90 mm Hg. \n
+                \t\t <b>i.	Fentanyl</b> 1 mcg/kg IVP. If pain persists, after five minutes repeat dose
+                    once (maximum total dose 2 mcg/kg).* \n
+                \t\t 2.	Consider <b>Ondansetron</b> 4 mg slow IVP for nausea and vomiting. *Do not
+                    administer in pregnant or possible pregnant patients. \n\n
+        <b><u>RELATIVE CONTRAINDICATIONS TO ABOVE MEDICATIONS (Use with care):</u></b> \n\n
+            \t ·	Elderly \n
+            \t ·	Respiratory depression \n
+            \t ·	Pregnancy (not a contraindication to pain treatment unless at term or in labor) \n
+            \t ·	Nursing mothers (relative, still treat pain) \n
+            \t ·	Altered Mental Status \n
+            \t ·	Severe respiratory disorders \n
+            \t ·	Impaired hepatic or renal function - decreased metabolism \n
+            \t ·	Ingestion of benzodiazepine’s (i.e., Valium) Due to increased respiratory
+                depression \n
 
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
-
-        "Bold, graphic, intentional.\n\n"
-
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
-
-        "Motion provides meaning.\n\n"
-
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
-
-        "3D world.\n\n"
-
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
-
-        "Light and shadow.\n\n"
-
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-
-        "Component elevations.\n\n"
-
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
-
-        "Responsive elevation and dynamic elevation offsets.\n\n"
-
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
     </string>
 
     <string name="app_name">Sumter EMS Protocols</string>
@@ -224,7 +263,7 @@
             jaw thrust, use of nasal and oral airways, adequate suctioning, etc. For those patients requiring
             BVM ventilation, an adequate seal, along with Sellick\'s Maneuver, is imperative to provide adequate
             ventilation and reduce the occurrence of gastric distention. \n\n
-            \t •	Always pre-oxygenate for a minimum of 1 full minute with 100%% oxygen, being careful not to
+            \t •	Always pre-oxygenate for a minimum of 1 full minute with 100% oxygen, being careful not to
             hyperventilate at an excessive rate or force. \n\n
             \t •	If the patient is NOT spontaneously breathing or is breathing ineffectively, provide
             ventilatory support using a BVM with 100%% oxygen at a rate of 10-12 breaths per minute. \n\n
@@ -2089,5 +2128,110 @@
     <string name="title_activity_menu__pediatric">Pediatric Parameters</string>
     <string name="title_activity_menu__obgyn_">Obgyn Parameters</string>
     <string name="title_activity_menu__trauma_">Trauma Parameters</string>
+    <string name="title_activity_general_measures">GeneralMeasures</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_crime_scene_report">CrimeSceneReport</string>
+    <string name="title_activity_end_of_life">EndOfLife</string>
+    <string name="title_activity_medication_alternatives">MedicationAlternatives</string>
+    <string name="title_activity_physician_on_scene">PhysicianOnScene</string>
+    <string name="title_activity_radio_report">RadioReport</string>
+    <string name="title_activity_refusal_of_service">RefusalOfService</string>
+    <string name="title_activity_scene_time">SceneTime</string>
+    <string name="title_activity_transport_cardiac">TransportCardiac</string>
+    <string name="title_activity_transport_emergency">TransportEmergency</string>
+    <string name="title_activity_transport_helicopter">TransportHelicopter</string>
+    <string name="title_activity_transport_interfacility">TransportInterfacility</string>
+    <string name="title_activity_transport_stroke">TransportStroke</string>
+    <string name="title_activity_transport_trauma">TransportTrauma</string>
+    <string name="title_activity_triage_system">TriageSystem</string>
+    <string name="title_activity_administrative_menu">AdministrativeMenu</string>
 
 </resources>

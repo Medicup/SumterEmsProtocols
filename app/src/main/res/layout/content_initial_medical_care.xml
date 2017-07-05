@@ -8,10 +8,23 @@
     tools:context="com.red6tech.android.scfems2.Parameters.ClinicalCare.InitialMedicalCareActivity"
     tools:showIn="@layout/activity_initial_medical_care">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text" />
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/initial_medical_header"
+            android:layout_margin="16dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/parameter_initial_medical"
+            android:layout_margin="16dp"/>
+
+    </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

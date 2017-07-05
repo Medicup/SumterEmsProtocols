@@ -17,6 +17,8 @@ import android.view.MenuItem;
 import android.widget.Button;
 
 import com.red6tech.android.scfems2.Parameters.Cardiac.Menu_Card_Activity;
+import com.red6tech.android.scfems2.Parameters.ClinicalCare.InitialMedicalCareActivity;
+import com.red6tech.android.scfems2.Parameters.ClinicalCare.PainManagementActivity;
 import com.red6tech.android.scfems2.Parameters.MedicalEmergency.Menu_Medical_Activity;
 import com.red6tech.android.scfems2.Parameters.ObGyn.Menu_Obgyn_Activity;
 import com.red6tech.android.scfems2.Parameters.Pediatric.Menu_Pediatric;
@@ -51,6 +53,26 @@ public class MainActivity extends AppCompatActivity
         });
         fab.hide();
 
+        Button init_medical_button;
+        init_medical_button = (Button) findViewById(R.id.but_initmed_trauma_care);
+        init_medical_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent initMedicalIntent = new Intent(MainActivity.this, InitialMedicalCareActivity.class);
+                startActivity(initMedicalIntent);
+            }
+        });
+
+        Button pain_button;
+        pain_button = (Button) findViewById(R.id.but_pain);
+        pain_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent painIntent = new Intent(MainActivity.this, PainManagementActivity.class);
+                startActivity(painIntent);
+            }
+        });
+
         Button resp_button;
         resp_button = (Button) findViewById(R.id.but_respiratory);
         resp_button.setOnClickListener(new View.OnClickListener() {
@@ -70,7 +92,7 @@ public class MainActivity extends AppCompatActivity
                 startActivity(cardIntent);
             }
         });
-//todo add scroll to main menus, cardiac, resp, etc
+
         Button medical_button;
         medical_button = (Button) findViewById(R.id.but_medical_emergencies);
         medical_button.setOnClickListener(new View.OnClickListener() {

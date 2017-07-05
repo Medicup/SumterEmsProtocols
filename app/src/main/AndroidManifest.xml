@@ -546,6 +546,150 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.red6tech.android.scfems2.MainActivity" />
         </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.GeneralMeasures"
+            android:label="@string/title_activity_general_measures"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.CrimeSceneReport"
+            android:label="@string/title_activity_crime_scene_report"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.EndOfLife"
+            android:label="@string/title_activity_end_of_life"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.MedicationAlternatives"
+            android:label="@string/title_activity_medication_alternatives"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.PhysicianOnScene"
+            android:label="@string/title_activity_physician_on_scene"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.RadioReport"
+            android:label="@string/title_activity_radio_report"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.RefusalOfService"
+            android:label="@string/title_activity_refusal_of_service"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.SceneTime"
+            android:label="@string/title_activity_scene_time"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.TransportCardiac"
+            android:label="@string/title_activity_transport_cardiac"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.TransportEmergency"
+            android:label="@string/title_activity_transport_emergency"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.TransportHelicopter"
+            android:label="@string/title_activity_transport_helicopter"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.TransportInterfacility"
+            android:label="@string/title_activity_transport_interfacility"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.TransportStroke"
+            android:label="@string/title_activity_transport_stroke"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.TransportTrauma"
+            android:label="@string/title_activity_transport_trauma"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.TriageSystem"
+            android:label="@string/title_activity_triage_system"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Parameters.AdministrativePolicies.AdministrativeMenu"
+            android:label="@string/title_activity_administrative_menu"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.red6tech.android.scfems2.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
