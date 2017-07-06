@@ -2128,7 +2128,189 @@
     <string name="title_activity_menu__pediatric">Pediatric Parameters</string>
     <string name="title_activity_menu__obgyn_">Obgyn Parameters</string>
     <string name="title_activity_menu__trauma_">Trauma Parameters</string>
-    <string name="title_activity_general_measures">GeneralMeasures</string>
+    <string name="title_activity_general_measures">General Measures</string>
+    <string name="general_measure_header"><b><u>GENERAL MEASURES</u></b></string>
+    <string name="general_measure_param">
+        The following <b>GENERAL MEASURES</b> shall be applied to help promote speed and
+        efficiency when rendering emergency medical care to the sick and injured. These
+        measures provide general parameters for pre-hospital emergency care delivery in
+        Sumter County. \n\n
+            \t <b>I. Life Safety: The overall safety of EMS personnel is paramount to quality
+                patient care.</b> \n\n
+                \t\t A.	Vehicle Operation Safety: All crews are expected to use knowledge,
+                    foresight, and judgment at all times while operating an emergency vehicle.
+                    This is vital to response, care and delivery of the patient to an appropriate
+                    facility. Patients should be prioritized in such a manner as to send the most
+                    appropriate resource(s) in the most appropriate manner whether emergency or
+                    non-emergency based upon initial dispatch information. \n\n
+                \t\t B.	Scene Safety: Each scene should be properly evaluated for hazardous
+                    materials, fire, violent patients, etc. The scene should be secured by
+                    appropriate agencies prior to EMS arrival and before patient contact. \n
+                \t\t C.	Body Substance Isolation (BSI): Proper Personal Protective Equipment
+                    MUST be utilized according to Exposure Control Plan Policies.\n\n
+                \t\t D.	Medical Equipment: Only medical equipment/supplies approved by the Medical
+                    Director and participating organizational administration will be utilized for
+                    patient care. New equipment/supplies may be field tested (with specific
+                    parameters), but only after evaluation and approval by the Medical Director. \n\n
+            <b>I. Incident Management</b> \n\n
+                \t\t A.	Resources: Assess the need for additional support and request appropriate
+                    resources as necessary. Additional resources should be requested to the scene
+                    as early as possible and response mode prioritized by the on scene incident
+                    commander. \n\n
+                \t\t B.	Mass Casualty: The goal is to rapidly identify patient\'s injuries and
+                    sort them according to their severity and need for treatment. Refer to Triage
+                    System Administrative Policy for specific details. \n\n
+                \t\t C.	Incident Command: A dynamic organizational structure that expands and
+                    contracts as needed to manage an event. Every effort will be utilized to
+                    follow the incident command structure as outlined in the Emergency Medical
+                    Action Plan (EMAP). \n\n
+                \t\t D.	Mutual Aid: In cases of an out of county, mutual aid response, The
+                    Villages and Sumter County EMS personnel are directed to utilize The
+                    Villages and Sumter County EMS Practice Parameters for all facets of
+                    pre-hospital medical care. \n\n
+        <b>II. Patient Care</b> \n\n
+                \t\t A.	Informed consent: Attempt to always obtain informed consent prior
+                    to treatment. Respect the patient\'s right to privacy and dignity. Courtesy,
+                    concern and common sense will ensure the patient of the best possible care. \n\n
+                \t\t B.	Rapid initial assessment: A paramedic should generally be able to decide
+                    within 3 minutes after patient contact if Advanced Life Support (ALS) will be
+                    needed and should be instituted simultaneously with the initial assessment. \n\n
+                    \t\t\t\t 1.	Rapid stabilization should, in most cases, be done on scene (where
+                        the patient is encountered) prior to movement from the scene to the unit. \n\n
+                    \t\t\t\t 2.	A comprehensive exam is appropriate after the patient has been
+                        stabilized. \n\n
+                \t\t C.	Care level: The paramedic is ultimately responsible for all patient care
+                    and will perform an assessment on all patients to determine their level of care. \n\n
+                    \t\t\t\t 1.	Advanced Life Support (ALS): The paramedic is required to attend
+                        all patients deemed ALS. As a general rule, an ALS patient is defined as
+                        one who portrays signs/symptoms that fit into 1 or more of the chief
+                        complaints as outlined in the PRACTICE PARAMETERS. Patients who are
+                        receiving fluid through intravenous line are NOT considered BLS patients,
+                        regardless of complaint, and must be tended to by a paramedic.  \n\n
+                    \t\t\t\t 2.	Basic Life Support (BLS): The paramedic may designate an EMT to
+                        attend to BLS patients, but still remains ultimately responsible for
+                        patient care. The EMT MUST document on the run report that the Paramedic,
+                        stating name and credentials, initially assessed the BLS patient. \n\n
+                    \t\t\t\t 3.	Refusal of Care and/or Transport: All patients who receive
+                        treatment are to be transported by appropriate means to an appropriate
+                        receiving facility for further evaluation. If the patient refuses care
+                        and/or transport, refer to the <i>Refusal of Service Administrative
+                        Policy.</i> \n\n
+                \t\t D.	Medication dosing: All medication dosages listed are for adults, unless
+                    otherwise specified. \n\n
+                    \t\t\t\t 1.	Adult: An adult patient is one who is 8 years of age or older. \n
+                    \t\t\t\t 2.	Pediatric: A pediatric patient is under 8 years of age and 70 lbs.
+                         or less according to the Length-Based Tape. \n\n
+                \t\t E.	Trauma: For traumatic situations, ages are defined by the State of
+                    Florida Trauma Transport criteria: \n\n
+                    \t\t\t\t 1.	Adult: An adult patient is one who is 16 years of age or older. \n\n
+                    \t\t\t\t 2.	Pediatric: A pediatric patient is one with the anatomical
+                        characteristics of a person fifteen (15) years or younger. \n\n
+        <b>III. Medical Control</b> \n\n
+            \t\t A.	Definition: An on-line emergency room physician who is willing to accept
+                responsibility for the action of EMS personnel or the Medical Director and/or
+                his associates. \n\n
+            \t\t B.	Contact: If needed to deviate from or modify the Practice Parameters, the
+                following order will be utilized to receive orders: \n\n
+                \t\t\t\t 1.	Receiving emergency department physician where the patient will
+                ultimately be transported. \n\n
+                \t\t\t\t 2.	Medical Director. \n\n
+                \t\t\t\t 3.	Associate Medical Director. \n\n
+            \t\t C.	Documentation: Provide contact name, time, orders requested, and orders
+                received on the Patient Care Report (PCR). Also document if unable to contact
+                a particular resource, as justification for contacting the next appropriate
+                Medical Control. \n\n
+            \t\t D.	Disclaimer: The above contact information is intended to be utilized to
+                receive further information or orders from a physician. If a physician has been
+                contacted and orders given contrary to the request, it is not appropriate to
+                contact another physician to attempt to countermand the previous orders. \n\n
+            <b>IV. Transfer of Care</b> \n\n
+                \t A.	On scene\n\n
+                    \t\t 1.	A two or three tier system is designed to provide minimum response
+                        times to the maximum area and/or population. In order to be effective
+                        there must be a prompt initial assessment by the 1st response agency, a
+                        rapid but appropriate treatment and a smooth transfer of patient care to
+                        the transport agency. This allows for the minimal scene time and the
+                        return of the 1st response agency to available status.\n\n
+                    \t\t 2.	There will be rare occasions when the transport paramedic will need
+                        to change the initial assessment and/or treatment plan. This is in no
+                        way indicates less than optimal assessment or care by the 1st responder,
+                        but recognizes that signs and symptoms are dynamic and will change during
+                        the course of patient care “on scene”: \n\n
+                        \t\t\t\t i.	The 1st arriving responder will perform an initial assessment
+                            as per existing protocols. Appropriate treatment will be initiated
+                            immediately according to the <i>Clinical Care Guidelines.</i> \n\n
+                        \t\t\t\t ii.	Transfer of patient care will occur as soon as practical
+                            based upon patient condition. Common sense, teamwork, and professionalism
+                            will be used to ensure optimal patient care. \n\n
+                        \t\t\t\t iii.	If there is a significant difference of opinion as to
+                            proper patient care, it will be decided by on-line Medical Control
+                            or the Medical Director. A review of the call may include a discussion
+                            at a later date by all involved parties in order to reach a mutual
+                            understanding. \n\n
+                \t B.	At Destination \n\n
+                    \t\t 1.	There may be difficulties in transferring patient care upon arrival at
+                        area hospitals due to the extreme overcrowding, the high volume of EMS
+                        calls, and the increased severity of illness of patients. It is therefore
+                        imperative that all providers work together with a spirit of cooperation
+                        in order that the patients receive the best possible care. \n\n
+                    \t\t 2.	The following procedures will be applied to the transfer of patient care
+                        at destination: \n\n
+                        \t\t\t\t i.	Once on hospital property (ED, Cath Lab, ICU, etc.), the patient is
+                            the responsibility of the hospital and staff whether or not official
+                            patient transfer has occurred. \n\n
+                        \t\t\t\t ii.	Once in the hospital, the Practice Parameters no longer govern patient
+                            care. \n\n
+                        \t\t\t\t iii.	Any medications or procedures in progress will be continued until
+                            finished unless discontinued by direction of an attending hospital
+                            physician. Any new or repeat medications or procedures will be done
+                            under the direction of the attending hospital physician using hospital
+                            supplies and medications. \n\n
+                        \t\t\t\t iv.	If there is a significant change (deterioration) in patient condition,
+                            the hospital medical staff must be informed immediately. Please document
+                            the person, title and time contacted. \n\n
+                \t C.	Documentation \n\n
+                \t All agencies involved in providing patient care are responsible for ensuring accurate
+                    documentation. A patient care report must be written by each responding agency for
+                    each patient. \n\n
+                    \t\t1.	Transport Agency \n\n
+                        \t\t\t\t i.	A legible copy of the patient care report for each patient must be
+                            delivered to the responsible caregiver at the receiving facility or faxed
+                            to the number dedicated to receiving patient care reports. \n\n
+                        \t\t\t\t ii.	If time does not permit completion of the entire report, an
+                            abbreviated report, at a minimum, must be left at the receiving facility.
+                            The full report shall be forwarded to the receiving facility once completed,
+                            within 24 hours. \n\n
+                        \t\t\t\t iii.	An abbreviated report shall identify, in writing, the crew, the
+                            patient, vital signs, chief complaint, and treatment, as well as the times the
+                            observations were made or treatment was rendered. \n\n
+                        \t\t\t\t iv.	A full patient care report must be completed prior to end of the
+                            paramedic\'s or EMT\'s shift. \n\n
+                    \t\t2.	Non-Transport Agency \n\n
+                        \t\t\t\t i.	A full patient care report must be completed upon completion of the
+                            call or prior to the end of the paramedic\'s or EMT\'s shift. \n\n
+            No copies of patient information will be given to anyone other than the receiving facility.
+                Law enforcement agencies may be provided patient demographic information if the following
+                circumstances are present: \n\n
+                •	To report PHI to a law enforcement official reasonably able to prevent or lessen a
+                    serious and imminent threat to the health or safety of an individual or the public
+                    (i.e. to alert the LEO of possible communicable disease from a patient they have
+                    contacted). \n\n
+                •	To alert law enforcement to the death of the individual, when there is a suspicion
+                    that death resulted from criminal conduct.\n\n
+                •	To report PHI to law enforcement when required by law to do so (such as reporting
+                    gunshots or stab wounds).\n\n
+            Any other requests for information should be handled according to the individual agency\’s
+                standard operating procedures.\n\n
+
+
+
+
+
+    </string>
+
+
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -2232,6 +2414,6 @@
     <string name="title_activity_transport_stroke">TransportStroke</string>
     <string name="title_activity_transport_trauma">TransportTrauma</string>
     <string name="title_activity_triage_system">TriageSystem</string>
-    <string name="title_activity_administrative_menu">AdministrativeMenu</string>
+    <string name="title_activity_administrative_menu">Administrative Policies</string>
 
 </resources>

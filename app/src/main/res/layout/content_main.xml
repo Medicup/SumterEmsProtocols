@@ -27,6 +27,13 @@
         android:layout_marginRight="8dp">
 
         <Button
+            android:id="@+id/but_adminguidelines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_activity_administrative_menu" />
+
+        <Button
             android:id="@+id/but_initmed_trauma_care"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

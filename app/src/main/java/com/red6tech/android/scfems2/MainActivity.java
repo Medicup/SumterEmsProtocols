@@ -16,6 +16,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
+import com.red6tech.android.scfems2.Parameters.AdministrativePolicies.AdministrativeMenu;
 import com.red6tech.android.scfems2.Parameters.Cardiac.Menu_Card_Activity;
 import com.red6tech.android.scfems2.Parameters.ClinicalCare.InitialMedicalCareActivity;
 import com.red6tech.android.scfems2.Parameters.ClinicalCare.PainManagementActivity;
@@ -52,6 +53,16 @@ public class MainActivity extends AppCompatActivity
             }
         });
         fab.hide();
+
+        Button admin_button;
+        admin_button = (Button) findViewById(R.id.but_adminguidelines);
+        admin_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent adnibIntent = new Intent(MainActivity.this, AdministrativeMenu.class);
+                startActivity(adnibIntent);
+            }
+        });
 
         Button init_medical_button;
         init_medical_button = (Button) findViewById(R.id.but_initmed_trauma_care);
