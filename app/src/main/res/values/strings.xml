@@ -2646,7 +2646,38 @@
             written documentation shall be completed and forwarded through the chain of command. \n\n
     </string>
 
-    <string name="title_activity_radio_report">RadioReport</string>
+    <string name="title_activity_radio_report">Radio Report</string>
+    <string name="radio_report_header"><b>RADIO REPORT</b></string>
+    <string name="radio_report_param">
+        A radio report must be provided to the receiving facility for each patient being transported. \n\n
+        It should be delivered at least five minutes prior to arrival at the hospital. If the
+            patient(s) is unstable, a brief report should be given to the receiving facility from
+            the scene, if time permits. For extended transport times, the radio report should be
+            given while enroute to the hospital and five minutes prior to arrival. If the patient\'s
+            condition does not permit this timeframe, the report should be given as early as
+            possible. \n\n
+            \t\t A.	The goal is to provide a quick synopsis of the patient\'s condition. Only pertinent
+                information needs to be relayed to the receiving facility. This information should
+                include: \n\n
+                \t\t\t\t 1.	ALS agency and unit number. \n\n
+                \t\t\t\t 2.	State if physicians consult or request for orders. \n\n
+                \t\t\t\t 3.	Once physician is present, state specific request and provide all
+                    supporting information to justify the request. \n\n
+                \t\t\t\t 4.	Confirm physician\'s orders received by repeating information and
+                    confirm physician\'s name or hospital ID number. \n\n
+                \t\t\t\t 5.	Patient age and gender. \n\n
+                \t\t\t\t 6.	Chief complaint. \n\n
+                \t\t\t\t 7.	Vital signs (if pertinent to patient\'s condition). \n\n
+                \t\t\t\t 8.	Abnormal findings. \n\n
+                \t\t\t\t 9.	Treatment initiated and response to that treatment. \n\n
+                \t\t\t\t 10.	Requests for special or additional services needed (Security,
+                    DECON, Incubator, Vent etc.) \n\n
+                \t\t\t\t 11.	Estimated Time of Arrival (ETA). \n\n
+            \t\t B.	Additional detailed information may be relayed to the receiving facility as
+                deemed necessary by the paramedic/EMT that is providing patient care. \n\n
+    </string>
+
+
     <string name="title_activity_refusal_of_service">RefusalOfService</string>
     <string name="title_activity_scene_time">SceneTime</string>
     <string name="title_activity_transport_cardiac">TransportCardiac</string>

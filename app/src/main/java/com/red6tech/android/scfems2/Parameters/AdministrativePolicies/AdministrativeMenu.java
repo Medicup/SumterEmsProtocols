@@ -82,5 +82,15 @@ public class AdministrativeMenu extends AppCompatActivity {
                 startActivity(physicianIntent);
             }
         });
+
+        final Button radio_report_butt;
+        radio_report_butt = (Button) findViewById(R.id.butt_radio_report);
+        radio_report_butt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent radioIntent = new Intent(AdministrativeMenu.this, RadioReport.class);
+                startActivity(radioIntent);
+            }
+        });
     }
 }
