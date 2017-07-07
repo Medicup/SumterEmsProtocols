@@ -2129,6 +2129,8 @@
     <string name="title_activity_menu__obgyn_">Obgyn Parameters</string>
     <string name="title_activity_menu__trauma_">Trauma Parameters</string>
     <string name="title_activity_general_measures">General Measures</string>
+
+
     <string name="general_measure_header"><b><u>GENERAL MEASURES</u></b></string>
     <string name="general_measure_param">
         The following <b>GENERAL MEASURES</b> shall be applied to help promote speed and
@@ -2198,7 +2200,7 @@
                         Policy.</i> \n\n
                 \t\t D.	Medication dosing: All medication dosages listed are for adults, unless
                     otherwise specified. \n\n
-                    \t\t\t\t 1.	Adult: An adult patient is one who is 8 years of age or older. \n
+                    \t\t\t\t 1.	Adult: An adult patient is one who is 8 years of age or older. \n\n
                     \t\t\t\t 2.	Pediatric: A pediatric patient is under 8 years of age and 70 lbs.
                          or less according to the Length-Based Tape. \n\n
                 \t\t E.	Trauma: For traumatic situations, ages are defined by the State of
@@ -2292,13 +2294,13 @@
             No copies of patient information will be given to anyone other than the receiving facility.
                 Law enforcement agencies may be provided patient demographic information if the following
                 circumstances are present: \n\n
-                •	To report PHI to a law enforcement official reasonably able to prevent or lessen a
+                \t\t •	To report PHI to a law enforcement official reasonably able to prevent or lessen a
                     serious and imminent threat to the health or safety of an individual or the public
                     (i.e. to alert the LEO of possible communicable disease from a patient they have
                     contacted). \n\n
-                •	To alert law enforcement to the death of the individual, when there is a suspicion
+                \t\t •	To alert law enforcement to the death of the individual, when there is a suspicion
                     that death resulted from criminal conduct.\n\n
-                •	To report PHI to law enforcement when required by law to do so (such as reporting
+                \t\t •	To report PHI to law enforcement when required by law to do so (such as reporting
                     gunshots or stab wounds).\n\n
             Any other requests for information should be handled according to the individual agency\’s
                 standard operating procedures.\n\n
@@ -2400,7 +2402,55 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="title_activity_crime_scene_report">CrimeSceneReport</string>
+    <string name="title_activity_crime_scene_report">Crime Scene Response</string>
+    <string name="crime_scene_report_header"><b><u>CRIME SCENE RESPONSE</u></b></string>
+    <string name="crime_scene_report_param">
+    Law Enforcement supports that the priorities of a possible crime scene are responder safety,
+        preservation of life, then crime scene preservation. These guidelines provide general
+        information related to crime scene preservation. They do not comprehensively cover all
+        possible situations. Sound judgment should be exercised when there is no clear direction. \n\n
+        \t I.	Confirm that the scene is secure. If there is suspicion that the scene is unsafe
+            upon arrival, do not enter the scene. Establish a standby zone a few blocks from the scene
+            and wait for law enforcement to arrive to establish a safe scene. Then respond into the
+            scene. \n\n
+        \t II.	Be conscious of the surroundings. This pertains to the initial arrival of your unit
+            to include but not limited to: \n\n
+            \t\t\t ·	Vehicles and Bystanders on the scene \n\n
+            \t\t\t ·	Effects located around as you approach \n\n
+            \t\t\t ·	Physical damage (i.e. broken doors or windows). \n\n
+        \t III.	Limit the number of responders allowed into the scene. Consult with Law Enforcement
+            or Incident Command, if present. \n\n
+        \t IV.	At an outdoor crime scene, do not disturb shoe prints, tire marks, shell casings,
+            etc. \n\n
+        \t V.	Establish one entry point into the scene so that the possibility of disruption of
+            the crime scene is kept to a minimum. \n\n
+        \t VI.	Note location of furniture, weapons and other objects. If at all possible, do not
+            move items. If something has to be moved this will need to be documented and reported
+            to the lead law enforcement official in charge of the scene. \n\n
+        \t VII.	Be conscious of statements made by victims or possible perpetrators on the scene.
+            Document this information as accurately as possible. \n\n
+        \t VIII.	Clothing will be considered evidence. Do not tear clothing or cut through holes,
+            if possible. \n\n
+        \t IX.	Do not allow the victims to clean themselves including washing their hands. Any
+            medical supplies used on the victim (i.e. electrodes) shall remain on the victim.
+            Medical debris (i.e. open bandage packets) shall be removed by responders. \n\n
+        \t X.	For transport units, place the victim on a clean sheet and be prepared to turn
+            that sheet over to law enforcement for evidence. \n\n
+        \t XI.	The transport destination will be based on the needs of the patient. Law enforcement
+            shall be notified before leaving the scene due to the fact that they may need to accompany
+            the patient to the medical facility. \n\n
+        \t XII. 	A detailed report is of the most importance in cases of this nature. This
+            information shall be documented in an incident report and not as part of the patient
+            care report. This should include but not limited to: \n\n
+            \t\t\t •	Observations at the scene, \n\n
+            \t\t\t •	Comments made by victims, family and bystanders. \n\n
+            \t\t\t •	Items handled on the scene \n\n
+            \t\t\t •	Weapons on scene. \n\n
+            \t\t\t •	Any movement of items \n\n
+            \t\t\t •	Location and position of Victim. \n\n
+            \t\t\t •	Clothing removed or damaged by Responders. \n\n
+            \t\t\t •	Medical supplies used and if removed from scene. \n\n
+    </string>
     <string name="title_activity_end_of_life">EndOfLife</string>
     <string name="title_activity_medication_alternatives">MedicationAlternatives</string>
     <string name="title_activity_physician_on_scene">PhysicianOnScene</string>

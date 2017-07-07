@@ -19,6 +19,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/title_activity_general_measures" />
+
+        <Button
+            android:id="@+id/butt_crime_response"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity_crime_scene_report"/>
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

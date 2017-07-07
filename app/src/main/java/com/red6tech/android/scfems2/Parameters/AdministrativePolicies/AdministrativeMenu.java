@@ -42,5 +42,15 @@ public class AdministrativeMenu extends AppCompatActivity {
                 startActivity(genIntent);
             }
         });
+
+        final Button crime_scene_butt;
+        crime_scene_butt = (Button) findViewById(R.id.butt_crime_response);
+        crime_scene_butt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent crimeIntent = new Intent(AdministrativeMenu.this, CrimeSceneReport.class);
+                startActivity(crimeIntent);
+            }
+        });
     }
 }
