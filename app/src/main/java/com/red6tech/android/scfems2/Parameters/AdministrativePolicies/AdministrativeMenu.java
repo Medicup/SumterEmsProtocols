@@ -72,5 +72,15 @@ public class AdministrativeMenu extends AppCompatActivity {
                 startActivity(medicationIntent);
             }
         });
+
+        final Button physician_on_scene_butt;
+        physician_on_scene_butt = (Button) findViewById(R.id.butt_physician_on_scene);
+        physician_on_scene_butt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent physicianIntent = new Intent(AdministrativeMenu.this, PhysicianOnScene.class);
+                startActivity(physicianIntent);
+            }
+        });
     }
 }
