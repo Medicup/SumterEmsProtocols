@@ -52,5 +52,15 @@ public class AdministrativeMenu extends AppCompatActivity {
                 startActivity(crimeIntent);
             }
         });
+
+        final Button end_of_life_butt;
+        end_of_life_butt = (Button) findViewById(R.id.butt_end_of_life);
+        end_of_life_butt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent eolIntent = new Intent(AdministrativeMenu.this, EndOfLife.class);
+                startActivity(eolIntent);
+            }
+        });
     }
 }

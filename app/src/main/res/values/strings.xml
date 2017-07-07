@@ -2451,7 +2451,93 @@
             \t\t\t •	Clothing removed or damaged by Responders. \n\n
             \t\t\t •	Medical supplies used and if removed from scene. \n\n
     </string>
-    <string name="title_activity_end_of_life">EndOfLife</string>
+
+    <string name="title_activity_end_of_life">End Of Life</string>
+    <string name="end_of_life_header"><b><u>END OF LIFE</u></b></string>
+    <string name="end_of_life_param">
+    It is the goal of EMS to provide the best possible care to all patients who are in need of service.
+        For those patients who are found in cardiopulmonary arrest, the paramedic should examine
+        the circumstances surrounding the event and take appropriate action as determined by the
+        situations listed below. \n\n
+    <b>I.	DISCONTINUE cardiopulmonary resuscitation when:</b> \n\n
+        \t\t A.	Effective spontaneous ventilation and circulation have been restored. \n\n
+        \t\t B.	Resuscitation efforts have been transferred to persons of no less skill than the
+            initial providers. \n\n
+        \t\t C.	The patient is a non-hypothermic adult and all of the following criteria exist: \n\n
+            \t\t \t\t <b>1.	Initial rhythm is asystole</b> confirmed in 2 leads and on printed
+                rhythm strip. \n\n
+            \t\t \t\t <b>2.	Terminal rhythm is asystole</b> confirmed in 2 leads and on printed
+                rhythm strip. \n\n
+            \t\t \t\t <b>3.	No defibrillation</b> was performed prior to arrival (AED use by first
+                responders). \n\n
+            \t\t \t\t <b>4.	Secure airway</b> (ETT or King Airway) confirmed by capnography. \n\n
+            \t\t \t\t <b>5.	Two rounds of CPR with inclusion of advanced cardiac medications have
+                been administered</b> (given every 3-5 minutes). \n\n
+            \t\t \t\t 6.	Quantitative <b>ETCO2 value is &lt; 10 mmHg</b> with effective CPR. \n\n
+        \t\t \t\t If there is no response to the treatment, the paramedic may elect to discontinue
+            resuscitative efforts without a physician\'s order provided all EMTs and paramedics
+            on scene agree; otherwise, resuscitative efforts will continue. \n\n
+        \t\t D.	The patient\’s personal physician can be contacted and orders cessation, however
+            patient care must not be withheld while making attempts to contact the physician. \n\n
+        \t\t E.	Resuscitation efforts may be discontinued despite movement of patient from
+            original position. All efforts should be made to preserve the scene and lessen
+            impact to family. Pt movement should be documented on care report and reported to
+            investigating law enforcement officer \n\n
+        \t\t F.	<b>Do not terminate resuscitation if <u>TRANSPORT</u> has been initiated.</b> \n\n
+        \t\t G.	If there are any deviations from the above criteria, <b><i>cessation of resuscitation
+        must be made in conjunction with Medical Control.</i></b> \n\n
+    <b>II.	WITHHOLD cardiopulmonary resuscitation when:</b>\n\n
+        \t\t A.	Pulseless, apneic, and no other signs of life <b>and</b> \n\n
+        \t\t B.	Asystole verified in two leads <b>and</b> \n\n
+        \t\t C.	Not exposed to an environment likely to promote hypothermia and \n\n
+        \t\t D.	The presence of one or more of the following: \n\n
+            \t\t \t\t 1.	Rigor Mortis \n\n
+            \t\t \t\t 2.	Decomposition of body tissues \n\n
+            \t\t \t\t 3.	Dependent lividity \n\n
+            \t\t \t\t 4.	Injuries incompatible with life (e.g., incineration, decapitation,
+                traumatic aortic rupture, hemicorporectomy) \n\n
+            \t\t \t\t 5.	Evidence of massive blunt or penetrating head or torso trauma (details
+                of the events of the mechanism of injury, scene, and patient assessment must be
+                completely documented) \n\n
+        \t\t E.	Presented with a State of Florida (yellow) <b>DO NOT RESUSCITATE ORDER (DNRO)</b>
+                (Form 1896) or State of Florida (yellow) DNRO device which is a miniature copy of
+                the DNRO form. <b>NOTE: This Form Does Not Expire.</b> \n\n
+            \t\t \t\t 1.	The form must be properly completed and signed by patient\'s physician. \n\n
+            \t\t \t\t 2.	This form shall be printed on yellow paper. A copy of this form may be
+                made so long as EMS staff has witnessed the validity of the yellow original. \n\n
+            \t\t \t\t 3.	The patient\'s identity shall be verified using a photo identification
+                or from a witness in the presence of the patient. \n\n
+        \t\t F.	Presented with a valid physician\'s DNRO <b><i>less than 30 days old </i></b>\n\n
+            \t\t \t\t 1.	This typically applies for patients who are residents of long term care
+                facilities, skilled nursing facilities, or assisted living facilities. \n\n
+        \t\t G.	A physician (who is verifiably licensed in the State of Florida) is on scene
+            <b>AND</b> is willing to write a: \n\n
+            \t\t \t\t 1.	Do Not Resuscitate Order (DNRO) and \n\n
+            \t\t \t\t 2.	Statement of his/her relationship to the patient and \n\n
+            \t\t \t\t 3.	Rationale for the DNRO on the patient care report. \n\n
+    During each transport, the DNRO form shall accompany the patient. A DNRO may be revoked at
+        any time. The revocation may be in writing, by physical destruction, by failure to present
+        the DNRO form or by orally expressing a contrary intent. The DNRO may be revoked by: \n\n
+            \t\t \t\t ·	The patient (if signed by the patient) \n\n
+            \t\t \t\t ·	The patient\'s healthcare surrogate \n\n
+            \t\t \t\t ·	The patient\'s proxy, court-appointed guardian, or Power of Attorney \n\n
+    <b><i>Even with a DNRO form, the patient shall be provided comfort, pain relief, or any other
+        medically indicated care (i.e. oxygen administration, CPAP, etc.) short of respiratory or
+        cardiac resuscitation.</i></b> \n\n
+    In situations where the patient is found to be in cardiopulmonary arrest and end of life has
+        been determined, it may be appropriate for the paramedic to take NO ACTION. This may apply
+        when the patient has a valid DNRO and is under the care of Hospice, even though Hospice
+        personnel may not be on scene. In this situation the paramedic and EMT may assist the family
+        in contacting the patient\'s physician and/or Hospice, as well as a funeral home. In
+        such a case, it is not necessary for responding EMS/fire department personnel to contact
+        law enforcement, unless there are questions regarding the end of life. \n\n
+    <b>Document the original body position and location.</b> Disposable supplies
+        (i.e., EKG electrodes) will be left in place. Contact Law Enforcement regarding patient
+        body care and removal except in above-stated situation. \n\n
+    </string>
+
+
+
     <string name="title_activity_medication_alternatives">MedicationAlternatives</string>
     <string name="title_activity_physician_on_scene">PhysicianOnScene</string>
     <string name="title_activity_radio_report">RadioReport</string>
