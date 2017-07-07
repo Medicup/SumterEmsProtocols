@@ -62,5 +62,15 @@ public class AdministrativeMenu extends AppCompatActivity {
                 startActivity(eolIntent);
             }
         });
+
+        final Button medication_alternative_butt;
+        medication_alternative_butt = (Button) findViewById(R.id.butt_medication_alternative);
+        medication_alternative_butt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent medicationIntent = new Intent(AdministrativeMenu.this, MedicationAlternatives.class);
+                startActivity(medicationIntent);
+            }
+        });
     }
 }
